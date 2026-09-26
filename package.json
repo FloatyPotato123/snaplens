@@ -1,0 +1,20 @@
+{
+  "name": "snap-deck-scanner",
+  "version": "1.0.0",
+  "description": "An offline, 100% in-browser Marvel Snap deck screenshot scanner that extracts the 12 card slots and generates official Marvel Snap deck export codes.",
+  "main": "serve.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/benchmark_parallel.js",
+    "build:wasm": "asc src/wasm/matcher.ts -o src/wasm/matcher.wasm -O3 --enable simd --runtime stub --use abort= --initialMemory 160"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "assemblyscript": "^0.28.20"
+  }
+}

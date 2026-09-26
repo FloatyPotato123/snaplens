@@ -1,0 +1,12656 @@
+{
+  "Abomination": {
+    "x": 0,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      147.3,
+      188.2,
+      67.2
+    ],
+    "name": "Abomination",
+    "cost": 5,
+    "power": 9
+  },
+  "AbsorbingMan": {
+    "x": 160,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      135.4,
+      182.5,
+      198.1
+    ],
+    "name": "Absorbing Man",
+    "cost": 4,
+    "power": 5
+  },
+  "AcidArrow": {
+    "x": 320,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 26,
+    "ty": 5,
+    "tw": 108,
+    "th": 71,
+    "rgb_mean": [
+      128.8,
+      177.5,
+      84.1
+    ],
+    "name": "AcidArrow",
+    "cost": 0,
+    "power": 0
+  },
+  "AdamWarlock": {
+    "x": 480,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      232.7,
+      165.2,
+      59
+    ],
+    "name": "Adam Warlock",
+    "cost": 2,
+    "power": 0
+  },
+  "AdamantiumInfusion": {
+    "x": 640,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      93.1,
+      124.4,
+      125
+    ],
+    "name": "Adamantium Infusion",
+    "cost": 4,
+    "power": 0
+  },
+  "Aero": {
+    "x": 800,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      135.8,
+      172,
+      178.5
+    ],
+    "name": "Aero",
+    "cost": 5,
+    "power": 9
+  },
+  "Agamotto": {
+    "x": 960,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      145.8,
+      85.3,
+      94.2
+    ],
+    "name": "Agamotto",
+    "cost": 5,
+    "power": 10
+  },
+  "AgathaHarkness": {
+    "x": 1120,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      114.4,
+      96.7,
+      167.8
+    ],
+    "name": "Agatha Harkness",
+    "cost": 6,
+    "power": 12
+  },
+  "Agent13": {
+    "x": 1280,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      118.3,
+      128.3,
+      131.6
+    ],
+    "name": "Agent 13",
+    "cost": 1,
+    "power": 3
+  },
+  "AgentCoulson": {
+    "x": 1440,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      104.7,
+      119.7,
+      150.9
+    ],
+    "name": "Agent Coulson",
+    "cost": 3,
+    "power": 5
+  },
+  "AgentVenom": {
+    "x": 1600,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 134,
+    "th": 72,
+    "rgb_mean": [
+      118.7,
+      134,
+      154.9
+    ],
+    "name": "Agent Venom",
+    "cost": 2,
+    "power": 5
+  },
+  "AgonyWebSlingers": {
+    "x": 1760,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 143,
+    "th": 72,
+    "rgb_mean": [
+      127.6,
+      100.8,
+      147.8
+    ],
+    "name": "AgonyWebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "Agony": {
+    "x": 1920,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      182.3,
+      101.1,
+      103.4
+    ],
+    "name": "Agony",
+    "cost": 1,
+    "power": 2
+  },
+  "AirWalker": {
+    "x": 2080,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      183.6,
+      113.7,
+      97
+    ],
+    "name": "Air-Walker",
+    "cost": 3,
+    "power": 4
+  },
+  "Ajax": {
+    "x": 2240,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 6,
+    "tw": 149,
+    "th": 69,
+    "rgb_mean": [
+      36.6,
+      112.7,
+      135.1
+    ],
+    "name": "Ajax",
+    "cost": 5,
+    "power": 7
+  },
+  "Alioth": {
+    "x": 2400,
+    "y": 0,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      141.3,
+      119.7,
+      193.6
+    ],
+    "name": "Alioth",
+    "cost": 6,
+    "power": 7
+  },
+  "AmericaChavez": {
+    "x": 0,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 9,
+    "tw": 150,
+    "th": 62,
+    "rgb_mean": [
+      87.9,
+      74.3,
+      91.5
+    ],
+    "name": "America Chavez",
+    "cost": 1,
+    "power": 2
+  },
+  "Angel": {
+    "x": 160,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      129.3,
+      148.6,
+      154.9
+    ],
+    "name": "Angel",
+    "cost": 2,
+    "power": 4
+  },
+  "Angela": {
+    "x": 320,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      146,
+      119.9,
+      98.4
+    ],
+    "name": "Angela",
+    "cost": 2,
+    "power": 3
+  },
+  "AnnihilusChampion": {
+    "x": 480,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      220.6,
+      220.7,
+      220.6
+    ],
+    "name": "AnnihilusChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Annihilus": {
+    "x": 640,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      65.8,
+      120.2,
+      59.5
+    ],
+    "name": "Annihilus",
+    "cost": 5,
+    "power": 8
+  },
+  "AntMan": {
+    "x": 800,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      178.6,
+      63.2,
+      68
+    ],
+    "name": "Ant Man",
+    "cost": 1,
+    "power": 1
+  },
+  "AntiPolarMagneto": {
+    "x": 960,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      71.7,
+      129.8,
+      150.9
+    ],
+    "name": "AntiPolarMagneto",
+    "cost": 0,
+    "power": 0
+  },
+  "AntiVenomWebSlingers": {
+    "x": 1120,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      122.4,
+      93.7,
+      146.5
+    ],
+    "name": "AntiVenomWebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "AntiVenom": {
+    "x": 1280,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      123.4,
+      123.4,
+      123.4
+    ],
+    "name": "Anti-Venom",
+    "cost": 4,
+    "power": 7
+  },
+  "ApocalypseCelestialsChosen": {
+    "x": 1440,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      176.2,
+      101.5,
+      78.3
+    ],
+    "name": "ApocalypseCelestialsChosen",
+    "cost": 0,
+    "power": 0
+  },
+  "ArachnidAcrobatics": {
+    "x": 1600,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      89.8,
+      123.7,
+      113.7
+    ],
+    "name": "ArachnidAcrobatics",
+    "cost": 0,
+    "power": 0
+  },
+  "Arana": {
+    "x": 1760,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 143,
+    "th": 72,
+    "rgb_mean": [
+      100.1,
+      37.5,
+      38.9
+    ],
+    "name": "Araña",
+    "cost": 1,
+    "power": 2
+  },
+  "ArchangelHorseman": {
+    "x": 1920,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      96.6,
+      76.3,
+      109.3
+    ],
+    "name": "Archangel Horseman of Death",
+    "cost": 2,
+    "power": 4
+  },
+  "Ares": {
+    "x": 2080,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 131,
+    "th": 72,
+    "rgb_mean": [
+      100.9,
+      78,
+      33.2
+    ],
+    "name": "Ares",
+    "cost": 4,
+    "power": 7
+  },
+  "Arishem": {
+    "x": 2240,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      116.9,
+      64.3,
+      66.4
+    ],
+    "name": "Arishem",
+    "cost": 7,
+    "power": 7
+  },
+  "Armor": {
+    "x": 2400,
+    "y": 80,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 33,
+    "rgb_mean": [
+      213.1,
+      127.3,
+      125.5
+    ],
+    "name": "Armor",
+    "cost": 2,
+    "power": 3
+  },
+  "ArnimZola": {
+    "x": 0,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 28,
+    "tw": 152,
+    "th": 24,
+    "rgb_mean": [
+      227.3,
+      180.5,
+      211.4
+    ],
+    "name": "Arnim Zola",
+    "cost": 6,
+    "power": 0
+  },
+  "ArthurPendragon": {
+    "x": 160,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 16,
+    "rgb_mean": [
+      223.7,
+      224.2,
+      223.7
+    ],
+    "name": "ArthurPendragon",
+    "cost": 0,
+    "power": 0
+  },
+  "Askanison": {
+    "x": 320,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      181.9,
+      154.2,
+      126.2
+    ],
+    "name": "Askani'son",
+    "cost": 2,
+    "power": 3
+  },
+  "AstralProjection": {
+    "x": 480,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      136.6,
+      119.1,
+      211.3
+    ],
+    "name": "Astral Projection",
+    "cost": 3,
+    "power": 0
+  },
+  "Attuma": {
+    "x": 640,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      164.6,
+      149.1,
+      85.2
+    ],
+    "name": "Attuma",
+    "cost": 4,
+    "power": 10
+  },
+  "AuntMay": {
+    "x": 800,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      123.1,
+      118,
+      73.3
+    ],
+    "name": "Aunt May",
+    "cost": 2,
+    "power": 4
+  },
+  "Aurora": {
+    "x": 960,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      75.7,
+      101.6,
+      137.6
+    ],
+    "name": "Aurora",
+    "cost": 6,
+    "power": 5
+  },
+  "AwesomeAndy": {
+    "x": 1120,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 115,
+    "th": 72,
+    "rgb_mean": [
+      165.9,
+      139.4,
+      133.7
+    ],
+    "name": "Awesome Andy",
+    "cost": 2,
+    "power": 3
+  },
+  "BannerHulk": {
+    "x": 1280,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      28.8,
+      135.2,
+      49.1
+    ],
+    "name": "BannerHulk",
+    "cost": 0,
+    "power": 0
+  },
+  "BaronMordo": {
+    "x": 1440,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 35,
+    "ty": 4,
+    "tw": 90,
+    "th": 72,
+    "rgb_mean": [
+      75.6,
+      145.2,
+      65.2
+    ],
+    "name": "Baron Mordo",
+    "cost": 2,
+    "power": 3
+  },
+  "BaronZemo": {
+    "x": 1600,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 24,
+    "ty": 4,
+    "tw": 112,
+    "th": 72,
+    "rgb_mean": [
+      114.5,
+      75.8,
+      109.4
+    ],
+    "name": "Baron Zemo",
+    "cost": 3,
+    "power": 5
+  },
+  "BasicArrow": {
+    "x": 1760,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 11,
+    "tw": 124,
+    "th": 58,
+    "rgb_mean": [
+      152.5,
+      158.8,
+      163.8
+    ],
+    "name": "BasicArrow",
+    "cost": 0,
+    "power": 0
+  },
+  "Bast": {
+    "x": 1920,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      86.9,
+      110.8,
+      43.9
+    ],
+    "name": "Bast",
+    "cost": 1,
+    "power": 1
+  },
+  "Bastion": {
+    "x": 2080,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      119.9,
+      83.3,
+      98.5
+    ],
+    "name": "Bastion",
+    "cost": 4,
+    "power": 3
+  },
+  "Batroc": {
+    "x": 2240,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 7,
+    "tw": 150,
+    "th": 66,
+    "rgb_mean": [
+      109.4,
+      71.8,
+      61.4
+    ],
+    "name": "Batroc the Leaper",
+    "cost": 1,
+    "power": 2
+  },
+  "Beast": {
+    "x": 2400,
+    "y": 160,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      72.7,
+      134.5,
+      159.1
+    ],
+    "name": "Beast",
+    "cost": 3,
+    "power": 5
+  },
+  "BetaRayBill": {
+    "x": 0,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      157.4,
+      120.2,
+      57.9
+    ],
+    "name": "Beta Ray Bill",
+    "cost": 4,
+    "power": 6
+  },
+  "Bishop": {
+    "x": 160,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      149.3,
+      99.7,
+      5.1
+    ],
+    "name": "Bishop",
+    "cost": 3,
+    "power": 2
+  },
+  "BlackBolt": {
+    "x": 320,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 27,
+    "rgb_mean": [
+      77,
+      110.5,
+      142.8
+    ],
+    "name": "Black Bolt",
+    "cost": 5,
+    "power": 8
+  },
+  "BlackCat": {
+    "x": 480,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      107.4,
+      148.2,
+      175.6
+    ],
+    "name": "Black Cat",
+    "cost": 1,
+    "power": 4
+  },
+  "BlackKnight": {
+    "x": 640,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      105.4,
+      101.9,
+      124.8
+    ],
+    "name": "Black Knight",
+    "cost": 1,
+    "power": 2
+  },
+  "BlackPantherChampion": {
+    "x": 800,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      214.3,
+      213.9,
+      214.3
+    ],
+    "name": "BlackPantherChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "BlackPanther": {
+    "x": 960,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      87.2,
+      61,
+      142.2
+    ],
+    "name": "Black Panther",
+    "cost": 5,
+    "power": 5
+  },
+  "BlackSwan": {
+    "x": 1120,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 32,
+    "ty": 4,
+    "tw": 97,
+    "th": 72,
+    "rgb_mean": [
+      142,
+      117.7,
+      120.7
+    ],
+    "name": "Black Swan",
+    "cost": 2,
+    "power": 3
+  },
+  "BlackWidow": {
+    "x": 1280,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      75.1,
+      66.1,
+      69.2
+    ],
+    "name": "Black Widow",
+    "cost": 3,
+    "power": 3
+  },
+  "Blade": {
+    "x": 1440,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      155.6,
+      144.5,
+      131.8
+    ],
+    "name": "Blade",
+    "cost": 1,
+    "power": 3
+  },
+  "Blink": {
+    "x": 1600,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      53.4,
+      80.9,
+      91.1
+    ],
+    "name": "Blink",
+    "cost": 5,
+    "power": 8
+  },
+  "Blob": {
+    "x": 1760,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      96.1,
+      87.8,
+      72.6
+    ],
+    "name": "Blob",
+    "cost": 6,
+    "power": 0
+  },
+  "BlueMarvel": {
+    "x": 1920,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      112.4,
+      128.7,
+      154.8
+    ],
+    "name": "Blue Marvel",
+    "cost": 5,
+    "power": 3
+  },
+  "Boomerang": {
+    "x": 2080,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 32,
+    "rgb_mean": [
+      125.3,
+      141.8,
+      141.1
+    ],
+    "name": "Boomerang",
+    "cost": 2,
+    "power": 2
+  },
+  "BrandOfShouLao": {
+    "x": 2240,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      171.6,
+      110.6,
+      87
+    ],
+    "name": "Brand of Shou-Lao",
+    "cost": 1,
+    "power": 0
+  },
+  "Brood": {
+    "x": 2400,
+    "y": 240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      173.7,
+      116.3,
+      69.1
+    ],
+    "name": "Brood",
+    "cost": 3,
+    "power": 2
+  },
+  "Broodling": {
+    "x": 0,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 36,
+    "rgb_mean": [
+      167.9,
+      113.9,
+      71.3
+    ],
+    "name": "Broodling",
+    "cost": 0,
+    "power": 0
+  },
+  "BruceBanner": {
+    "x": 160,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      122.2,
+      125.1,
+      99.5
+    ],
+    "name": "Bruce Banner",
+    "cost": 2,
+    "power": 1
+  },
+  "BuckyBarnes": {
+    "x": 320,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 28,
+    "ty": 4,
+    "tw": 104,
+    "th": 72,
+    "rgb_mean": [
+      136.9,
+      123.8,
+      128.4
+    ],
+    "name": "Bucky Barnes",
+    "cost": 2,
+    "power": 2
+  },
+  "Bug": {
+    "x": 480,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      133.3,
+      129.1,
+      48.6
+    ],
+    "name": "Bug",
+    "cost": 0,
+    "power": 0
+  },
+  "Bullseye": {
+    "x": 640,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      199.8,
+      94.3,
+      107.3
+    ],
+    "name": "Bullseye",
+    "cost": 3,
+    "power": 2
+  },
+  "Cable": {
+    "x": 800,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      132.3,
+      132.5,
+      51.5
+    ],
+    "name": "Cable",
+    "cost": 2,
+    "power": 4
+  },
+  "Caiera": {
+    "x": 960,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      119.7,
+      135.4,
+      133.5
+    ],
+    "name": "Caiera",
+    "cost": 3,
+    "power": 5
+  },
+  "CalibanHorseman": {
+    "x": 1120,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      106.4,
+      104.5,
+      80.7
+    ],
+    "name": "Caliban Horseman of Pestilence",
+    "cost": 3,
+    "power": 4
+  },
+  "Cannonball": {
+    "x": 1280,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      125.1,
+      113.5,
+      27.8
+    ],
+    "name": "Cannonball",
+    "cost": 5,
+    "power": 5
+  },
+  "CapsShield": {
+    "x": 1440,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      91,
+      90.4,
+      100.9
+    ],
+    "name": "CapsShield",
+    "cost": 0,
+    "power": 0
+  },
+  "CaptainAmericaAvengers": {
+    "x": 1600,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      123.2,
+      60.5,
+      91.2
+    ],
+    "name": "CaptainAmericaAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "CaptainAmericaChampion": {
+    "x": 1760,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      216.5,
+      216,
+      216.5
+    ],
+    "name": "CaptainAmericaChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "CaptainAmerica": {
+    "x": 1920,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      111.7,
+      103.2,
+      126.5
+    ],
+    "name": "Captain America",
+    "cost": 3,
+    "power": 3
+  },
+  "CaptainBritain": {
+    "x": 2080,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 18,
+    "rgb_mean": [
+      222.4,
+      222.3,
+      222.4
+    ],
+    "name": "CaptainBritain",
+    "cost": 0,
+    "power": 0
+  },
+  "CaptainCarter": {
+    "x": 2240,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 123,
+    "th": 72,
+    "rgb_mean": [
+      167.2,
+      152.4,
+      166.7
+    ],
+    "name": "Captain Carter",
+    "cost": 3,
+    "power": 2
+  },
+  "CaptainMarvel": {
+    "x": 2400,
+    "y": 320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      221.2,
+      165.5,
+      0
+    ],
+    "name": "Captain Marvel",
+    "cost": 4,
+    "power": 6
+  },
+  "CarnageChampion": {
+    "x": 0,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      215.8,
+      215.7,
+      215.8
+    ],
+    "name": "CarnageChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Carnage": {
+    "x": 160,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      86.6,
+      76.4,
+      32.8
+    ],
+    "name": "Carnage",
+    "cost": 2,
+    "power": 2
+  },
+  "CassandraNova": {
+    "x": 320,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      118.2,
+      89.1,
+      86.5
+    ],
+    "name": "Cassandra Nova",
+    "cost": 3,
+    "power": 0
+  },
+  "CelestialEmpowerment": {
+    "x": 480,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      113.7,
+      60.3,
+      56.8
+    ],
+    "name": "CelestialEmpowerment",
+    "cost": 0,
+    "power": 0
+  },
+  "Cerebro": {
+    "x": 640,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 29,
+    "tw": 152,
+    "th": 22,
+    "rgb_mean": [
+      142.8,
+      173.9,
+      197.1
+    ],
+    "name": "Cerebro",
+    "cost": 3,
+    "power": 0
+  },
+  "Chamber": {
+    "x": 800,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      190.4,
+      99.5,
+      46.3
+    ],
+    "name": "Chamber",
+    "cost": 2,
+    "power": 1
+  },
+  "Chameleon": {
+    "x": 960,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      130.4,
+      113,
+      119.2
+    ],
+    "name": "Chameleon",
+    "cost": 3,
+    "power": 3
+  },
+  "ChaosMagic": {
+    "x": 1120,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 30,
+    "ty": 4,
+    "tw": 101,
+    "th": 72,
+    "rgb_mean": [
+      166.8,
+      76.9,
+      98.2
+    ],
+    "name": "ChaosMagic",
+    "cost": 0,
+    "power": 0
+  },
+  "Chimichanga": {
+    "x": 1280,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 34,
+    "rgb_mean": [
+      179.1,
+      107.5,
+      58.4
+    ],
+    "name": "Chimichanga",
+    "cost": 0,
+    "power": 0
+  },
+  "Clea": {
+    "x": 1440,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 115,
+    "th": 72,
+    "rgb_mean": [
+      182,
+      103.6,
+      203.1
+    ],
+    "name": "Clea",
+    "cost": 1,
+    "power": 3
+  },
+  "Cloak": {
+    "x": 1600,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      110.1,
+      137.5,
+      174.5
+    ],
+    "name": "Cloak",
+    "cost": 2,
+    "power": 4
+  },
+  "Cobra": {
+    "x": 1760,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 141,
+    "th": 72,
+    "rgb_mean": [
+      171,
+      114.2,
+      51.1
+    ],
+    "name": "Cobra",
+    "cost": 2,
+    "power": 3
+  },
+  "ColleenWing": {
+    "x": 1920,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 143,
+    "th": 72,
+    "rgb_mean": [
+      151,
+      147,
+      163.7
+    ],
+    "name": "Colleen Wing",
+    "cost": 2,
+    "power": 3
+  },
+  "ColonelAmerica": {
+    "x": 2080,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 123,
+    "th": 72,
+    "rgb_mean": [
+      109.6,
+      97.4,
+      108.1
+    ],
+    "name": "Colonel America",
+    "cost": 3,
+    "power": 4
+  },
+  "Colossus": {
+    "x": 2240,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 30,
+    "rgb_mean": [
+      154.9,
+      126.5,
+      130.9
+    ],
+    "name": "Colossus",
+    "cost": 2,
+    "power": 4
+  },
+  "Copycat": {
+    "x": 2400,
+    "y": 400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      32.7,
+      103.6,
+      111
+    ],
+    "name": "Copycat",
+    "cost": 3,
+    "power": 5
+  },
+  "CorvusGlaive": {
+    "x": 0,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      82.1,
+      92.7,
+      92.1
+    ],
+    "name": "Corvus Glaive",
+    "cost": 3,
+    "power": 5
+  },
+  "CosmicGhostRider": {
+    "x": 160,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      174.1,
+      129.7,
+      108.3
+    ],
+    "name": "Cosmic Ghost Rider",
+    "cost": 5,
+    "power": 6
+  },
+  "Cosmo": {
+    "x": 320,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      175.5,
+      127.3,
+      74.5
+    ],
+    "name": "Cosmo",
+    "cost": 3,
+    "power": 3
+  },
+  "CrimsonBehemoth": {
+    "x": 480,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      219.4,
+      219.4,
+      219.4
+    ],
+    "name": "CrimsonBehemoth",
+    "cost": 0,
+    "power": 0
+  },
+  "Crossbones": {
+    "x": 640,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      190,
+      153.7,
+      139.9
+    ],
+    "name": "Crossbones",
+    "cost": 4,
+    "power": 10
+  },
+  "Crystal": {
+    "x": 800,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      195.4,
+      167.9,
+      149.5
+    ],
+    "name": "Crystal",
+    "cost": 3,
+    "power": 6
+  },
+  "CullObsidian": {
+    "x": 960,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      145.7,
+      122.7,
+      78
+    ],
+    "name": "Cull Obsidian",
+    "cost": 4,
+    "power": 10
+  },
+  "CyclopsXMen": {
+    "x": 1120,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      126.4,
+      102.7,
+      95.1
+    ],
+    "name": "CyclopsXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "Cyclops": {
+    "x": 1280,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      149.5,
+      154,
+      49.1
+    ],
+    "name": "Cyclops",
+    "cost": 3,
+    "power": 5
+  },
+  "Dagger": {
+    "x": 1440,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      169.5,
+      164.1,
+      128.9
+    ],
+    "name": "Dagger",
+    "cost": 2,
+    "power": 2
+  },
+  "Daken": {
+    "x": 1600,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      153.6,
+      62.1,
+      50.3
+    ],
+    "name": "Daken",
+    "cost": 3,
+    "power": 4
+  },
+  "Danger": {
+    "x": 1760,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      66.7,
+      113,
+      133.8
+    ],
+    "name": "Danger",
+    "cost": 4,
+    "power": 6
+  },
+  "Daredevil": {
+    "x": 1920,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      164,
+      53.1,
+      78.8
+    ],
+    "name": "Daredevil",
+    "cost": 2,
+    "power": 3
+  },
+  "Darkhawk": {
+    "x": 2080,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      234.6,
+      206.5,
+      231.1
+    ],
+    "name": "Darkhawk",
+    "cost": 5,
+    "power": 3
+  },
+  "Dazzler": {
+    "x": 2240,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      151.7,
+      182.5,
+      203.9
+    ],
+    "name": "Dazzler",
+    "cost": 2,
+    "power": 2
+  },
+  "Deadpool": {
+    "x": 2400,
+    "y": 480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 26,
+    "tw": 152,
+    "th": 29,
+    "rgb_mean": [
+      176.6,
+      70.9,
+      74.8
+    ],
+    "name": "Deadpool",
+    "cost": 1,
+    "power": 1
+  },
+  "DeafeningChord": {
+    "x": 0,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      217.2,
+      170.6,
+      179.6
+    ],
+    "name": "Deafening Chord",
+    "cost": 1,
+    "power": 0
+  },
+  "DeathFracturedFrontier": {
+    "x": 160,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      117.9,
+      81.9,
+      153.2
+    ],
+    "name": "DeathFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "Death": {
+    "x": 320,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      79.7,
+      72.5,
+      119.3
+    ],
+    "name": "Death",
+    "cost": 8,
+    "power": 12
+  },
+  "Deathlok": {
+    "x": 480,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      137,
+      16.2,
+      21.4
+    ],
+    "name": "Deathlok",
+    "cost": 3,
+    "power": 6
+  },
+  "Debrii": {
+    "x": 640,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 127,
+    "th": 72,
+    "rgb_mean": [
+      179.3,
+      69.4,
+      74.2
+    ],
+    "name": "Debrii",
+    "cost": 3,
+    "power": 7
+  },
+  "Demon": {
+    "x": 800,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      155.3,
+      105.3,
+      30.5
+    ],
+    "name": "Demon",
+    "cost": 0,
+    "power": 0
+  },
+  "Destroyer": {
+    "x": 960,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      130.5,
+      133.2,
+      159
+    ],
+    "name": "Destroyer",
+    "cost": 6,
+    "power": 18
+  },
+  "DevilDinosaur": {
+    "x": 1120,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      117.9,
+      54.7,
+      44.1
+    ],
+    "name": "Devil Dinosaur",
+    "cost": 5,
+    "power": 4
+  },
+  "Diamondback": {
+    "x": 1280,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 32,
+    "rgb_mean": [
+      106.2,
+      57.7,
+      110.7
+    ],
+    "name": "Diamondback",
+    "cost": 3,
+    "power": 3
+  },
+  "Djinn": {
+    "x": 1440,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      135.2,
+      166.4,
+      154
+    ],
+    "name": "Djinn",
+    "cost": 0,
+    "power": 0
+  },
+  "DoctorOctopusFracturedFrontier": {
+    "x": 1600,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      150.2,
+      109.2,
+      172.8
+    ],
+    "name": "DoctorOctopusFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "DoctorOctopus": {
+    "x": 1760,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      85.1,
+      144.8,
+      84.5
+    ],
+    "name": "Doctor Octopus",
+    "cost": 4,
+    "power": 8
+  },
+  "DoctorStrangeAvengers": {
+    "x": 1920,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      116.8,
+      72.5,
+      104.4
+    ],
+    "name": "DoctorStrangeAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "DoctorStrange": {
+    "x": 2080,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 122,
+    "th": 72,
+    "rgb_mean": [
+      142,
+      141.8,
+      98.8
+    ],
+    "name": "Doctor Strange",
+    "cost": 2,
+    "power": 4
+  },
+  "Domino": {
+    "x": 2240,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      160.2,
+      166.9,
+      69.1
+    ],
+    "name": "Domino",
+    "cost": 2,
+    "power": 4
+  },
+  "Doom2099": {
+    "x": 2400,
+    "y": 560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      155.5,
+      177.3,
+      186.7
+    ],
+    "name": "Doctor Doom 2099",
+    "cost": 4,
+    "power": 6
+  },
+  "DoomBot2099": {
+    "x": 0,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      127.6,
+      128.6,
+      127.5
+    ],
+    "name": "DoomBot2099",
+    "cost": 0,
+    "power": 0
+  },
+  "DoomBot": {
+    "x": 160,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      118.5,
+      141.1,
+      124
+    ],
+    "name": "DoomBot",
+    "cost": 0,
+    "power": 0
+  },
+  "Dormammu": {
+    "x": 320,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      150.7,
+      72.2,
+      34.6
+    ],
+    "name": "Dormammu",
+    "cost": 7,
+    "power": 13
+  },
+  "DrDoomChampion": {
+    "x": 480,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 17,
+    "rgb_mean": [
+      218,
+      218,
+      218
+    ],
+    "name": "DrDoomChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "DrDoom": {
+    "x": 640,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      112,
+      144.6,
+      122.2
+    ],
+    "name": "Doctor Doom",
+    "cost": 6,
+    "power": 5
+  },
+  "Dracula": {
+    "x": 800,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      164.9,
+      173.8,
+      177.8
+    ],
+    "name": "Dracula",
+    "cost": 4,
+    "power": 1
+  },
+  "DragonBreath": {
+    "x": 960,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 149,
+    "th": 72,
+    "rgb_mean": [
+      188.2,
+      113,
+      43.8
+    ],
+    "name": "Dragon Breath",
+    "cost": 4,
+    "power": 0
+  },
+  "DragonLord": {
+    "x": 1120,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 141,
+    "th": 72,
+    "rgb_mean": [
+      111.5,
+      107.3,
+      61.8
+    ],
+    "name": "Dragon Lord",
+    "cost": 5,
+    "power": 5
+  },
+  "DragonMan": {
+    "x": 1280,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      100.6,
+      94.9,
+      133.7
+    ],
+    "name": "Dragon Man",
+    "cost": 4,
+    "power": 6
+  },
+  "DragonOfTheMoon": {
+    "x": 1440,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      76.8,
+      59,
+      65.3
+    ],
+    "name": "Dragon of the Moon",
+    "cost": 3,
+    "power": 4
+  },
+  "DraxAvatarOfLife": {
+    "x": 1600,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 14,
+    "ty": 4,
+    "tw": 133,
+    "th": 72,
+    "rgb_mean": [
+      87.5,
+      113.3,
+      97.8
+    ],
+    "name": "Drax, Avatar Of Life",
+    "cost": 3,
+    "power": 4
+  },
+  "DraxGuardiansOfTheGalaxy": {
+    "x": 1760,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      121.5,
+      100.7,
+      115.6
+    ],
+    "name": "DraxGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "Drax": {
+    "x": 1920,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 134,
+    "th": 72,
+    "rgb_mean": [
+      166.9,
+      150.5,
+      95.5
+    ],
+    "name": "Drax",
+    "cost": 4,
+    "power": 5
+  },
+  "Drone": {
+    "x": 2080,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 36,
+    "rgb_mean": [
+      136.2,
+      140.9,
+      144.5
+    ],
+    "name": "Drone",
+    "cost": 0,
+    "power": 0
+  },
+  "DumDumDugan": {
+    "x": 2240,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      113.9,
+      120,
+      103.7
+    ],
+    "name": "DumDumDugan",
+    "cost": 0,
+    "power": 0
+  },
+  "EbonyBlade": {
+    "x": 2400,
+    "y": 640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      110.5,
+      104.1,
+      130
+    ],
+    "name": "EbonyBlade",
+    "cost": 0,
+    "power": 0
+  },
+  "EbonyMaw": {
+    "x": 0,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      117.8,
+      103.4,
+      169.2
+    ],
+    "name": "Ebony Maw",
+    "cost": 1,
+    "power": 7
+  },
+  "Echo": {
+    "x": 160,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      62.9,
+      57.3,
+      38.8
+    ],
+    "name": "Echo",
+    "cost": 1,
+    "power": 2
+  },
+  "ElderDragonOfTheMoon": {
+    "x": 320,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      215.8,
+      216,
+      215.8
+    ],
+    "name": "ElderDragonOfTheMoon",
+    "cost": 0,
+    "power": 0
+  },
+  "Electro": {
+    "x": 480,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      115.1,
+      112.6,
+      77
+    ],
+    "name": "Electro",
+    "cost": 3,
+    "power": 5
+  },
+  "Elektra": {
+    "x": 640,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      98.9,
+      76.9,
+      84.9
+    ],
+    "name": "Elektra",
+    "cost": 1,
+    "power": 2
+  },
+  "Elixir": {
+    "x": 800,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 134,
+    "th": 72,
+    "rgb_mean": [
+      177,
+      152.7,
+      115.4
+    ],
+    "name": "Elixir",
+    "cost": 2,
+    "power": 3
+  },
+  "ElsaBloodstone": {
+    "x": 960,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      187,
+      134.1,
+      65.9
+    ],
+    "name": "Elsa Bloodstone",
+    "cost": 3,
+    "power": 5
+  },
+  "EnSabahNur": {
+    "x": 1120,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      125.8,
+      100.1,
+      119.9
+    ],
+    "name": "En Sabah Nur",
+    "cost": 4,
+    "power": 6
+  },
+  "Enchantress": {
+    "x": 1280,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      105.2,
+      167.5,
+      84.5
+    ],
+    "name": "Enchantress",
+    "cost": 5,
+    "power": 8
+  },
+  "EntropicHavok": {
+    "x": 1440,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      102.7,
+      142.8,
+      171
+    ],
+    "name": "EntropicHavok",
+    "cost": 0,
+    "power": 0
+  },
+  "EsmeCuckoo": {
+    "x": 1600,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      114.8,
+      154.1,
+      173.4
+    ],
+    "name": "Esme Cuckoo",
+    "cost": 3,
+    "power": 4
+  },
+  "Eson": {
+    "x": 1760,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      143,
+      113.5,
+      16.9
+    ],
+    "name": "Eson",
+    "cost": 6,
+    "power": 10
+  },
+  "EzekielSims": {
+    "x": 1920,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      92,
+      98,
+      88
+    ],
+    "name": "Ezekiel Sims",
+    "cost": 2,
+    "power": 2
+  },
+  "Falcon": {
+    "x": 2080,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      166,
+      39.3,
+      79.6
+    ],
+    "name": "Falcon",
+    "cost": 2,
+    "power": 3
+  },
+  "FallenOne": {
+    "x": 2240,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 25,
+    "ty": 4,
+    "tw": 110,
+    "th": 72,
+    "rgb_mean": [
+      79,
+      111.7,
+      150.8
+    ],
+    "name": "The Fallen One",
+    "cost": 5,
+    "power": 5
+  },
+  "FanFei": {
+    "x": 2400,
+    "y": 720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      90.9,
+      77,
+      49.6
+    ],
+    "name": "Fan Fei",
+    "cost": 4,
+    "power": 5
+  },
+  "Fantasticar": {
+    "x": 0,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 32,
+    "rgb_mean": [
+      92.8,
+      133.2,
+      149.8
+    ],
+    "name": "Fantasticar",
+    "cost": 4,
+    "power": 5
+  },
+  "Fantomex": {
+    "x": 160,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      81.1,
+      86.1,
+      91.8
+    ],
+    "name": "Fantomex",
+    "cost": 4,
+    "power": 7
+  },
+  "FastballSpecial": {
+    "x": 320,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      137,
+      139.9,
+      125.7
+    ],
+    "name": "Fastball Special",
+    "cost": 2,
+    "power": 0
+  },
+  "FenrisWolf": {
+    "x": 480,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      132.5,
+      125.2,
+      139.4
+    ],
+    "name": "Fenris Wolf",
+    "cost": 3,
+    "power": 4
+  },
+  "FinFangFoom": {
+    "x": 640,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      132.4,
+      137,
+      85.3
+    ],
+    "name": "Fin Fang Foom",
+    "cost": 7,
+    "power": 12
+  },
+  "Firehair": {
+    "x": 800,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      221.9,
+      118.5,
+      53.6
+    ],
+    "name": "Firehair",
+    "cost": 2,
+    "power": 3
+  },
+  "Firelord": {
+    "x": 960,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      191.1,
+      114.5,
+      11.5
+    ],
+    "name": "Firelord",
+    "cost": 4,
+    "power": 7
+  },
+  "FlamesOfTheFaltine": {
+    "x": 1120,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      170.5,
+      94.6,
+      45.2
+    ],
+    "name": "FlamesOfTheFaltine",
+    "cost": 0,
+    "power": 0
+  },
+  "FlightHarness": {
+    "x": 1280,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      133.3,
+      127.4,
+      192.8
+    ],
+    "name": "FlightHarness",
+    "cost": 0,
+    "power": 0
+  },
+  "FoggyNelson": {
+    "x": 1440,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      88.7,
+      110.7,
+      99.3
+    ],
+    "name": "FoggyNelson",
+    "cost": 0,
+    "power": 0
+  },
+  "Forge": {
+    "x": 1600,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      163.5,
+      151.4,
+      130.7
+    ],
+    "name": "Forge",
+    "cost": 2,
+    "power": 2
+  },
+  "FrankieRaye": {
+    "x": 1760,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 115,
+    "th": 72,
+    "rgb_mean": [
+      205.4,
+      142.7,
+      76.8
+    ],
+    "name": "Nova Frankie Raye",
+    "cost": 2,
+    "power": 3
+  },
+  "FriendlyNeighborhoodCarnage": {
+    "x": 1920,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      185.8,
+      99.9,
+      111.2
+    ],
+    "name": "FriendlyNeighborhoodCarnage",
+    "cost": 0,
+    "power": 0
+  },
+  "Frigga": {
+    "x": 2080,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      162.8,
+      130.1,
+      77.4
+    ],
+    "name": "Frigga",
+    "cost": 3,
+    "power": 3
+  },
+  "Galacta": {
+    "x": 2240,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      145.9,
+      88.9,
+      114.5
+    ],
+    "name": "Galacta",
+    "cost": 4,
+    "power": 6
+  },
+  "GalactusFirstSteps": {
+    "x": 2400,
+    "y": 800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      128.2,
+      183.9,
+      205.7
+    ],
+    "name": "Galactus First Steps",
+    "cost": 6,
+    "power": 12
+  },
+  "Galactus": {
+    "x": 0,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      82.8,
+      59.3,
+      80
+    ],
+    "name": "Galactus",
+    "cost": 6,
+    "power": 6
+  },
+  "GambitHorseman": {
+    "x": 160,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      131.8,
+      92.8,
+      114.7
+    ],
+    "name": "Gambit Horseman of Death",
+    "cost": 3,
+    "power": 5
+  },
+  "Gambit": {
+    "x": 320,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      147.7,
+      85,
+      121.5
+    ],
+    "name": "Gambit",
+    "cost": 3,
+    "power": 3
+  },
+  "GamoraGuardiansOfTheGalaxy": {
+    "x": 480,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      106.8,
+      87.8,
+      116.2
+    ],
+    "name": "GamoraGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "Gamora": {
+    "x": 640,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      179.7,
+      156,
+      189
+    ],
+    "name": "Gamora",
+    "cost": 5,
+    "power": 8
+  },
+  "GarrisonKane": {
+    "x": 800,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 139,
+    "th": 72,
+    "rgb_mean": [
+      103.8,
+      94.4,
+      89.3
+    ],
+    "name": "GarrisonKane",
+    "cost": 0,
+    "power": 0
+  },
+  "GhostRider": {
+    "x": 960,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      179.5,
+      128.8,
+      16.1
+    ],
+    "name": "Ghost Rider",
+    "cost": 4,
+    "power": 5
+  },
+  "GhostSpiderChampion": {
+    "x": 1120,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      215.7,
+      215.2,
+      215.7
+    ],
+    "name": "GhostSpiderChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "GhostSpiderWebSlingers": {
+    "x": 1280,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      145.8,
+      113.9,
+      156.2
+    ],
+    "name": "GhostSpiderWebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "GhostSpider": {
+    "x": 1440,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      92.6,
+      125,
+      114.5
+    ],
+    "name": "Ghost-Spider",
+    "cost": 1,
+    "power": 3
+  },
+  "GhostTheFirstRider": {
+    "x": 1600,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      209.5,
+      138.2,
+      72.3
+    ],
+    "name": "The First Ghost Rider",
+    "cost": 2,
+    "power": 7
+  },
+  "GhostThunderbolts": {
+    "x": 1760,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      104.6,
+      87.2,
+      83.5
+    ],
+    "name": "GhostThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "Ghost": {
+    "x": 1920,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      187.5,
+      190.9,
+      206.8
+    ],
+    "name": "Ghost",
+    "cost": 3,
+    "power": 5
+  },
+  "Giganto": {
+    "x": 2080,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      109.5,
+      127.9,
+      21
+    ],
+    "name": "Giganto",
+    "cost": 6,
+    "power": 16
+  },
+  "Gilgamesh": {
+    "x": 2240,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      140.7,
+      121.2,
+      74.1
+    ],
+    "name": "Gilgamesh",
+    "cost": 5,
+    "power": 9
+  },
+  "Gladiator": {
+    "x": 2400,
+    "y": 880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      157.7,
+      144.4,
+      150
+    ],
+    "name": "Gladiator",
+    "cost": 3,
+    "power": 8
+  },
+  "GoblinQueen": {
+    "x": 0,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 21,
+    "rgb_mean": [
+      186.2,
+      185.6,
+      186.2
+    ],
+    "name": "GoblinQueen",
+    "cost": 0,
+    "power": 0
+  },
+  "Goliath": {
+    "x": 160,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      165.5,
+      181.7,
+      125
+    ],
+    "name": "Goliath",
+    "cost": 2,
+    "power": 1
+  },
+  "Goose": {
+    "x": 320,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 36,
+    "rgb_mean": [
+      208.1,
+      142.3,
+      61.3
+    ],
+    "name": "Goose",
+    "cost": 2,
+    "power": 2
+  },
+  "Gorgon": {
+    "x": 480,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      129.4,
+      74.5,
+      23.9
+    ],
+    "name": "Gorgon",
+    "cost": 2,
+    "power": 3
+  },
+  "Gorr": {
+    "x": 640,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 145,
+    "th": 72,
+    "rgb_mean": [
+      148.3,
+      148.5,
+      148.3
+    ],
+    "name": "Gorr the God Butcher",
+    "cost": 6,
+    "power": 1
+  },
+  "GrandMaster": {
+    "x": 800,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      119.9,
+      122.5,
+      46.8
+    ],
+    "name": "Grand Master",
+    "cost": 2,
+    "power": 3
+  },
+  "GrappleArrow": {
+    "x": 960,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 9,
+    "tw": 140,
+    "th": 62,
+    "rgb_mean": [
+      125.1,
+      153.7,
+      189
+    ],
+    "name": "GrappleArrow",
+    "cost": 0,
+    "power": 0
+  },
+  "GreenGoblin": {
+    "x": 1120,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 128,
+    "th": 72,
+    "rgb_mean": [
+      104.7,
+      110.5,
+      42.3
+    ],
+    "name": "Green Goblin",
+    "cost": 3,
+    "power": -4
+  },
+  "GrootGuardiansOfTheGalaxy": {
+    "x": 1280,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      127.9,
+      99.8,
+      106.8
+    ],
+    "name": "GrootGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "Groot": {
+    "x": 1440,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 149,
+    "th": 72,
+    "rgb_mean": [
+      196.6,
+      112.1,
+      0.8
+    ],
+    "name": "Groot",
+    "cost": 3,
+    "power": 4
+  },
+  "Gwenpool": {
+    "x": 1600,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 28,
+    "tw": 152,
+    "th": 25,
+    "rgb_mean": [
+      179.1,
+      165.1,
+      176
+    ],
+    "name": "Gwenpool",
+    "cost": 4,
+    "power": 5
+  },
+  "Havok": {
+    "x": 1760,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      131.5,
+      176.8,
+      195.5
+    ],
+    "name": "Havok",
+    "cost": 2,
+    "power": 1
+  },
+  "Hawkeye7": {
+    "x": 1920,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      105.7,
+      105.2,
+      105.4
+    ],
+    "name": "Hawkeye7",
+    "cost": 0,
+    "power": 0
+  },
+  "HawkeyeAvengers": {
+    "x": 2080,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      112.7,
+      70.9,
+      109.8
+    ],
+    "name": "HawkeyeAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "Hawkeye": {
+    "x": 2240,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      137,
+      90.2,
+      144.2
+    ],
+    "name": "Hawkeye",
+    "cost": 1,
+    "power": 1
+  },
+  "Hazmat": {
+    "x": 2400,
+    "y": 960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      157.6,
+      149.3,
+      98.2
+    ],
+    "name": "Hazmat",
+    "cost": 3,
+    "power": 3
+  },
+  "Headpool": {
+    "x": 0,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      187,
+      110.6,
+      96.9
+    ],
+    "name": "Headpool",
+    "cost": 1,
+    "power": 1
+  },
+  "Heimdall": {
+    "x": 160,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      178.5,
+      133.9,
+      96.2
+    ],
+    "name": "Heimdall",
+    "cost": 6,
+    "power": 10
+  },
+  "Hela": {
+    "x": 320,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      143.4,
+      184.1,
+      164.8
+    ],
+    "name": "Hela",
+    "cost": 6,
+    "power": 6
+  },
+  "Helicarrier": {
+    "x": 480,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 20,
+    "rgb_mean": [
+      145.9,
+      145,
+      151.9
+    ],
+    "name": "Helicarrier",
+    "cost": 6,
+    "power": 12
+  },
+  "HellcowFracturedFrontier": {
+    "x": 640,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      128.6,
+      98.3,
+      153.9
+    ],
+    "name": "HellcowFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "Hellcow": {
+    "x": 800,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 22,
+    "ty": 4,
+    "tw": 116,
+    "th": 72,
+    "rgb_mean": [
+      158.5,
+      92.9,
+      73.2
+    ],
+    "name": "Hellcow",
+    "cost": 4,
+    "power": 7
+  },
+  "Hellion": {
+    "x": 960,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      129.3,
+      106.2,
+      103.4
+    ],
+    "name": "Hellion",
+    "cost": 5,
+    "power": 8
+  },
+  "HerbieChampion": {
+    "x": 1120,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 17,
+    "rgb_mean": [
+      229.4,
+      228.9,
+      229.4
+    ],
+    "name": "HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Herbie": {
+    "x": 1280,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      142.3,
+      162.6,
+      182.3
+    ],
+    "name": "H.E.R.B.I.E.",
+    "cost": 2,
+    "power": 3
+  },
+  "Hercules": {
+    "x": 1440,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      125.7,
+      112.7,
+      59
+    ],
+    "name": "Hercules",
+    "cost": 3,
+    "power": 5
+  },
+  "HighEvolutionary": {
+    "x": 1600,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      219.2,
+      166.1,
+      166.6
+    ],
+    "name": "High Evolutionary",
+    "cost": 4,
+    "power": 7
+  },
+  "HitMonkey": {
+    "x": 1760,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      194.5,
+      147.7,
+      165.4
+    ],
+    "name": "Hit-Monkey",
+    "cost": 3,
+    "power": 3
+  },
+  "Hobgoblin": {
+    "x": 1920,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      204.3,
+      125.9,
+      53
+    ],
+    "name": "Hobgoblin",
+    "cost": 5,
+    "power": -8
+  },
+  "Hood": {
+    "x": 2080,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      158.1,
+      137.2,
+      138.7
+    ],
+    "name": "The Hood",
+    "cost": 1,
+    "power": -3
+  },
+  "HopeSummers": {
+    "x": 2240,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      98.7,
+      102.4,
+      59.7
+    ],
+    "name": "Hope Summers",
+    "cost": 3,
+    "power": 4
+  },
+  "HowardTheDuck": {
+    "x": 2400,
+    "y": 1040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      181.8,
+      150.8,
+      55.2
+    ],
+    "name": "Howard the Duck",
+    "cost": 1,
+    "power": 2
+  },
+  "HulkAvengers": {
+    "x": 0,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 128,
+    "th": 72,
+    "rgb_mean": [
+      131.4,
+      67.8,
+      94.1
+    ],
+    "name": "HulkAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "HulkChampion": {
+    "x": 160,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 18,
+    "rgb_mean": [
+      226.2,
+      225.5,
+      226.2
+    ],
+    "name": "HulkChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "HulkSmash": {
+    "x": 320,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      26.2,
+      130.6,
+      51.3
+    ],
+    "name": "HulkSmash",
+    "cost": 0,
+    "power": 0
+  },
+  "Hulkbuster": {
+    "x": 480,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 141,
+    "th": 72,
+    "rgb_mean": [
+      210.7,
+      87.5,
+      75.7
+    ],
+    "name": "Hulkbuster",
+    "cost": 2,
+    "power": 3
+  },
+  "Hulkling": {
+    "x": 640,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      146.8,
+      147.2,
+      147.4
+    ],
+    "name": "Emperor Hulkling",
+    "cost": 6,
+    "power": 12
+  },
+  "HumanTorchFirstStepsChampions": {
+    "x": 800,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 36,
+    "tw": 152,
+    "th": 9,
+    "rgb_mean": [
+      206.1,
+      205.9,
+      206.1
+    ],
+    "name": "HumanTorchFirstStepsChampions",
+    "cost": 0,
+    "power": 0
+  },
+  "HumanTorchFirstSteps": {
+    "x": 960,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      132,
+      187.2,
+      208.6
+    ],
+    "name": "Human Torch First Steps",
+    "cost": 3,
+    "power": 2
+  },
+  "HumanTorch": {
+    "x": 1120,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      231.5,
+      104,
+      0
+    ],
+    "name": "Human Torch",
+    "cost": 3,
+    "power": 2
+  },
+  "HydraBob": {
+    "x": 1280,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 24,
+    "ty": 4,
+    "tw": 113,
+    "th": 72,
+    "rgb_mean": [
+      48.3,
+      129.6,
+      24.2
+    ],
+    "name": "Hydra Bob",
+    "cost": 1,
+    "power": 4
+  },
+  "HydraStomper": {
+    "x": 1440,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      109.9,
+      120.4,
+      93.2
+    ],
+    "name": "Hydra Stomper",
+    "cost": 3,
+    "power": 3
+  },
+  "HydroMan": {
+    "x": 1600,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      83.8,
+      127.9,
+      176.5
+    ],
+    "name": "Hydro-Man",
+    "cost": 5,
+    "power": 9
+  },
+  "IceCube": {
+    "x": 1760,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      143,
+      177.7,
+      197.8
+    ],
+    "name": "IceCube",
+    "cost": 0,
+    "power": 0
+  },
+  "Ice": {
+    "x": 1920,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      145.4,
+      179.5,
+      199.3
+    ],
+    "name": "Ice",
+    "cost": 0,
+    "power": 0
+  },
+  "Iceman": {
+    "x": 2080,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      149.9,
+      183.9,
+      193.7
+    ],
+    "name": "Iceman",
+    "cost": 1,
+    "power": 2
+  },
+  "Ikari": {
+    "x": 2240,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      130,
+      96.9,
+      60.1
+    ],
+    "name": "Ikari",
+    "cost": 4,
+    "power": 12
+  },
+  "Infinaut": {
+    "x": 2400,
+    "y": 1120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      141.3,
+      159.5,
+      180.2
+    ],
+    "name": "The Infinaut",
+    "cost": 6,
+    "power": 20
+  },
+  "InfinityUltron": {
+    "x": 0,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 26,
+    "ty": 4,
+    "tw": 108,
+    "th": 72,
+    "rgb_mean": [
+      133.1,
+      117.3,
+      122.7
+    ],
+    "name": "Infinity Ultron",
+    "cost": 5,
+    "power": 6
+  },
+  "InvisibleWomanChampion": {
+    "x": 160,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      215.4,
+      215.3,
+      215.4
+    ],
+    "name": "InvisibleWomanChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "InvisibleWomanFirstSteps": {
+    "x": 320,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      129.3,
+      185.6,
+      207.1
+    ],
+    "name": "Invisible Woman First Steps",
+    "cost": 3,
+    "power": 3
+  },
+  "InvisibleWoman": {
+    "x": 480,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      192.1,
+      225.2,
+      241.3
+    ],
+    "name": "Invisible Woman",
+    "cost": 2,
+    "power": 4
+  },
+  "IronFist": {
+    "x": 640,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      154.9,
+      161.2,
+      73.3
+    ],
+    "name": "Iron Fist",
+    "cost": 1,
+    "power": 3
+  },
+  "IronLad": {
+    "x": 800,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      140.4,
+      52.3,
+      68
+    ],
+    "name": "Iron Lad",
+    "cost": 4,
+    "power": 7
+  },
+  "IronMan": {
+    "x": 960,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 36,
+    "rgb_mean": [
+      198.5,
+      64.8,
+      47.8
+    ],
+    "name": "Iron Man",
+    "cost": 5,
+    "power": 0
+  },
+  "IronPatriot": {
+    "x": 1120,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      72.5,
+      72.4,
+      72.5
+    ],
+    "name": "Iron Patriot",
+    "cost": 2,
+    "power": 3
+  },
+  "Ironheart": {
+    "x": 1280,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 27,
+    "rgb_mean": [
+      167.3,
+      116.9,
+      46.6
+    ],
+    "name": "Ironheart",
+    "cost": 3,
+    "power": 0
+  },
+  "Isca": {
+    "x": 1440,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      155.7,
+      78.5,
+      50
+    ],
+    "name": "Isca the Unbeaten",
+    "cost": 4,
+    "power": 3
+  },
+  "JJonahJameson": {
+    "x": 1600,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      171.5,
+      126.5,
+      71.7
+    ],
+    "name": "J. Jonah Jameson",
+    "cost": 1,
+    "power": 3
+  },
+  "JackFlag": {
+    "x": 1760,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      127,
+      101,
+      106.9
+    ],
+    "name": "Jack Flag",
+    "cost": 3,
+    "power": 3
+  },
+  "JaneFosterFracturedFrontier": {
+    "x": 1920,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      118.8,
+      81.1,
+      146.6
+    ],
+    "name": "JaneFosterFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "JaneFoster": {
+    "x": 2080,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 140,
+    "th": 72,
+    "rgb_mean": [
+      143.3,
+      149.8,
+      152.2
+    ],
+    "name": "Jane Foster Mighty Thor",
+    "cost": 5,
+    "power": 9
+  },
+  "JeanGreyXMen": {
+    "x": 2240,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      142.1,
+      112,
+      83.8
+    ],
+    "name": "JeanGreyXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "JeanGrey": {
+    "x": 2400,
+    "y": 1200,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 149,
+    "th": 72,
+    "rgb_mean": [
+      204.2,
+      216.1,
+      111.3
+    ],
+    "name": "Jean Grey",
+    "cost": 3,
+    "power": 4
+  },
+  "JeffTheBabyDolphin": {
+    "x": 0,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 39,
+    "ty": 4,
+    "tw": 83,
+    "th": 72,
+    "rgb_mean": [
+      91.8,
+      135.4,
+      162.3
+    ],
+    "name": "Jeff the Baby Dolphin!?",
+    "cost": 2,
+    "power": 2
+  },
+  "JeffTheBabyLandShark": {
+    "x": 160,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 29,
+    "ty": 4,
+    "tw": 103,
+    "th": 72,
+    "rgb_mean": [
+      53.2,
+      116.3,
+      148.6
+    ],
+    "name": "Jeff the Baby Land Shark",
+    "cost": 2,
+    "power": 4
+  },
+  "JenniferKale": {
+    "x": 320,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 20,
+    "ty": 4,
+    "tw": 120,
+    "th": 72,
+    "rgb_mean": [
+      203.2,
+      135.7,
+      91.8
+    ],
+    "name": "Jennifer Kale",
+    "cost": 2,
+    "power": 3
+  },
+  "JessicaJones": {
+    "x": 480,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 122,
+    "th": 72,
+    "rgb_mean": [
+      193.9,
+      192.5,
+      198.8
+    ],
+    "name": "Jessica Jones",
+    "cost": 4,
+    "power": 5
+  },
+  "JimHammond": {
+    "x": 640,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      201.1,
+      103.4,
+      41.3
+    ],
+    "name": "Jim Hammond Human Torch",
+    "cost": 1,
+    "power": 2
+  },
+  "JoaquinTorres": {
+    "x": 800,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      121.1,
+      94.5,
+      51.6
+    ],
+    "name": "Joaquin Torres Falcon II",
+    "cost": 2,
+    "power": 3
+  },
+  "Jocasta": {
+    "x": 960,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      112,
+      140.3,
+      152
+    ],
+    "name": "Jocasta",
+    "cost": 3,
+    "power": 3
+  },
+  "JubileeSilverSurfer": {
+    "x": 1120,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 122,
+    "th": 72,
+    "rgb_mean": [
+      128.7,
+      103.5,
+      121.1
+    ],
+    "name": "Jubilee Silver Surfer",
+    "cost": 4,
+    "power": 3
+  },
+  "JubileeXMen": {
+    "x": 1280,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      131.3,
+      112.3,
+      83.3
+    ],
+    "name": "JubileeXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "Jubilee": {
+    "x": 1440,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      146.7,
+      136.3,
+      140.9
+    ],
+    "name": "Jubilee",
+    "cost": 4,
+    "power": 1
+  },
+  "JuggernautHorseman": {
+    "x": 1600,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      145.4,
+      87.2,
+      56.2
+    ],
+    "name": "Juggernaut Horseman of War",
+    "cost": 2,
+    "power": 2
+  },
+  "Juggernaut": {
+    "x": 1760,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      174.5,
+      132.8,
+      40.6
+    ],
+    "name": "Juggernaut",
+    "cost": 4,
+    "power": 5
+  },
+  "KaZar": {
+    "x": 1920,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      177.9,
+      162.5,
+      118.1
+    ],
+    "name": "Ka-Zar",
+    "cost": 4,
+    "power": 6
+  },
+  "Kahhori": {
+    "x": 2080,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      149.1,
+      149.2,
+      149.1
+    ],
+    "name": "Kahhori",
+    "cost": 4,
+    "power": 7
+  },
+  "KaijuCyclops": {
+    "x": 2240,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 20,
+    "rgb_mean": [
+      230.8,
+      230.9,
+      230.8
+    ],
+    "name": "KaijuCyclops",
+    "cost": 0,
+    "power": 0
+  },
+  "Kang": {
+    "x": 2400,
+    "y": 1280,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      74.4,
+      73.1,
+      136.9
+    ],
+    "name": "Kang",
+    "cost": 3,
+    "power": 4
+  },
+  "KarenPage": {
+    "x": 0,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      122.8,
+      76.7,
+      62.8
+    ],
+    "name": "Karen Page",
+    "cost": 4,
+    "power": 5
+  },
+  "KarimaShapandar": {
+    "x": 160,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      104.8,
+      101.8,
+      108.6
+    ],
+    "name": "Omega Sentinel",
+    "cost": 4,
+    "power": 3
+  },
+  "KateBishop": {
+    "x": 320,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      183.2,
+      166.1,
+      184.9
+    ],
+    "name": "Hawkeye Kate Bishop",
+    "cost": 2,
+    "power": 3
+  },
+  "KhonshuFull": {
+    "x": 480,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      81.9,
+      97.4,
+      128.9
+    ],
+    "name": "KhonshuFull",
+    "cost": 0,
+    "power": 0
+  },
+  "KhonshuWaxing": {
+    "x": 640,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      73.1,
+      82.2,
+      110.6
+    ],
+    "name": "KhonshuWaxing",
+    "cost": 0,
+    "power": 0
+  },
+  "Khonshu": {
+    "x": 800,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      74.5,
+      72.9,
+      95.2
+    ],
+    "name": "Khonshu",
+    "cost": 6,
+    "power": 5
+  },
+  "KidOmega": {
+    "x": 960,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 139,
+    "th": 72,
+    "rgb_mean": [
+      140.4,
+      78.4,
+      122.2
+    ],
+    "name": "Kid Omega",
+    "cost": 2,
+    "power": 1
+  },
+  "Killmonger": {
+    "x": 1120,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      159.4,
+      104.3,
+      37.6
+    ],
+    "name": "Killmonger",
+    "cost": 3,
+    "power": 3
+  },
+  "KingEitri": {
+    "x": 1280,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      153.2,
+      127.9,
+      70.7
+    ],
+    "name": "King Eitri",
+    "cost": 1,
+    "power": 3
+  },
+  "Kingpin": {
+    "x": 1440,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      191.9,
+      104.5,
+      64.3
+    ],
+    "name": "Kingpin",
+    "cost": 1,
+    "power": 3
+  },
+  "KittyPryde": {
+    "x": 1600,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 34,
+    "rgb_mean": [
+      105.7,
+      97.5,
+      31.9
+    ],
+    "name": "Kitty Pryde",
+    "cost": 1,
+    "power": 1
+  },
+  "Klaw": {
+    "x": 1760,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      199.3,
+      151.2,
+      153.4
+    ],
+    "name": "Klaw",
+    "cost": 5,
+    "power": 4
+  },
+  "Kluh": {
+    "x": 1920,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      120.4,
+      50.6,
+      49.2
+    ],
+    "name": "Kluh",
+    "cost": 0,
+    "power": 0
+  },
+  "KnightsVow": {
+    "x": 2080,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 21,
+    "rgb_mean": [
+      229.4,
+      229.2,
+      229.4
+    ],
+    "name": "KnightsVow",
+    "cost": 0,
+    "power": 0
+  },
+  "Knull": {
+    "x": 2240,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      112.1,
+      36.3,
+      38.9
+    ],
+    "name": "Knull",
+    "cost": 6,
+    "power": 0
+  },
+  "Korg": {
+    "x": 2400,
+    "y": 1360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      165,
+      124.3,
+      33.1
+    ],
+    "name": "Korg",
+    "cost": 1,
+    "power": 2
+  },
+  "Kraglin": {
+    "x": 0,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      103.4,
+      148.4,
+      192.5
+    ],
+    "name": "Kraglin",
+    "cost": 3,
+    "power": 5
+  },
+  "Kraven": {
+    "x": 160,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      170.1,
+      101.1,
+      58.1
+    ],
+    "name": "Kraven",
+    "cost": 2,
+    "power": 3
+  },
+  "LadyBullseye": {
+    "x": 320,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      173.8,
+      160.6,
+      161.3
+    ],
+    "name": "Lady Bullseye",
+    "cost": 2,
+    "power": 3
+  },
+  "LadyDeathstrikeBrotherhoodofMutants": {
+    "x": 480,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      114.2,
+      64.4,
+      128.9
+    ],
+    "name": "LadyDeathstrikeBrotherhoodofMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "LadyDeathstrike": {
+    "x": 640,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      197.5,
+      128.3,
+      51.4
+    ],
+    "name": "Lady Deathstrike",
+    "cost": 5,
+    "power": 7
+  },
+  "LadySif": {
+    "x": 800,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 38,
+    "rgb_mean": [
+      152.4,
+      92,
+      92.5
+    ],
+    "name": "Lady Sif",
+    "cost": 3,
+    "power": 6
+  },
+  "Lancelot": {
+    "x": 960,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 28,
+    "tw": 152,
+    "th": 25,
+    "rgb_mean": [
+      230.8,
+      230.5,
+      230.8
+    ],
+    "name": "Lancelot",
+    "cost": 0,
+    "power": 0
+  },
+  "Lasher": {
+    "x": 1120,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      91.3,
+      17.9,
+      20.6
+    ],
+    "name": "Lasher",
+    "cost": 2,
+    "power": 2
+  },
+  "Laufey": {
+    "x": 1280,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      87.4,
+      135.5,
+      167.4
+    ],
+    "name": "Laufey",
+    "cost": 4,
+    "power": 5
+  },
+  "Leader": {
+    "x": 1440,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 14,
+    "tw": 146,
+    "th": 53,
+    "rgb_mean": [
+      179.6,
+      166.7,
+      108.3
+    ],
+    "name": "Leader",
+    "cost": 6,
+    "power": 5
+  },
+  "Leech": {
+    "x": 1600,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      150.9,
+      134.9,
+      64.5
+    ],
+    "name": "Leech",
+    "cost": 4,
+    "power": 4
+  },
+  "Legion": {
+    "x": 1760,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 11,
+    "tw": 148,
+    "th": 58,
+    "rgb_mean": [
+      116.5,
+      117,
+      125.6
+    ],
+    "name": "Legion",
+    "cost": 5,
+    "power": 7
+  },
+  "LinLie": {
+    "x": 1920,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 145,
+    "th": 72,
+    "rgb_mean": [
+      107.2,
+      114.7,
+      62.5
+    ],
+    "name": "Lin Lie Iron Fist",
+    "cost": 2,
+    "power": 3
+  },
+  "LivingMonolith": {
+    "x": 2080,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 14,
+    "ty": 4,
+    "tw": 133,
+    "th": 72,
+    "rgb_mean": [
+      138.5,
+      117.8,
+      57.4
+    ],
+    "name": "LivingMonolith",
+    "cost": 0,
+    "power": 0
+  },
+  "LivingTribunal": {
+    "x": 2240,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      207.3,
+      171.8,
+      131.8
+    ],
+    "name": "The Living Tribunal",
+    "cost": 6,
+    "power": 9
+  },
+  "Lizard": {
+    "x": 2400,
+    "y": 1440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      68.5,
+      95.4,
+      24.8
+    ],
+    "name": "Lizard",
+    "cost": 2,
+    "power": 6
+  },
+  "Lockheed": {
+    "x": 0,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      116.8,
+      75,
+      140.9
+    ],
+    "name": "Lockheed",
+    "cost": 2,
+    "power": 2
+  },
+  "Lockjaw": {
+    "x": 160,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 140,
+    "th": 72,
+    "rgb_mean": [
+      161.5,
+      71.5,
+      79.3
+    ],
+    "name": "Lockjaw",
+    "cost": 2,
+    "power": 3
+  },
+  "Loki": {
+    "x": 320,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      116.6,
+      132.8,
+      60.9
+    ],
+    "name": "Loki",
+    "cost": 1,
+    "power": 2
+  },
+  "LordOfTheNegativeZone": {
+    "x": 480,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      79.9,
+      133.9,
+      65.1
+    ],
+    "name": "LordOfTheNegativeZone",
+    "cost": 0,
+    "power": 0
+  },
+  "LukeCage": {
+    "x": 640,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      199.7,
+      153.4,
+      30.4
+    ],
+    "name": "Luke Cage",
+    "cost": 2,
+    "power": 2
+  },
+  "LunaSnow": {
+    "x": 800,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      131.8,
+      107.6,
+      153.8
+    ],
+    "name": "Luna Snow",
+    "cost": 3,
+    "power": 6
+  },
+  "MBaku": {
+    "x": 960,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      160.7,
+      179.8,
+      196.3
+    ],
+    "name": "M'Baku",
+    "cost": 1,
+    "power": 3
+  },
+  "MadThinker": {
+    "x": 1120,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      74.1,
+      166,
+      140.9
+    ],
+    "name": "Mad Thinker",
+    "cost": 1,
+    "power": 2
+  },
+  "MadameWeb": {
+    "x": 1280,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      123.1,
+      93.1,
+      97.1
+    ],
+    "name": "Madame Web",
+    "cost": 2,
+    "power": 1
+  },
+  "Magik": {
+    "x": 1440,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      151.5,
+      117.8,
+      124.8
+    ],
+    "name": "Magik",
+    "cost": 3,
+    "power": 2
+  },
+  "MagnetoBrotherhoodOfMutants": {
+    "x": 1600,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      127.7,
+      69.2,
+      126.2
+    ],
+    "name": "MagnetoBrotherhoodOfMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "Magneto": {
+    "x": 1760,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      174.6,
+      139.1,
+      55
+    ],
+    "name": "Magneto",
+    "cost": 6,
+    "power": 12
+  },
+  "Magus": {
+    "x": 1920,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 128,
+    "th": 72,
+    "rgb_mean": [
+      133.6,
+      85.6,
+      103.9
+    ],
+    "name": "Magus",
+    "cost": 2,
+    "power": 4
+  },
+  "MajesticWingbeat": {
+    "x": 2080,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      150.8,
+      115.5,
+      90.7
+    ],
+    "name": "Majestic Wingbeat",
+    "cost": 1,
+    "power": 0
+  },
+  "MajorVictory": {
+    "x": 2240,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      49.8,
+      109.4,
+      132.3
+    ],
+    "name": "Major Victory",
+    "cost": 3,
+    "power": 5
+  },
+  "Makkari": {
+    "x": 2400,
+    "y": 1520,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 30,
+    "rgb_mean": [
+      179.4,
+      175,
+      181.5
+    ],
+    "name": "Makkari",
+    "cost": 3,
+    "power": 3
+  },
+  "Malekith": {
+    "x": 0,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      138.4,
+      114.1,
+      130.6
+    ],
+    "name": "Malekith",
+    "cost": 4,
+    "power": 6
+  },
+  "ManSpider": {
+    "x": 160,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      121.4,
+      81.5,
+      96.7
+    ],
+    "name": "Man-Spider",
+    "cost": 5,
+    "power": 1
+  },
+  "ManThing": {
+    "x": 320,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      141.9,
+      114.5,
+      89.8
+    ],
+    "name": "Man-Thing",
+    "cost": 4,
+    "power": 7
+  },
+  "MantisGuardiansOfTheGalaxy": {
+    "x": 480,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      116.6,
+      89.3,
+      134.7
+    ],
+    "name": "MantisGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "Mantis": {
+    "x": 640,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      127.6,
+      150.7,
+      95.1
+    ],
+    "name": "Mantis",
+    "cost": 1,
+    "power": 3
+  },
+  "MariaHill": {
+    "x": 800,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      196,
+      195.2,
+      212.6
+    ],
+    "name": "Maria Hill",
+    "cost": 1,
+    "power": 3
+  },
+  "Marrow": {
+    "x": 960,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 21,
+    "ty": 4,
+    "tw": 118,
+    "th": 72,
+    "rgb_mean": [
+      134.4,
+      125.3,
+      116.4
+    ],
+    "name": "Marrow",
+    "cost": 2,
+    "power": 3
+  },
+  "Martyr": {
+    "x": 1120,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      151.7,
+      126.4,
+      137.7
+    ],
+    "name": "Martyr",
+    "cost": 1,
+    "power": 5
+  },
+  "MarvelBoy": {
+    "x": 1280,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 14,
+    "ty": 4,
+    "tw": 132,
+    "th": 72,
+    "rgb_mean": [
+      100.9,
+      136,
+      82.6
+    ],
+    "name": "Marvel Boy",
+    "cost": 3,
+    "power": 2
+  },
+  "MaryJane": {
+    "x": 1440,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      183.9,
+      154.7,
+      152.8
+    ],
+    "name": "Mary Jane",
+    "cost": 3,
+    "power": 3
+  },
+  "MasterMold": {
+    "x": 1600,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      96.2,
+      134.1,
+      216.8
+    ],
+    "name": "Master Mold",
+    "cost": 2,
+    "power": 3
+  },
+  "MasterOfMagnetism": {
+    "x": 1760,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      171.5,
+      143.3,
+      60.9
+    ],
+    "name": "MasterOfMagnetism",
+    "cost": 0,
+    "power": 0
+  },
+  "Maverick": {
+    "x": 1920,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      186.4,
+      169.6,
+      127.9
+    ],
+    "name": "Maverick",
+    "cost": 3,
+    "power": 2
+  },
+  "Maximus": {
+    "x": 2080,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      79.5,
+      128.7,
+      117.8
+    ],
+    "name": "Maximus",
+    "cost": 2,
+    "power": 6
+  },
+  "Medusa": {
+    "x": 2240,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      131.5,
+      74.7,
+      155.7
+    ],
+    "name": "Medusa",
+    "cost": 2,
+    "power": 2
+  },
+  "Mephisto": {
+    "x": 2400,
+    "y": 1600,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      186.5,
+      68.6,
+      60.3
+    ],
+    "name": "Mephisto",
+    "cost": 0,
+    "power": 0
+  },
+  "Mercury": {
+    "x": 0,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      117.3,
+      85.6,
+      114.3
+    ],
+    "name": "Mercury",
+    "cost": 3,
+    "power": 4
+  },
+  "MerlinAvalon": {
+    "x": 160,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 20,
+    "rgb_mean": [
+      230.8,
+      231,
+      230.8
+    ],
+    "name": "MerlinAvalon",
+    "cost": 0,
+    "power": 0
+  },
+  "Merlin": {
+    "x": 320,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      150.6,
+      149.2,
+      174.1
+    ],
+    "name": "Merlin",
+    "cost": 2,
+    "power": 2
+  },
+  "Miek": {
+    "x": 480,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      125.7,
+      138.1,
+      75.1
+    ],
+    "name": "Miek",
+    "cost": 1,
+    "power": 1
+  },
+  "MilesMorales": {
+    "x": 640,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      119.4,
+      41.6,
+      45.4
+    ],
+    "name": "Miles Morales Spider-Man",
+    "cost": 4,
+    "power": 6
+  },
+  "MindShot": {
+    "x": 800,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 30,
+    "ty": 4,
+    "tw": 100,
+    "th": 72,
+    "rgb_mean": [
+      149.1,
+      124.4,
+      72.9
+    ],
+    "name": "MindShot",
+    "cost": 0,
+    "power": 0
+  },
+  "MindStone": {
+    "x": 960,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      157.7,
+      137,
+      72.6
+    ],
+    "name": "MindStone",
+    "cost": 0,
+    "power": 0
+  },
+  "Mirage": {
+    "x": 1120,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      210.4,
+      117.3,
+      48.6
+    ],
+    "name": "Mirage",
+    "cost": 2,
+    "power": 3
+  },
+  "Misery": {
+    "x": 1280,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      152.7,
+      82,
+      65.9
+    ],
+    "name": "Misery",
+    "cost": 4,
+    "power": 8
+  },
+  "MistyKnight": {
+    "x": 1440,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      129.9,
+      75.2,
+      36.2
+    ],
+    "name": "Misty Knight",
+    "cost": 1,
+    "power": 3
+  },
+  "Mjolnir": {
+    "x": 1600,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      149.8,
+      54.4,
+      45.3
+    ],
+    "name": "Mjolnir",
+    "cost": 0,
+    "power": 0
+  },
+  "MobiusMMobius": {
+    "x": 1760,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      146,
+      114.8,
+      77.6
+    ],
+    "name": "Mobius M. Mobius",
+    "cost": 3,
+    "power": 3
+  },
+  "Mockingbird": {
+    "x": 1920,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 33,
+    "rgb_mean": [
+      99.7,
+      97.2,
+      86.5
+    ],
+    "name": "Mockingbird",
+    "cost": 6,
+    "power": 9
+  },
+  "Modok": {
+    "x": 2080,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      190.4,
+      156.3,
+      194.3
+    ],
+    "name": "M.O.D.O.K.",
+    "cost": 5,
+    "power": 7
+  },
+  "MoiraX": {
+    "x": 2240,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 36,
+    "rgb_mean": [
+      114.1,
+      111.2,
+      92.8
+    ],
+    "name": "Moira X",
+    "cost": 1,
+    "power": 2
+  },
+  "Mojo": {
+    "x": 2400,
+    "y": 1680,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      164.5,
+      130.4,
+      51.5
+    ],
+    "name": "Mojo",
+    "cost": 2,
+    "power": 2
+  },
+  "MoleManChampion": {
+    "x": 0,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      219,
+      218.8,
+      219
+    ],
+    "name": "MoleManChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "MoleMan": {
+    "x": 160,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 34,
+    "rgb_mean": [
+      93.8,
+      130.4,
+      91.6
+    ],
+    "name": "Mole Man",
+    "cost": 3,
+    "power": 4
+  },
+  "MonstroOctopus": {
+    "x": 320,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      179.1,
+      137.7,
+      74
+    ],
+    "name": "Monstro",
+    "cost": 8,
+    "power": 8
+  },
+  "Monstro": {
+    "x": 480,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      159.6,
+      128.5,
+      77.1
+    ],
+    "name": "Monstro",
+    "cost": 0,
+    "power": 0
+  },
+  "MoonGirl": {
+    "x": 640,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      96.3,
+      83.7,
+      45.1
+    ],
+    "name": "Moon Girl",
+    "cost": 4,
+    "power": 5
+  },
+  "MoonKnight": {
+    "x": 800,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      160.5,
+      190.8,
+      191.5
+    ],
+    "name": "Moon Knight",
+    "cost": 3,
+    "power": 3
+  },
+  "Moondragon": {
+    "x": 960,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      97.8,
+      164.2,
+      90.6
+    ],
+    "name": "Moondragon",
+    "cost": 2,
+    "power": 1
+  },
+  "Moonstone": {
+    "x": 1120,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      124.8,
+      147.1,
+      166.9
+    ],
+    "name": "Moonstone",
+    "cost": 4,
+    "power": 6
+  },
+  "Morbius": {
+    "x": 1280,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      159,
+      93.5,
+      96.1
+    ],
+    "name": "Morbius",
+    "cost": 2,
+    "power": 0
+  },
+  "Mordred": {
+    "x": 1440,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 26,
+    "rgb_mean": [
+      231.3,
+      231.6,
+      231.3
+    ],
+    "name": "Mordred",
+    "cost": 0,
+    "power": 0
+  },
+  "MorganLeFay": {
+    "x": 1600,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      53.8,
+      131.1,
+      108.8
+    ],
+    "name": "Morgan le Fay",
+    "cost": 3,
+    "power": 4
+  },
+  "Morph": {
+    "x": 1760,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      143.2,
+      140.1,
+      121.4
+    ],
+    "name": "Morph",
+    "cost": 3,
+    "power": 0
+  },
+  "MotherAskani": {
+    "x": 1920,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 24,
+    "ty": 4,
+    "tw": 112,
+    "th": 72,
+    "rgb_mean": [
+      183.5,
+      104,
+      86.7
+    ],
+    "name": "Mother Askani",
+    "cost": 4,
+    "power": 4
+  },
+  "MrFantasticChampion": {
+    "x": 2080,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      216.5,
+      216.1,
+      216.5
+    ],
+    "name": "MrFantasticChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "MrFantasticFirstSteps": {
+    "x": 2240,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      129,
+      185.7,
+      207
+    ],
+    "name": "Mister Fantastic First Steps",
+    "cost": 3,
+    "power": 4
+  },
+  "MrNegative": {
+    "x": 2400,
+    "y": 1760,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      110.1,
+      156.3,
+      169.8
+    ],
+    "name": "Mister Negative",
+    "cost": 4,
+    "power": -1
+  },
+  "MrSinister": {
+    "x": 0,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 123,
+    "th": 72,
+    "rgb_mean": [
+      209.3,
+      187.2,
+      197.4
+    ],
+    "name": "Mister Sinister",
+    "cost": 2,
+    "power": 2
+  },
+  "MsMarvel": {
+    "x": 160,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      194.9,
+      42.3,
+      121.4
+    ],
+    "name": "Ms. Marvel",
+    "cost": 4,
+    "power": 5
+  },
+  "MultipleMan": {
+    "x": 320,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      158.3,
+      139.6,
+      99.7
+    ],
+    "name": "Multiple Man",
+    "cost": 2,
+    "power": 4
+  },
+  "MuramasaShard": {
+    "x": 480,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      227.2,
+      133.1,
+      135.3
+    ],
+    "name": "MuramasaShard",
+    "cost": 0,
+    "power": 0
+  },
+  "Muse": {
+    "x": 640,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 26,
+    "ty": 4,
+    "tw": 109,
+    "th": 72,
+    "rgb_mean": [
+      127,
+      56.4,
+      46.7
+    ],
+    "name": "Muse",
+    "cost": 3,
+    "power": 3
+  },
+  "MysterioIllusion": {
+    "x": 800,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      100.4,
+      145.6,
+      106.1
+    ],
+    "name": "MysterioIllusion",
+    "cost": 0,
+    "power": 0
+  },
+  "MysterioUnrevealed": {
+    "x": 960,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      113.8,
+      155.8,
+      111.3
+    ],
+    "name": "MysterioUnrevealed",
+    "cost": 0,
+    "power": 0
+  },
+  "Mysterio": {
+    "x": 1120,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      107.5,
+      153.8,
+      108
+    ],
+    "name": "Mysterio",
+    "cost": 2,
+    "power": 5
+  },
+  "MystiqueBrotherhoodOfMutants": {
+    "x": 1280,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      107.3,
+      60.2,
+      132.4
+    ],
+    "name": "MystiqueBrotherhoodOfMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "Mystique": {
+    "x": 1440,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      96.3,
+      107.7,
+      126.5
+    ],
+    "name": "Mystique",
+    "cost": 3,
+    "power": 1
+  },
+  "Nakia": {
+    "x": 1600,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 127,
+    "th": 72,
+    "rgb_mean": [
+      156.3,
+      98.1,
+      48.5
+    ],
+    "name": "Nakia",
+    "cost": 3,
+    "power": 4
+  },
+  "Namor": {
+    "x": 1760,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      177,
+      192,
+      193.9
+    ],
+    "name": "Namor",
+    "cost": 4,
+    "power": 6
+  },
+  "Namora": {
+    "x": 1920,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      32.3,
+      122.9,
+      152.8
+    ],
+    "name": "Namora",
+    "cost": 5,
+    "power": 7
+  },
+  "Namorita": {
+    "x": 2080,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      93.3,
+      131.1,
+      149.6
+    ],
+    "name": "Namorita",
+    "cost": 3,
+    "power": 5
+  },
+  "Nebula": {
+    "x": 2240,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      71.7,
+      140.7,
+      104.9
+    ],
+    "name": "Nebula",
+    "cost": 1,
+    "power": 1
+  },
+  "NegasonicTeenageWarhead": {
+    "x": 2400,
+    "y": 1840,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      140.7,
+      102.6,
+      14.1
+    ],
+    "name": "Negasonic Teenage Warhead",
+    "cost": 4,
+    "power": 4
+  },
+  "NicholasScratch": {
+    "x": 0,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      113.9,
+      146,
+      111.3
+    ],
+    "name": "Nicholas Scratch",
+    "cost": 1,
+    "power": 2
+  },
+  "NickFury": {
+    "x": 160,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 26,
+    "rgb_mean": [
+      166,
+      172.1,
+      177.4
+    ],
+    "name": "Nick Fury",
+    "cost": 4,
+    "power": 6
+  },
+  "NicoMinoru": {
+    "x": 320,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      98.9,
+      105.7,
+      173.2
+    ],
+    "name": "Nico Minoru",
+    "cost": 1,
+    "power": 2
+  },
+  "NightcrawlerXMen": {
+    "x": 480,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      126.5,
+      103.3,
+      90.6
+    ],
+    "name": "NightcrawlerXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "Nightcrawler": {
+    "x": 640,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      145.8,
+      118.4,
+      134.4
+    ],
+    "name": "Nightcrawler",
+    "cost": 1,
+    "power": 3
+  },
+  "Nightmare": {
+    "x": 800,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      89.7,
+      125.2,
+      73.2
+    ],
+    "name": "Nightmare",
+    "cost": 3,
+    "power": 1
+  },
+  "Nimrod": {
+    "x": 960,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      192.5,
+      147.7,
+      213.9
+    ],
+    "name": "Nimrod",
+    "cost": 5,
+    "power": 6
+  },
+  "Ninja": {
+    "x": 1120,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      126.5,
+      25.7,
+      32.7
+    ],
+    "name": "Ninja",
+    "cost": 0,
+    "power": 0
+  },
+  "Nocturne": {
+    "x": 1280,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      65.1,
+      85.3,
+      141.6
+    ],
+    "name": "Nocturne",
+    "cost": 3,
+    "power": 5
+  },
+  "Nova": {
+    "x": 1440,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 149,
+    "th": 72,
+    "rgb_mean": [
+      226.7,
+      155.2,
+      217.7
+    ],
+    "name": "Nova",
+    "cost": 1,
+    "power": 1
+  },
+  "Odin": {
+    "x": 1600,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      166.9,
+      162.4,
+      103.4
+    ],
+    "name": "Odin",
+    "cost": 6,
+    "power": 10
+  },
+  "Okoye": {
+    "x": 1760,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      150.9,
+      76.2,
+      37.5
+    ],
+    "name": "Okoye",
+    "cost": 2,
+    "power": 3
+  },
+  "OmegaRed": {
+    "x": 1920,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 141,
+    "th": 72,
+    "rgb_mean": [
+      164.4,
+      79.2,
+      81.3
+    ],
+    "name": "Omega Red",
+    "cost": 4,
+    "power": 6
+  },
+  "OmniversalPresence": {
+    "x": 2080,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      198.2,
+      144.4,
+      157.6
+    ],
+    "name": "OmniversalPresence",
+    "cost": 0,
+    "power": 0
+  },
+  "OnceAndFuture": {
+    "x": 2240,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 127,
+    "th": 72,
+    "rgb_mean": [
+      141.5,
+      122.9,
+      91.5
+    ],
+    "name": "OnceAndFuture",
+    "cost": 0,
+    "power": 0
+  },
+  "Onslaught": {
+    "x": 2400,
+    "y": 1920,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      132.6,
+      104.7,
+      157.1
+    ],
+    "name": "Onslaught",
+    "cost": 6,
+    "power": 8
+  },
+  "Orka": {
+    "x": 0,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      104,
+      152.2,
+      201.3
+    ],
+    "name": "Orka",
+    "cost": 6,
+    "power": 11
+  },
+  "Owl": {
+    "x": 160,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 127,
+    "th": 72,
+    "rgb_mean": [
+      112.8,
+      112.8,
+      53.3
+    ],
+    "name": "Owl",
+    "cost": 0,
+    "power": 0
+  },
+  "Ozymandias": {
+    "x": 320,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      147.8,
+      138.6,
+      121.9
+    ],
+    "name": "Ozymandias",
+    "cost": 5,
+    "power": 9
+  },
+  "Patriot": {
+    "x": 480,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      187.1,
+      129.3,
+      135.8
+    ],
+    "name": "Patriot",
+    "cost": 3,
+    "power": 2
+  },
+  "PeniParker": {
+    "x": 640,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      111.7,
+      113.5,
+      103
+    ],
+    "name": "Peni Parker",
+    "cost": 2,
+    "power": 3
+  },
+  "Phastos": {
+    "x": 800,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      60,
+      119.1,
+      112.7
+    ],
+    "name": "Phastos",
+    "cost": 3,
+    "power": 4
+  },
+  "Pig": {
+    "x": 960,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 34,
+    "ty": 4,
+    "tw": 92,
+    "th": 72,
+    "rgb_mean": [
+      143.9,
+      22,
+      60.5
+    ],
+    "name": "Pig",
+    "cost": 0,
+    "power": 0
+  },
+  "Pixie": {
+    "x": 1120,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 140,
+    "th": 72,
+    "rgb_mean": [
+      135.5,
+      106.1,
+      74.7
+    ],
+    "name": "Pixie",
+    "cost": 2,
+    "power": 3
+  },
+  "PizzaSlice": {
+    "x": 1280,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 29,
+    "ty": 4,
+    "tw": 103,
+    "th": 72,
+    "rgb_mean": [
+      207.5,
+      132.2,
+      57.7
+    ],
+    "name": "PizzaSlice",
+    "cost": 0,
+    "power": 0
+  },
+  "PolarisHorseman": {
+    "x": 1440,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      76.8,
+      124.2,
+      93.5
+    ],
+    "name": "Polaris Horseman of Pestilence",
+    "cost": 2,
+    "power": 2
+  },
+  "Polaris": {
+    "x": 1600,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 34,
+    "rgb_mean": [
+      110,
+      144.1,
+      129.4
+    ],
+    "name": "Polaris",
+    "cost": 3,
+    "power": 5
+  },
+  "Polymorph": {
+    "x": 1760,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 38,
+    "rgb_mean": [
+      112.2,
+      147.9,
+      168.6
+    ],
+    "name": "Polymorph",
+    "cost": 0,
+    "power": 0
+  },
+  "PowerShot": {
+    "x": 1920,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 134,
+    "th": 72,
+    "rgb_mean": [
+      139.6,
+      86.6,
+      160.3
+    ],
+    "name": "PowerShot",
+    "cost": 0,
+    "power": 0
+  },
+  "PowerStone": {
+    "x": 2080,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      144.5,
+      84.8,
+      201
+    ],
+    "name": "PowerStone",
+    "cost": 0,
+    "power": 0
+  },
+  "Prodigy": {
+    "x": 2240,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      142.6,
+      113.6,
+      64.7
+    ],
+    "name": "Prodigy",
+    "cost": 3,
+    "power": 4
+  },
+  "ProfessorXXMen": {
+    "x": 2400,
+    "y": 2000,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      127.7,
+      99.8,
+      86.4
+    ],
+    "name": "ProfessorXXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "ProfessorX": {
+    "x": 0,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      143.6,
+      128.3,
+      125.7
+    ],
+    "name": "Professor X",
+    "cost": 5,
+    "power": 2
+  },
+  "Program01HerbieChampion": {
+    "x": 160,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      212.4,
+      211.7,
+      212.4
+    ],
+    "name": "Program01HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Program01Herbie": {
+    "x": 320,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 17,
+    "rgb_mean": [
+      222.8,
+      222.5,
+      222.8
+    ],
+    "name": "Program01Herbie",
+    "cost": 0,
+    "power": 0
+  },
+  "Program02HerbieChampion": {
+    "x": 480,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 35,
+    "tw": 152,
+    "th": 11,
+    "rgb_mean": [
+      211.9,
+      211.5,
+      211.9
+    ],
+    "name": "Program02HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Program03HerbieChampion": {
+    "x": 640,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 35,
+    "tw": 152,
+    "th": 11,
+    "rgb_mean": [
+      211.7,
+      211.4,
+      211.7
+    ],
+    "name": "Program03HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Program04HerbieChampion": {
+    "x": 800,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 35,
+    "tw": 152,
+    "th": 11,
+    "rgb_mean": [
+      212.6,
+      212.2,
+      212.6
+    ],
+    "name": "Program04HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Prowler": {
+    "x": 960,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      210.9,
+      210.9,
+      210.9
+    ],
+    "name": "Prowler",
+    "cost": 3,
+    "power": 4
+  },
+  "ProximaMidnight": {
+    "x": 1120,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 32,
+    "ty": 4,
+    "tw": 96,
+    "th": 72,
+    "rgb_mean": [
+      98.9,
+      107.5,
+      122.4
+    ],
+    "name": "Proxima Midnight",
+    "cost": 4,
+    "power": 7
+  },
+  "PsylockeFracturedFrontier": {
+    "x": 1280,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      131.3,
+      96.2,
+      160.8
+    ],
+    "name": "PsylockeFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "Psylocke": {
+    "x": 1440,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      55.4,
+      43.9,
+      73.8
+    ],
+    "name": "Psylocke",
+    "cost": 2,
+    "power": 2
+  },
+  "PunisherWarMachine": {
+    "x": 1600,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      96.3,
+      113.2,
+      119.1
+    ],
+    "name": "Punisher War Machine",
+    "cost": 2,
+    "power": 2
+  },
+  "Punisher": {
+    "x": 1760,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      79.5,
+      85.8,
+      95.3
+    ],
+    "name": "Punisher",
+    "cost": 3,
+    "power": 3
+  },
+  "PymParticleArrow": {
+    "x": 1920,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 28,
+    "ty": 10,
+    "tw": 104,
+    "th": 60,
+    "rgb_mean": [
+      98.4,
+      193.4,
+      227.1
+    ],
+    "name": "PymParticleArrow",
+    "cost": 0,
+    "power": 0
+  },
+  "Quake": {
+    "x": 2080,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      80.6,
+      167.7,
+      180.7
+    ],
+    "name": "Quake",
+    "cost": 2,
+    "power": 3
+  },
+  "Quicksand": {
+    "x": 2240,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      132.8,
+      100.8,
+      56.5
+    ],
+    "name": "Quicksand",
+    "cost": 2,
+    "power": 4
+  },
+  "Quicksilver": {
+    "x": 2400,
+    "y": 2080,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      151.7,
+      155.7,
+      172.5
+    ],
+    "name": "Quicksilver",
+    "cost": 1,
+    "power": 2
+  },
+  "Quinjet": {
+    "x": 0,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 27,
+    "rgb_mean": [
+      122.8,
+      144.9,
+      165.7
+    ],
+    "name": "Quinjet",
+    "cost": 1,
+    "power": 1
+  },
+  "RamaTut": {
+    "x": 160,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      110.7,
+      127.2,
+      80.2
+    ],
+    "name": "Rama-Tut",
+    "cost": 4,
+    "power": 5
+  },
+  "Random": {
+    "x": 320,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      97.9,
+      151.1,
+      170.8
+    ],
+    "name": "Random",
+    "cost": 0,
+    "power": 0
+  },
+  "Raptor": {
+    "x": 480,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      70.1,
+      94.5,
+      59.8
+    ],
+    "name": "Raptor",
+    "cost": 0,
+    "power": 0
+  },
+  "RavonnaRenslayer": {
+    "x": 640,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      183,
+      123.7,
+      74.7
+    ],
+    "name": "Ravonna Renslayer",
+    "cost": 2,
+    "power": 2
+  },
+  "RealityShot": {
+    "x": 800,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      161.8,
+      76.9,
+      98.9
+    ],
+    "name": "RealityShot",
+    "cost": 0,
+    "power": 0
+  },
+  "RealityStone": {
+    "x": 960,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      183.9,
+      51.1,
+      50.7
+    ],
+    "name": "RealityStone",
+    "cost": 0,
+    "power": 0
+  },
+  "RedGuardian": {
+    "x": 1120,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      219.9,
+      159.9,
+      165.1
+    ],
+    "name": "Red Guardian",
+    "cost": 3,
+    "power": 2
+  },
+  "RedHulkFracturedFrontier": {
+    "x": 1280,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      145.8,
+      109,
+      171.4
+    ],
+    "name": "RedHulkFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "RedHulk": {
+    "x": 1440,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 21,
+    "ty": 4,
+    "tw": 118,
+    "th": 72,
+    "rgb_mean": [
+      158.5,
+      22.3,
+      41.6
+    ],
+    "name": "Red Hulk",
+    "cost": 6,
+    "power": 10
+  },
+  "RedOnslaught": {
+    "x": 1600,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      147.4,
+      73.2,
+      97.6
+    ],
+    "name": "RedOnslaught",
+    "cost": 0,
+    "power": 0
+  },
+  "RedShift": {
+    "x": 1760,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      141.7,
+      89,
+      89.2
+    ],
+    "name": "Red Shift",
+    "cost": 2,
+    "power": 3
+  },
+  "RedSkull": {
+    "x": 1920,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      151.6,
+      37,
+      26.5
+    ],
+    "name": "Red Skull",
+    "cost": 5,
+    "power": 14
+  },
+  "RedWolfFracturedFrontier": {
+    "x": 2080,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      132.1,
+      94,
+      157.5
+    ],
+    "name": "RedWolfFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "Redwing": {
+    "x": 2240,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      148.8,
+      76.7,
+      66.3
+    ],
+    "name": "Redwing",
+    "cost": 3,
+    "power": 5
+  },
+  "RemoteMines": {
+    "x": 2400,
+    "y": 2160,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      111.5,
+      159.4,
+      69.3
+    ],
+    "name": "RemoteMines",
+    "cost": 0,
+    "power": 0
+  },
+  "Rescue": {
+    "x": 0,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 27,
+    "rgb_mean": [
+      110,
+      146.6,
+      170.6
+    ],
+    "name": "Rescue",
+    "cost": 4,
+    "power": 4
+  },
+  "ReturnToThePast": {
+    "x": 160,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      66.8,
+      130,
+      171.9
+    ],
+    "name": "ReturnToThePast",
+    "cost": 0,
+    "power": 0
+  },
+  "Rhino": {
+    "x": 320,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      107.7,
+      117.4,
+      126.9
+    ],
+    "name": "Rhino",
+    "cost": 2,
+    "power": 5
+  },
+  "Rock": {
+    "x": 480,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      138.3,
+      137.7,
+      146
+    ],
+    "name": "Rock",
+    "cost": 0,
+    "power": 0
+  },
+  "RocketAndGroot": {
+    "x": 640,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      204.9,
+      146.8,
+      36.4
+    ],
+    "name": "Rocket and Groot",
+    "cost": 3,
+    "power": 3
+  },
+  "RocketRaccoonChampion_01": {
+    "x": 800,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      216.9,
+      216.9,
+      216.9
+    ],
+    "name": "RocketRaccoonChampion_01",
+    "cost": 0,
+    "power": 0
+  },
+  "RocketRaccoonChampion": {
+    "x": 960,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      216.9,
+      216.9,
+      216.9
+    ],
+    "name": "RocketRaccoonChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "RocketRaccoonGuardiansOfTheGalaxy": {
+    "x": 1120,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      121.4,
+      97,
+      118.4
+    ],
+    "name": "RocketRaccoonGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "RocketRaccoon": {
+    "x": 1280,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      86.5,
+      156,
+      86.5
+    ],
+    "name": "Rocket Raccoon",
+    "cost": 1,
+    "power": 1
+  },
+  "Rockslide": {
+    "x": 1440,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      135.2,
+      134.5,
+      136.6
+    ],
+    "name": "Rockslide",
+    "cost": 4,
+    "power": 5
+  },
+  "RogueScionOfDivision": {
+    "x": 1600,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      73.6,
+      133.2,
+      82.6
+    ],
+    "name": "Rogue Scion of Division",
+    "cost": 5,
+    "power": 5
+  },
+  "Rogue": {
+    "x": 1760,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      124,
+      154.2,
+      83.5
+    ],
+    "name": "Rogue",
+    "cost": 3,
+    "power": 3
+  },
+  "Ronan": {
+    "x": 1920,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      124.3,
+      131.2,
+      140
+    ],
+    "name": "Ronan the Accuser",
+    "cost": 5,
+    "power": 5
+  },
+  "RossRedHulk": {
+    "x": 2080,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 20,
+    "rgb_mean": [
+      229.4,
+      230,
+      229.4
+    ],
+    "name": "RossRedHulk",
+    "cost": 0,
+    "power": 0
+  },
+  "SPdr": {
+    "x": 2240,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 10,
+    "tw": 134,
+    "th": 61,
+    "rgb_mean": [
+      127,
+      77.4,
+      53.1
+    ],
+    "name": "SPdr",
+    "cost": 0,
+    "power": 0
+  },
+  "Sabretooth": {
+    "x": 2400,
+    "y": 2240,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      157.5,
+      124,
+      97.6
+    ],
+    "name": "Sabretooth",
+    "cost": 3,
+    "power": 5
+  },
+  "Sage": {
+    "x": 0,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      74.7,
+      128,
+      26.2
+    ],
+    "name": "Sage",
+    "cost": 3,
+    "power": 0
+  },
+  "SamWilson": {
+    "x": 160,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      121.8,
+      108,
+      109.7
+    ],
+    "name": "Sam Wilson Captain America",
+    "cost": 2,
+    "power": 3
+  },
+  "Sandman": {
+    "x": 320,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      157.6,
+      118.2,
+      40.6
+    ],
+    "name": "Sandman",
+    "cost": 5,
+    "power": 8
+  },
+  "Sandstorm": {
+    "x": 480,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 23,
+    "tw": 152,
+    "th": 35,
+    "rgb_mean": [
+      158.6,
+      119.4,
+      80.6
+    ],
+    "name": "Sandstorm",
+    "cost": 2,
+    "power": 0
+  },
+  "Sasquatch": {
+    "x": 640,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 41,
+    "rgb_mean": [
+      96.3,
+      125.5,
+      127.4
+    ],
+    "name": "Sasquatch",
+    "cost": 6,
+    "power": 11
+  },
+  "Sauron": {
+    "x": 800,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      133,
+      167.8,
+      0
+    ],
+    "name": "Sauron",
+    "cost": 1,
+    "power": 2
+  },
+  "ScarletSpiderClone": {
+    "x": 960,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      170.8,
+      79.4,
+      82.8
+    ],
+    "name": "ScarletSpiderClone",
+    "cost": 0,
+    "power": 0
+  },
+  "ScarletSpiderWebSlingers": {
+    "x": 1120,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      131.9,
+      100.2,
+      151.3
+    ],
+    "name": "ScarletSpiderWebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "ScarletSpider": {
+    "x": 1280,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      166.7,
+      80.3,
+      82.4
+    ],
+    "name": "Scarlet Spider",
+    "cost": 4,
+    "power": 5
+  },
+  "ScarletWitchBrotherhoodOfMutants": {
+    "x": 1440,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 127,
+    "th": 72,
+    "rgb_mean": [
+      126,
+      60.4,
+      120.8
+    ],
+    "name": "ScarletWitchBrotherhoodOfMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "ScarletWitchQueenOfChaos": {
+    "x": 1600,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      154.2,
+      77.8,
+      89.4
+    ],
+    "name": "ScarletWitchQueenOfChaos",
+    "cost": 0,
+    "power": 0
+  },
+  "ScarletWitch": {
+    "x": 1760,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 123,
+    "th": 72,
+    "rgb_mean": [
+      167,
+      58.1,
+      34.6
+    ],
+    "name": "Scarlet Witch",
+    "cost": 2,
+    "power": 3
+  },
+  "Scorn": {
+    "x": 1920,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      114.1,
+      90.6,
+      121.3
+    ],
+    "name": "Scorn",
+    "cost": 1,
+    "power": 2
+  },
+  "ScorpionBrandNewDay": {
+    "x": 2080,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      138.9,
+      106.7,
+      63.5
+    ],
+    "name": "Scorpion Brand New Day",
+    "cost": 6,
+    "power": 8
+  },
+  "Scorpion": {
+    "x": 2240,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      67.2,
+      124.6,
+      47.9
+    ],
+    "name": "Scorpion",
+    "cost": 2,
+    "power": 3
+  },
+  "Scream": {
+    "x": 2400,
+    "y": 2320,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      171.6,
+      118.9,
+      127.8
+    ],
+    "name": "Scream",
+    "cost": 2,
+    "power": 1
+  },
+  "SebastianShaw": {
+    "x": 0,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 14,
+    "ty": 4,
+    "tw": 132,
+    "th": 72,
+    "rgb_mean": [
+      143.5,
+      127.5,
+      122.9
+    ],
+    "name": "Sebastian Shaw",
+    "cost": 3,
+    "power": 5
+  },
+  "SeleneBrotherhoodOfMutants": {
+    "x": 160,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      124.3,
+      61,
+      121.9
+    ],
+    "name": "SeleneBrotherhoodOfMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "SeleneHorseman": {
+    "x": 320,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      174.9,
+      98.9,
+      127.5
+    ],
+    "name": "Selene Horseman of Famine",
+    "cost": 4,
+    "power": 4
+  },
+  "Selene": {
+    "x": 480,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      136.1,
+      96.3,
+      168.2
+    ],
+    "name": "Selene",
+    "cost": 1,
+    "power": 2
+  },
+  "SentinelChampion": {
+    "x": 640,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      216.3,
+      216,
+      216.3
+    ],
+    "name": "SentinelChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Sentinel": {
+    "x": 800,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 32,
+    "rgb_mean": [
+      180,
+      147.3,
+      212.7
+    ],
+    "name": "Sentinel",
+    "cost": 2,
+    "power": 3
+  },
+  "SentryThunderbolts": {
+    "x": 960,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 143,
+    "th": 72,
+    "rgb_mean": [
+      110.7,
+      93.4,
+      94.8
+    ],
+    "name": "SentryThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "Sentry": {
+    "x": 1120,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      164,
+      139.1,
+      99.6
+    ],
+    "name": "Sentry",
+    "cost": 4,
+    "power": 9
+  },
+  "Sera": {
+    "x": 1280,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 145,
+    "th": 72,
+    "rgb_mean": [
+      124.1,
+      90.8,
+      136.8
+    ],
+    "name": "Sera",
+    "cost": 5,
+    "power": 5
+  },
+  "Sersi": {
+    "x": 1440,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      128.7,
+      127.3,
+      119
+    ],
+    "name": "Sersi",
+    "cost": 5,
+    "power": 7
+  },
+  "ShadowKing": {
+    "x": 1600,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 32,
+    "rgb_mean": [
+      175,
+      139.9,
+      167.4
+    ],
+    "name": "Shadow King",
+    "cost": 3,
+    "power": 4
+  },
+  "ShadowlandsDaredevil": {
+    "x": 1760,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      89.2,
+      46.2,
+      52.9
+    ],
+    "name": "Shadowlands Daredevil",
+    "cost": 2,
+    "power": 3
+  },
+  "ShangChiMasterOfTheRings": {
+    "x": 1920,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      191,
+      139.1,
+      76.2
+    ],
+    "name": "Shang-Chi, Master of the Rings",
+    "cost": 3,
+    "power": 5
+  },
+  "ShangChi": {
+    "x": 2080,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 26,
+    "rgb_mean": [
+      191.6,
+      109.8,
+      0
+    ],
+    "name": "Shang-Chi",
+    "cost": 4,
+    "power": 3
+  },
+  "Shanna": {
+    "x": 2240,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      163.8,
+      112.2,
+      14.8
+    ],
+    "name": "Shanna",
+    "cost": 3,
+    "power": 4
+  },
+  "ShardsOfTheSwordOfFuXi": {
+    "x": 2400,
+    "y": 2400,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      66.7,
+      94.3,
+      95.6
+    ],
+    "name": "ShardsOfTheSwordOfFuXi",
+    "cost": 0,
+    "power": 0
+  },
+  "SheHulk": {
+    "x": 0,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      104.9,
+      149.6,
+      68.1
+    ],
+    "name": "She-Hulk",
+    "cost": 6,
+    "power": 10
+  },
+  "Shocker": {
+    "x": 160,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      184.2,
+      146.5,
+      63.7
+    ],
+    "name": "Shocker",
+    "cost": 2,
+    "power": 4
+  },
+  "ShouLao": {
+    "x": 320,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      187.8,
+      116.2,
+      81
+    ],
+    "name": "Shou-Lao the Undying",
+    "cost": 5,
+    "power": 8
+  },
+  "Shuri": {
+    "x": 480,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      106.9,
+      163.8,
+      176.9
+    ],
+    "name": "Shuri",
+    "cost": 4,
+    "power": 3
+  },
+  "Silk": {
+    "x": 640,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      181.1,
+      90.3,
+      91.7
+    ],
+    "name": "Silk",
+    "cost": 2,
+    "power": 5
+  },
+  "SilverSable": {
+    "x": 800,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      89.8,
+      75.6,
+      89.9
+    ],
+    "name": "Silver Sable",
+    "cost": 1,
+    "power": 0
+  },
+  "SilverSamurai": {
+    "x": 960,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      120.4,
+      136.3,
+      152.2
+    ],
+    "name": "Silver Samurai",
+    "cost": 4,
+    "power": 6
+  },
+  "SilverSurferFirstSteps": {
+    "x": 1120,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      108.7,
+      171.9,
+      197.4
+    ],
+    "name": "Silver Surfer First Steps",
+    "cost": 3,
+    "power": 5
+  },
+  "SilverSurfer": {
+    "x": 1280,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 128,
+    "th": 72,
+    "rgb_mean": [
+      154.2,
+      154.8,
+      154.2
+    ],
+    "name": "Silver Surfer",
+    "cost": 3,
+    "power": 2
+  },
+  "SinisterClone": {
+    "x": 1440,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 31,
+    "ty": 4,
+    "tw": 98,
+    "th": 72,
+    "rgb_mean": [
+      208.8,
+      185.6,
+      193.5
+    ],
+    "name": "SinisterClone",
+    "cost": 0,
+    "power": 0
+  },
+  "SinisterSix": {
+    "x": 1600,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      100.8,
+      112.7,
+      60.8
+    ],
+    "name": "Sinister Six",
+    "cost": 6,
+    "power": 12
+  },
+  "SirPercyBlackKnight": {
+    "x": 1760,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      219.8,
+      219.9,
+      219.8
+    ],
+    "name": "SirPercyBlackKnight",
+    "cost": 0,
+    "power": 0
+  },
+  "Skaar": {
+    "x": 1920,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 38,
+    "rgb_mean": [
+      96,
+      124.3,
+      0
+    ],
+    "name": "Skaar",
+    "cost": 7,
+    "power": 12
+  },
+  "Skill01AnnihilusChampion": {
+    "x": 2080,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      79.9,
+      133.9,
+      65.1
+    ],
+    "name": "Skill01AnnihilusChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01BlackPantherChampion": {
+    "x": 2240,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      86.1,
+      59.8,
+      141.2
+    ],
+    "name": "Skill01BlackPantherChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01CaptainAmericaChampion_01": {
+    "x": 2400,
+    "y": 2480,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      122.6,
+      116.1,
+      134.5
+    ],
+    "name": "Skill01CaptainAmericaChampion_01",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01CaptainAmericaChampion": {
+    "x": 0,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      122.6,
+      116.1,
+      134.5
+    ],
+    "name": "Skill01CaptainAmericaChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01CarnageChampion": {
+    "x": 160,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      92.7,
+      81.9,
+      35.3
+    ],
+    "name": "Skill01CarnageChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01DrDoomChampion": {
+    "x": 320,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 145,
+    "th": 72,
+    "rgb_mean": [
+      100.5,
+      134.7,
+      109.7
+    ],
+    "name": "Skill01DrDoomChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01GhostRiderChampion": {
+    "x": 480,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      173.1,
+      109.3,
+      4.3
+    ],
+    "name": "Skill01GhostRiderChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01GhostSpiderChampion": {
+    "x": 640,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      89.8,
+      123.7,
+      113.7
+    ],
+    "name": "Skill01GhostSpiderChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01HerbieChampion": {
+    "x": 800,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      133,
+      163.7,
+      181.6
+    ],
+    "name": "Skill01HerbieChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01HulkChampion": {
+    "x": 960,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      26.2,
+      130.6,
+      51.3
+    ],
+    "name": "Skill01HulkChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01HumanTorchFirstStepsChampion": {
+    "x": 1120,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      118.2,
+      179.1,
+      203.6
+    ],
+    "name": "Skill01HumanTorchFirstStepsChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01InvisibleWomanChampion": {
+    "x": 1280,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      147.8,
+      196.1,
+      227
+    ],
+    "name": "Skill01InvisibleWomanChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01IronManChampion": {
+    "x": 1440,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      193.2,
+      60.5,
+      49.1
+    ],
+    "name": "Skill01IronManChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01MagnetoChampion": {
+    "x": 1600,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      171.5,
+      143.3,
+      60.9
+    ],
+    "name": "Skill01MagnetoChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01MoleManChampion": {
+    "x": 1760,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      95,
+      128.3,
+      91.7
+    ],
+    "name": "Skill01MoleManChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01MrFantasticChampion": {
+    "x": 1920,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      125.1,
+      166.1,
+      204.4
+    ],
+    "name": "Skill01MrFantasticChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01RocketRaccoonChampion": {
+    "x": 2080,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      112.2,
+      180.5,
+      97.9
+    ],
+    "name": "Skill01RocketRaccoonChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01SentinelChampion": {
+    "x": 2240,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      182.5,
+      151.1,
+      215.1
+    ],
+    "name": "Skill01SentinelChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01ThanosChampion_01": {
+    "x": 2400,
+    "y": 2560,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 33,
+    "rgb_mean": [
+      73.7,
+      85.6,
+      96.4
+    ],
+    "name": "Skill01ThanosChampion_01",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01ThanosChampion": {
+    "x": 0,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 24,
+    "tw": 152,
+    "th": 33,
+    "rgb_mean": [
+      73.7,
+      85.6,
+      96.4
+    ],
+    "name": "Skill01ThanosChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01TheThingFirstStepsChampion": {
+    "x": 160,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 24,
+    "ty": 4,
+    "tw": 113,
+    "th": 72,
+    "rgb_mean": [
+      137.1,
+      193,
+      213.9
+    ],
+    "name": "Skill01TheThingFirstStepsChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01ThorChampion": {
+    "x": 320,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      127.4,
+      32.9,
+      43.7
+    ],
+    "name": "Skill01ThorChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Skill01WeaponXWolverineChampion": {
+    "x": 480,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 139,
+    "th": 72,
+    "rgb_mean": [
+      211.5,
+      143.4,
+      19.3
+    ],
+    "name": "Skill01WeaponXWolverineChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "SnowguardBear": {
+    "x": 640,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      101.3,
+      104,
+      121.5
+    ],
+    "name": "SnowguardBear",
+    "cost": 0,
+    "power": 0
+  },
+  "SnowguardHawk": {
+    "x": 800,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      97.6,
+      99.5,
+      116
+    ],
+    "name": "SnowguardHawk",
+    "cost": 0,
+    "power": 0
+  },
+  "SnowguardWolf": {
+    "x": 960,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 27,
+    "tw": 152,
+    "th": 27,
+    "rgb_mean": [
+      186,
+      186.1,
+      186
+    ],
+    "name": "SnowguardWolf",
+    "cost": 0,
+    "power": 0
+  },
+  "Snowguard": {
+    "x": 1120,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      100.7,
+      101.8,
+      119.6
+    ],
+    "name": "Snowguard",
+    "cost": 1,
+    "power": 2
+  },
+  "SoulShot": {
+    "x": 1280,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 29,
+    "ty": 4,
+    "tw": 103,
+    "th": 72,
+    "rgb_mean": [
+      147.8,
+      102.3,
+      72.3
+    ],
+    "name": "SoulShot",
+    "cost": 0,
+    "power": 0
+  },
+  "SoulStone": {
+    "x": 1440,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 20,
+    "ty": 4,
+    "tw": 121,
+    "th": 72,
+    "rgb_mean": [
+      179.5,
+      114.9,
+      52.8
+    ],
+    "name": "SoulStone",
+    "cost": 0,
+    "power": 0
+  },
+  "SpaceShot": {
+    "x": 1600,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 25,
+    "ty": 4,
+    "tw": 111,
+    "th": 72,
+    "rgb_mean": [
+      82.7,
+      121.3,
+      159.6
+    ],
+    "name": "SpaceShot",
+    "cost": 0,
+    "power": 0
+  },
+  "SpaceStone": {
+    "x": 1760,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 138,
+    "th": 72,
+    "rgb_mean": [
+      94.2,
+      121,
+      160
+    ],
+    "name": "SpaceStone",
+    "cost": 0,
+    "power": 0
+  },
+  "Sparky": {
+    "x": 1920,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 66,
+    "rgb_mean": [
+      112.6,
+      129,
+      77
+    ],
+    "name": "Sparky",
+    "cost": 2,
+    "power": 2
+  },
+  "Spectrum": {
+    "x": 2080,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 38,
+    "rgb_mean": [
+      196.5,
+      178.7,
+      154.2
+    ],
+    "name": "Spectrum",
+    "cost": 6,
+    "power": 7
+  },
+  "Speed": {
+    "x": 2240,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      100.5,
+      139.3,
+      93.7
+    ],
+    "name": "Speed",
+    "cost": 3,
+    "power": 3
+  },
+  "Spell01Agamotto": {
+    "x": 2400,
+    "y": 2640,
+    "w": 160,
+    "h": 80,
+    "tx": 10,
+    "ty": 4,
+    "tw": 141,
+    "th": 72,
+    "rgb_mean": [
+      109,
+      127.9,
+      163
+    ],
+    "name": "Spell01Agamotto",
+    "cost": 0,
+    "power": 0
+  },
+  "Spell02Agamotto": {
+    "x": 0,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 56,
+    "rgb_mean": [
+      93.2,
+      137.2,
+      70.9
+    ],
+    "name": "Spell02Agamotto",
+    "cost": 0,
+    "power": 0
+  },
+  "Spell03Agamotto": {
+    "x": 160,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 42,
+    "ty": 4,
+    "tw": 77,
+    "th": 72,
+    "rgb_mean": [
+      112.7,
+      112.2,
+      101.9
+    ],
+    "name": "Spell03Agamotto",
+    "cost": 0,
+    "power": 0
+  },
+  "Spell04Agamotto": {
+    "x": 320,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      60.2,
+      133.3,
+      154.3
+    ],
+    "name": "Spell04Agamotto",
+    "cost": 0,
+    "power": 0
+  },
+  "Spell05Agamotto": {
+    "x": 480,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      170.4,
+      94.6,
+      45.2
+    ],
+    "name": "Spell05Agamotto",
+    "cost": 0,
+    "power": 0
+  },
+  "SpiderHam": {
+    "x": 640,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      144.9,
+      53.5,
+      74.8
+    ],
+    "name": "Spider-Ham",
+    "cost": 1,
+    "power": 1
+  },
+  "SpiderMan2099WebSlingers": {
+    "x": 800,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      129.3,
+      103.5,
+      158.8
+    ],
+    "name": "SpiderMan2099WebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "SpiderMan2099": {
+    "x": 960,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      178.6,
+      161.7,
+      166.1
+    ],
+    "name": "Spider-Man 2099",
+    "cost": 4,
+    "power": 5
+  },
+  "SpiderManBrandNewDay": {
+    "x": 1120,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      131.2,
+      38.4,
+      48.6
+    ],
+    "name": "Spider-Man Brand New Day",
+    "cost": 1,
+    "power": 2
+  },
+  "SpiderManNoir": {
+    "x": 1280,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      118.2,
+      116.4,
+      118.2
+    ],
+    "name": "Spider-Man Noir",
+    "cost": 4,
+    "power": 5
+  },
+  "SpiderPunk": {
+    "x": 1440,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      131,
+      66.6,
+      104.8
+    ],
+    "name": "Spider-Punk",
+    "cost": 3,
+    "power": 3
+  },
+  "SpiderSense": {
+    "x": 1600,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      176.8,
+      110,
+      70.9
+    ],
+    "name": "Spider Sense",
+    "cost": 5,
+    "power": 0
+  },
+  "SpiderWoman": {
+    "x": 1760,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      176.3,
+      117.3,
+      31.1
+    ],
+    "name": "Spider-Woman",
+    "cost": 5,
+    "power": 8
+  },
+  "SquirrelGirl": {
+    "x": 1920,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      92.1,
+      108.3,
+      98.5
+    ],
+    "name": "Squirrel Girl",
+    "cost": 1,
+    "power": 2
+  },
+  "Starbrand": {
+    "x": 2080,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      175.8,
+      124.5,
+      76.9
+    ],
+    "name": "Starbrand",
+    "cost": 3,
+    "power": 10
+  },
+  "Stardust": {
+    "x": 2240,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      102.3,
+      150.2,
+      185.1
+    ],
+    "name": "Stardust",
+    "cost": 4,
+    "power": 6
+  },
+  "Starhawk": {
+    "x": 2400,
+    "y": 2720,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      74.1,
+      126.5,
+      134.3
+    ],
+    "name": "Starhawk",
+    "cost": 2,
+    "power": 3
+  },
+  "StarlordGuardiansOfTheGalaxy": {
+    "x": 0,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 60,
+    "rgb_mean": [
+      114.8,
+      96.6,
+      124.4
+    ],
+    "name": "StarlordGuardiansOfTheGalaxy",
+    "cost": 0,
+    "power": 0
+  },
+  "StarlordMasterOfTheSun": {
+    "x": 160,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      135.4,
+      86.2,
+      39.6
+    ],
+    "name": "Star-Lord, Master of the Sun",
+    "cost": 5,
+    "power": 7
+  },
+  "Stature": {
+    "x": 320,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      161.3,
+      130.1,
+      136.7
+    ],
+    "name": "Stature",
+    "cost": 5,
+    "power": 7
+  },
+  "Stegron": {
+    "x": 480,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      130.5,
+      124.7,
+      65.8
+    ],
+    "name": "Stegron",
+    "cost": 4,
+    "power": 7
+  },
+  "Stick": {
+    "x": 640,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 19,
+    "ty": 4,
+    "tw": 123,
+    "th": 72,
+    "rgb_mean": [
+      89.4,
+      91.8,
+      66.2
+    ],
+    "name": "Stick",
+    "cost": 4,
+    "power": 3
+  },
+  "StormHorseman": {
+    "x": 800,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 124,
+    "th": 72,
+    "rgb_mean": [
+      72.3,
+      114.9,
+      122.9
+    ],
+    "name": "Storm Horseman of Famine",
+    "cost": 3,
+    "power": 1
+  },
+  "Storm": {
+    "x": 960,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      194.7,
+      230.2,
+      239.5
+    ],
+    "name": "Storm",
+    "cost": 3,
+    "power": 1
+  },
+  "Stormbreaker": {
+    "x": 1120,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 26,
+    "tw": 152,
+    "th": 29,
+    "rgb_mean": [
+      156.4,
+      125,
+      63
+    ],
+    "name": "Stormbreaker",
+    "cost": 0,
+    "power": 0
+  },
+  "StrangeSupreme": {
+    "x": 1280,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 22,
+    "ty": 4,
+    "tw": 116,
+    "th": 72,
+    "rgb_mean": [
+      107.9,
+      68.2,
+      137.8
+    ],
+    "name": "Strange Supreme",
+    "cost": 2,
+    "power": 2
+  },
+  "StrongGuy": {
+    "x": 1440,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      110.4,
+      126.8,
+      45.6
+    ],
+    "name": "Strong Guy",
+    "cost": 3,
+    "power": 3
+  },
+  "Stryfe": {
+    "x": 1600,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      119.6,
+      123,
+      145.8
+    ],
+    "name": "Stryfe",
+    "cost": 4,
+    "power": 6
+  },
+  "SubMariner": {
+    "x": 1760,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      71.8,
+      122,
+      125.2
+    ],
+    "name": "Sub-Mariner",
+    "cost": 1,
+    "power": 2
+  },
+  "SummoningRitual01Dormammu": {
+    "x": 1920,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      196,
+      123.6,
+      124.1
+    ],
+    "name": "SummoningRitual01Dormammu",
+    "cost": 0,
+    "power": 0
+  },
+  "SummoningRitual02Dormammu": {
+    "x": 2080,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      184.8,
+      125.3,
+      178.4
+    ],
+    "name": "SummoningRitual02Dormammu",
+    "cost": 0,
+    "power": 0
+  },
+  "SummoningRitual03Dormammu": {
+    "x": 2240,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 148,
+    "th": 72,
+    "rgb_mean": [
+      207.1,
+      155.8,
+      112.4
+    ],
+    "name": "SummoningRitual03Dormammu",
+    "cost": 0,
+    "power": 0
+  },
+  "Sunspot": {
+    "x": 2400,
+    "y": 2800,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 39,
+    "rgb_mean": [
+      100.8,
+      91.6,
+      48.5
+    ],
+    "name": "Sunspot",
+    "cost": 1,
+    "power": 0
+  },
+  "SuperAdaptoid": {
+    "x": 0,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      96.5,
+      131.5,
+      79.6
+    ],
+    "name": "Super-Adaptoid",
+    "cost": 3,
+    "power": 5
+  },
+  "SuperSkrull": {
+    "x": 160,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 62,
+    "rgb_mean": [
+      151.3,
+      136.3,
+      176.2
+    ],
+    "name": "Super-Skrull",
+    "cost": 4,
+    "power": 2
+  },
+  "Supergiant": {
+    "x": 320,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      80.1,
+      111.1,
+      115.8
+    ],
+    "name": "Supergiant",
+    "cost": 4,
+    "power": 5
+  },
+  "SuperiorIronMan": {
+    "x": 480,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      89.8,
+      97,
+      101.9
+    ],
+    "name": "Superior Iron Man",
+    "cost": 5,
+    "power": 7
+  },
+  "SuperiorSpiderMan": {
+    "x": 640,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      173.8,
+      174.1,
+      174.3
+    ],
+    "name": "Superior Spider-Man",
+    "cost": 3,
+    "power": 4
+  },
+  "Surge": {
+    "x": 800,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      69.7,
+      123.3,
+      140.9
+    ],
+    "name": "Surge",
+    "cost": 2,
+    "power": 1
+  },
+  "Surtur": {
+    "x": 960,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 24,
+    "ty": 4,
+    "tw": 113,
+    "th": 72,
+    "rgb_mean": [
+      221.8,
+      108.7,
+      56.9
+    ],
+    "name": "Surtur",
+    "cost": 3,
+    "power": 5
+  },
+  "Swarm": {
+    "x": 1120,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 144,
+    "th": 72,
+    "rgb_mean": [
+      117.4,
+      56.2,
+      112.5
+    ],
+    "name": "Swarm",
+    "cost": 2,
+    "power": 3
+  },
+  "SwordMaster": {
+    "x": 1280,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      109.6,
+      114.8,
+      106.6
+    ],
+    "name": "Sword Master",
+    "cost": 3,
+    "power": 7
+  },
+  "SwordOfFuXi": {
+    "x": 1440,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      99.1,
+      126.1,
+      93.4
+    ],
+    "name": "SwordOfFuXi",
+    "cost": 0,
+    "power": 0
+  },
+  "SymbioteSpiderManWebSlingers": {
+    "x": 1600,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      137.5,
+      95.7,
+      136.2
+    ],
+    "name": "SymbioteSpiderManWebSlingers",
+    "cost": 0,
+    "power": 0
+  },
+  "SymbioteSpiderMan": {
+    "x": 1760,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      166.6,
+      166.2,
+      166.6
+    ],
+    "name": "Symbiote Spider-Man",
+    "cost": 4,
+    "power": 7
+  },
+  "Symbiote": {
+    "x": 1920,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      119.3,
+      146.5,
+      159.2
+    ],
+    "name": "Symbiote",
+    "cost": 0,
+    "power": 0
+  },
+  "TaoMandala": {
+    "x": 2080,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 22,
+    "tw": 152,
+    "th": 37,
+    "rgb_mean": [
+      242.4,
+      145.6,
+      115.8
+    ],
+    "name": "TaoMandala",
+    "cost": 0,
+    "power": 0
+  },
+  "Tarantula": {
+    "x": 2240,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 48,
+    "rgb_mean": [
+      37.6,
+      72.4,
+      99.9
+    ],
+    "name": "Tarantula",
+    "cost": 2,
+    "power": 2
+  },
+  "TaskmasterThunderbolts": {
+    "x": 2400,
+    "y": 2880,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 9,
+    "tw": 152,
+    "th": 63,
+    "rgb_mean": [
+      103.5,
+      88.5,
+      92.4
+    ],
+    "name": "TaskmasterThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "Taskmaster": {
+    "x": 0,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      130.1,
+      130.3,
+      130.7
+    ],
+    "name": "Taskmaster",
+    "cost": 6,
+    "power": 0
+  },
+  "TechnoOrganicVirus": {
+    "x": 160,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      118.9,
+      77.3,
+      83.5
+    ],
+    "name": "Techno-Organic Virus",
+    "cost": 2,
+    "power": 0
+  },
+  "TenRingsUpgrade": {
+    "x": 320,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 143,
+    "th": 72,
+    "rgb_mean": [
+      179,
+      141.5,
+      105.1
+    ],
+    "name": "TenRingsUpgrade",
+    "cost": 0,
+    "power": 0
+  },
+  "TenRings": {
+    "x": 480,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 4,
+    "tw": 152,
+    "th": 72,
+    "rgb_mean": [
+      175.2,
+      122.9,
+      74.2
+    ],
+    "name": "TenRings",
+    "cost": 0,
+    "power": 0
+  },
+  "Terrax": {
+    "x": 640,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      104.3,
+      104.3,
+      105.1
+    ],
+    "name": "Terrax the Tamer",
+    "cost": 3,
+    "power": 4
+  },
+  "TestCard": {
+    "x": 800,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 28,
+    "tw": 139,
+    "th": 25,
+    "rgb_mean": [
+      170.2,
+      170,
+      170.2
+    ],
+    "name": "TestCard",
+    "cost": 0,
+    "power": 0
+  },
+  "ThaddeusRoss": {
+    "x": 960,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 18,
+    "ty": 4,
+    "tw": 125,
+    "th": 72,
+    "rgb_mean": [
+      102.8,
+      71.5,
+      56.4
+    ],
+    "name": "Thaddeus Ross",
+    "cost": 2,
+    "power": 2
+  },
+  "ThanosChampion": {
+    "x": 1120,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 17,
+    "rgb_mean": [
+      222.7,
+      222.9,
+      222.7
+    ],
+    "name": "ThanosChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "ThanosFracturedFrontier": {
+    "x": 1280,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      143.7,
+      105.5,
+      171.9
+    ],
+    "name": "ThanosFracturedFrontier",
+    "cost": 0,
+    "power": 0
+  },
+  "Thanos": {
+    "x": 1440,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      74.5,
+      86,
+      96.6
+    ],
+    "name": "Thanos",
+    "cost": 6,
+    "power": 12
+  },
+  "TheAncientOne": {
+    "x": 1600,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      218.1,
+      135.3,
+      166.3
+    ],
+    "name": "The Ancient One",
+    "cost": 3,
+    "power": 5
+  },
+  "TheCollector": {
+    "x": 1760,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      119.1,
+      99.6,
+      168.2
+    ],
+    "name": "The Collector",
+    "cost": 2,
+    "power": 2
+  },
+  "TheHunger": {
+    "x": 1920,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 25,
+    "ty": 4,
+    "tw": 111,
+    "th": 72,
+    "rgb_mean": [
+      84.5,
+      105.6,
+      46.8
+    ],
+    "name": "The Hunger",
+    "cost": 1,
+    "power": 0
+  },
+  "TheInversion": {
+    "x": 2080,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      163.1,
+      120.6,
+      113.9
+    ],
+    "name": "The Inversion",
+    "cost": 3,
+    "power": 0
+  },
+  "ThePhoenixForce": {
+    "x": 2240,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      178.3,
+      173.3,
+      89.3
+    ],
+    "name": "Phoenix Force",
+    "cost": 4,
+    "power": 5
+  },
+  "TheTenRings": {
+    "x": 2400,
+    "y": 2960,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      175.5,
+      138.7,
+      86.1
+    ],
+    "name": "TheTenRings",
+    "cost": 0,
+    "power": 0
+  },
+  "TheThingFirstStepsChampion": {
+    "x": 0,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 35,
+    "tw": 152,
+    "th": 11,
+    "rgb_mean": [
+      206.5,
+      206.4,
+      206.5
+    ],
+    "name": "TheThingFirstStepsChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "TheThingFirstSteps": {
+    "x": 160,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      128.1,
+      185.1,
+      207.3
+    ],
+    "name": "The Thing First Steps",
+    "cost": 5,
+    "power": 6
+  },
+  "TheVoid": {
+    "x": 320,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 136,
+    "th": 72,
+    "rgb_mean": [
+      98.6,
+      76.8,
+      57.4
+    ],
+    "name": "TheVoid",
+    "cost": 0,
+    "power": 0
+  },
+  "Thena": {
+    "x": 480,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      157.4,
+      103.8,
+      93.1
+    ],
+    "name": "Thena",
+    "cost": 2,
+    "power": 0
+  },
+  "ThorAvengers": {
+    "x": 640,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 4,
+    "tw": 145,
+    "th": 72,
+    "rgb_mean": [
+      104.3,
+      62.8,
+      102.4
+    ],
+    "name": "ThorAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "ThorChampion": {
+    "x": 800,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 18,
+    "rgb_mean": [
+      225.7,
+      225.6,
+      225.7
+    ],
+    "name": "ThorChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "Thor": {
+    "x": 960,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 59,
+    "rgb_mean": [
+      148.5,
+      46.2,
+      58.8
+    ],
+    "name": "Thor",
+    "cost": 3,
+    "power": 5
+  },
+  "ThunderingHammer": {
+    "x": 1120,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      127.4,
+      32.9,
+      43.7
+    ],
+    "name": "ThunderingHammer",
+    "cost": 0,
+    "power": 0
+  },
+  "TigerSpirit": {
+    "x": 1280,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      116.2,
+      116.2,
+      116.1
+    ],
+    "name": "TigerSpirit",
+    "cost": 0,
+    "power": 0
+  },
+  "TimeShot": {
+    "x": 1440,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 35,
+    "ty": 4,
+    "tw": 90,
+    "th": 72,
+    "rgb_mean": [
+      79,
+      135.7,
+      89.4
+    ],
+    "name": "TimeShot",
+    "cost": 0,
+    "power": 0
+  },
+  "TimeStone": {
+    "x": 1600,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 22,
+    "ty": 4,
+    "tw": 116,
+    "th": 72,
+    "rgb_mean": [
+      69.3,
+      143.4,
+      65.3
+    ],
+    "name": "TimeStone",
+    "cost": 0,
+    "power": 0
+  },
+  "Titania": {
+    "x": 1760,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      198.4,
+      155.3,
+      185.8
+    ],
+    "name": "Titania",
+    "cost": 1,
+    "power": 5
+  },
+  "Toad": {
+    "x": 1920,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 44,
+    "ty": 29,
+    "tw": 73,
+    "th": 23,
+    "rgb_mean": [
+      189.9,
+      189.8,
+      189.9
+    ],
+    "name": "Toad",
+    "cost": 0,
+    "power": 0
+  },
+  "Tombstone": {
+    "x": 2080,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 30,
+    "rgb_mean": [
+      101.1,
+      111.2,
+      137.3
+    ],
+    "name": "Tombstone",
+    "cost": 2,
+    "power": 3
+  },
+  "Topaz": {
+    "x": 2240,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 8,
+    "ty": 10,
+    "tw": 145,
+    "th": 60,
+    "rgb_mean": [
+      125,
+      110.7,
+      83.7
+    ],
+    "name": "Topaz",
+    "cost": 2,
+    "power": 4
+  },
+  "ToxieDoxieThunderbolts": {
+    "x": 2400,
+    "y": 3040,
+    "w": 160,
+    "h": 80,
+    "tx": 17,
+    "ty": 4,
+    "tw": 126,
+    "th": 72,
+    "rgb_mean": [
+      112,
+      95.5,
+      92.5
+    ],
+    "name": "ToxieDoxieThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "ToxieDoxie": {
+    "x": 0,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      92,
+      123.2,
+      84.1
+    ],
+    "name": "Toxie Doxie",
+    "cost": 2,
+    "power": 3
+  },
+  "Toxin": {
+    "x": 160,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      188.7,
+      72.6,
+      75.5
+    ],
+    "name": "Toxin",
+    "cost": 2,
+    "power": 2
+  },
+  "Triton": {
+    "x": 320,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 22,
+    "ty": 4,
+    "tw": 117,
+    "th": 72,
+    "rgb_mean": [
+      120,
+      116.2,
+      91.4
+    ],
+    "name": "Triton",
+    "cost": 3,
+    "power": 6
+  },
+  "TyphoidMary": {
+    "x": 480,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      138.5,
+      72,
+      72
+    ],
+    "name": "Typhoid Mary",
+    "cost": 4,
+    "power": 10
+  },
+  "USAgent": {
+    "x": 640,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      157.6,
+      16.4,
+      31.4
+    ],
+    "name": "U.S. Agent",
+    "cost": 2,
+    "power": 3
+  },
+  "Uatu": {
+    "x": 800,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 135,
+    "th": 72,
+    "rgb_mean": [
+      139.9,
+      142.2,
+      197.8
+    ],
+    "name": "Uatu the Watcher",
+    "cost": 1,
+    "power": 2
+  },
+  "UltronMindStone": {
+    "x": 960,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      155.1,
+      129,
+      39.2
+    ],
+    "name": "UltronMindStone",
+    "cost": 0,
+    "power": 0
+  },
+  "UltronPowerStone": {
+    "x": 1120,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 51,
+    "rgb_mean": [
+      149.2,
+      75.8,
+      173.3
+    ],
+    "name": "UltronPowerStone",
+    "cost": 0,
+    "power": 0
+  },
+  "UltronRealityStone": {
+    "x": 1280,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 16,
+    "tw": 152,
+    "th": 49,
+    "rgb_mean": [
+      180.1,
+      95.9,
+      73.5
+    ],
+    "name": "UltronRealityStone",
+    "cost": 0,
+    "power": 0
+  },
+  "UltronSoulStone": {
+    "x": 1440,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      185.7,
+      117.5,
+      48.3
+    ],
+    "name": "UltronSoulStone",
+    "cost": 0,
+    "power": 0
+  },
+  "UltronSpaceStone": {
+    "x": 1600,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      10.7,
+      130.2,
+      169.6
+    ],
+    "name": "UltronSpaceStone",
+    "cost": 0,
+    "power": 0
+  },
+  "UltronTimeStone": {
+    "x": 1760,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      25.9,
+      155.8,
+      102
+    ],
+    "name": "UltronTimeStone",
+    "cost": 0,
+    "power": 0
+  },
+  "Ultron": {
+    "x": 1920,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      131.7,
+      135.2,
+      139.9
+    ],
+    "name": "Ultron",
+    "cost": 6,
+    "power": 8
+  },
+  "UncleBen": {
+    "x": 2080,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 29,
+    "ty": 4,
+    "tw": 103,
+    "th": 72,
+    "rgb_mean": [
+      172.7,
+      124.1,
+      73
+    ],
+    "name": "Uncle Ben",
+    "cost": 1,
+    "power": 2
+  },
+  "ValentinaThunderbolts": {
+    "x": 2240,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 6,
+    "ty": 4,
+    "tw": 149,
+    "th": 72,
+    "rgb_mean": [
+      116.9,
+      97.8,
+      91.4
+    ],
+    "name": "ValentinaThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "Valentina": {
+    "x": 2400,
+    "y": 3120,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 44,
+    "rgb_mean": [
+      96.5,
+      95,
+      104.2
+    ],
+    "name": "Valentina",
+    "cost": 2,
+    "power": 3
+  },
+  "Valkyrie": {
+    "x": 0,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 12,
+    "tw": 152,
+    "th": 57,
+    "rgb_mean": [
+      123.3,
+      169.7,
+      188.5
+    ],
+    "name": "Valkyrie",
+    "cost": 5,
+    "power": 3
+  },
+  "VampireAmericaChavez": {
+    "x": 160,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 34,
+    "tw": 152,
+    "th": 12,
+    "rgb_mean": [
+      213.2,
+      213.4,
+      213.2
+    ],
+    "name": "VampireAmericaChavez",
+    "cost": 0,
+    "power": 0
+  },
+  "VampireDeaconFrost": {
+    "x": 320,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      221.1,
+      221.3,
+      221.1
+    ],
+    "name": "VampireDeaconFrost",
+    "cost": 0,
+    "power": 0
+  },
+  "VampireEnchantress": {
+    "x": 480,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 14,
+    "rgb_mean": [
+      220.1,
+      220.6,
+      220.1
+    ],
+    "name": "VampireEnchantress",
+    "cost": 0,
+    "power": 0
+  },
+  "VampireKillmonger": {
+    "x": 640,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 33,
+    "tw": 152,
+    "th": 15,
+    "rgb_mean": [
+      217.2,
+      217.2,
+      217.2
+    ],
+    "name": "VampireKillmonger",
+    "cost": 0,
+    "power": 0
+  },
+  "VampiricSpear": {
+    "x": 800,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 18,
+    "rgb_mean": [
+      220.2,
+      220.2,
+      220.2
+    ],
+    "name": "VampiricSpear",
+    "cost": 0,
+    "power": 0
+  },
+  "Venom": {
+    "x": 960,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      87.9,
+      106.9,
+      121
+    ],
+    "name": "Venom",
+    "cost": 3,
+    "power": 3
+  },
+  "Venus": {
+    "x": 1120,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      136.3,
+      103.6,
+      71.6
+    ],
+    "name": "Venus",
+    "cost": 3,
+    "power": 3
+  },
+  "VibroShockGauntlets": {
+    "x": 1280,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      166.9,
+      100.7,
+      212.6
+    ],
+    "name": "VibroShockGauntlets",
+    "cost": 0,
+    "power": 0
+  },
+  "VictoriaHand": {
+    "x": 1440,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 139,
+    "th": 72,
+    "rgb_mean": [
+      178,
+      122.6,
+      146.2
+    ],
+    "name": "Victoria Hand",
+    "cost": 2,
+    "power": 2
+  },
+  "Viper": {
+    "x": 1600,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 11,
+    "ty": 4,
+    "tw": 139,
+    "th": 72,
+    "rgb_mean": [
+      68.9,
+      138.4,
+      78.2
+    ],
+    "name": "Viper",
+    "cost": 3,
+    "power": 4
+  },
+  "VisionAvengers": {
+    "x": 1760,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 146,
+    "th": 72,
+    "rgb_mean": [
+      111.8,
+      66.1,
+      96.5
+    ],
+    "name": "VisionAvengers",
+    "cost": 0,
+    "power": 0
+  },
+  "Vision": {
+    "x": 1920,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      118.9,
+      129,
+      146.7
+    ],
+    "name": "Vision",
+    "cost": 5,
+    "power": 9
+  },
+  "Viv": {
+    "x": 2080,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      50.5,
+      95.4,
+      62.2
+    ],
+    "name": "Viv Vision",
+    "cost": 3,
+    "power": 4
+  },
+  "Vulture": {
+    "x": 2240,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 70,
+    "rgb_mean": [
+      100.4,
+      138.7,
+      87.2
+    ],
+    "name": "Vulture",
+    "cost": 1,
+    "power": 3
+  },
+  "WadeWilson": {
+    "x": 2400,
+    "y": 3200,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 114,
+    "th": 72,
+    "rgb_mean": [
+      120.7,
+      89.2,
+      70.7
+    ],
+    "name": "Wade Wilson",
+    "cost": 2,
+    "power": 2
+  },
+  "WarMachine": {
+    "x": 0,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      99.2,
+      99,
+      96.4
+    ],
+    "name": "War Machine",
+    "cost": 5,
+    "power": 9
+  },
+  "Warlock": {
+    "x": 160,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 130,
+    "th": 72,
+    "rgb_mean": [
+      128.7,
+      108.9,
+      76.9
+    ],
+    "name": "Warlock",
+    "cost": 3,
+    "power": 4
+  },
+  "Warpath": {
+    "x": 320,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 52,
+    "rgb_mean": [
+      195.2,
+      162.8,
+      68.8
+    ],
+    "name": "Warpath",
+    "cost": 4,
+    "power": 5
+  },
+  "Wasp": {
+    "x": 480,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 27,
+    "ty": 4,
+    "tw": 106,
+    "th": 72,
+    "rgb_mean": [
+      154.1,
+      120,
+      78.1
+    ],
+    "name": "Wasp",
+    "cost": 0,
+    "power": 1
+  },
+  "Wave": {
+    "x": 640,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 55,
+    "rgb_mean": [
+      65.6,
+      154.2,
+      147.8
+    ],
+    "name": "Wave",
+    "cost": 3,
+    "power": 6
+  },
+  "WeaponH": {
+    "x": 800,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      122.2,
+      78.3,
+      64.2
+    ],
+    "name": "Weapon H",
+    "cost": 7,
+    "power": 14
+  },
+  "WeaponXWolverineChampion": {
+    "x": 960,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 35,
+    "tw": 152,
+    "th": 11,
+    "rgb_mean": [
+      207.6,
+      207.3,
+      207.6
+    ],
+    "name": "WeaponXWolverineChampion",
+    "cost": 0,
+    "power": 0
+  },
+  "WeaponXWolverine": {
+    "x": 1120,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 7,
+    "ty": 4,
+    "tw": 147,
+    "th": 72,
+    "rgb_mean": [
+      171.2,
+      83.6,
+      79.1
+    ],
+    "name": "Weapon X Wolverine",
+    "cost": 2,
+    "power": 3
+  },
+  "WebSling": {
+    "x": 1280,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 46,
+    "rgb_mean": [
+      175.9,
+      155.6,
+      172.8
+    ],
+    "name": "Web Sling",
+    "cost": 1,
+    "power": 0
+  },
+  "WerewolfByNight": {
+    "x": 1440,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 17,
+    "tw": 152,
+    "th": 47,
+    "rgb_mean": [
+      113,
+      87.6,
+      88.3
+    ],
+    "name": "Werewolf By Night",
+    "cost": 3,
+    "power": 3
+  },
+  "WhiteQueenBrotherhoodOfMutants": {
+    "x": 1600,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      109.7,
+      65.4,
+      128.2
+    ],
+    "name": "WhiteQueenBrotherhoodOfMutants",
+    "cost": 0,
+    "power": 0
+  },
+  "WhiteQueen": {
+    "x": 1760,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 42,
+    "rgb_mean": [
+      125.4,
+      161.3,
+      196.6
+    ],
+    "name": "White Queen",
+    "cost": 3,
+    "power": 5
+  },
+  "WhiteTiger": {
+    "x": 1920,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 18,
+    "tw": 152,
+    "th": 45,
+    "rgb_mean": [
+      122.7,
+      118.7,
+      95.4
+    ],
+    "name": "White Tiger",
+    "cost": 5,
+    "power": 1
+  },
+  "WhiteWidow": {
+    "x": 2080,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 13,
+    "ty": 4,
+    "tw": 134,
+    "th": 72,
+    "rgb_mean": [
+      184.9,
+      185.6,
+      186.4
+    ],
+    "name": "White Widow",
+    "cost": 2,
+    "power": 2
+  },
+  "Wiccan": {
+    "x": 2240,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      153.4,
+      176,
+      195.5
+    ],
+    "name": "Wiccan",
+    "cost": 4,
+    "power": 6
+  },
+  "WidowsBite": {
+    "x": 2400,
+    "y": 3280,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      85.8,
+      77.7,
+      80.3
+    ],
+    "name": "WidowsBite",
+    "cost": 0,
+    "power": 0
+  },
+  "WidowsKiss": {
+    "x": 0,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 69,
+    "rgb_mean": [
+      155.7,
+      148.2,
+      157
+    ],
+    "name": "WidowsKiss",
+    "cost": 0,
+    "power": 0
+  },
+  "WildChild": {
+    "x": 160,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 65,
+    "rgb_mean": [
+      131.3,
+      92.7,
+      60.8
+    ],
+    "name": "Wild Child",
+    "cost": 2,
+    "power": 1
+  },
+  "WilsonFisk": {
+    "x": 320,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 21,
+    "tw": 152,
+    "th": 38,
+    "rgb_mean": [
+      117.9,
+      106.8,
+      124.4
+    ],
+    "name": "Wilson Fisk",
+    "cost": 5,
+    "power": 9
+  },
+  "WinterSoldierThunderbolts": {
+    "x": 480,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 15,
+    "ty": 4,
+    "tw": 131,
+    "th": 72,
+    "rgb_mean": [
+      109.8,
+      90.9,
+      73.3
+    ],
+    "name": "WinterSoldierThunderbolts",
+    "cost": 0,
+    "power": 0
+  },
+  "WinterSoldier": {
+    "x": 640,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 8,
+    "tw": 152,
+    "th": 64,
+    "rgb_mean": [
+      124.4,
+      44,
+      45.9
+    ],
+    "name": "WinterSoldier",
+    "cost": 0,
+    "power": 0
+  },
+  "Wolfsbane": {
+    "x": 800,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      133.4,
+      90.2,
+      23.6
+    ],
+    "name": "Wolfsbane",
+    "cost": 3,
+    "power": 2
+  },
+  "WolverineHorseman": {
+    "x": 960,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 5,
+    "tw": 152,
+    "th": 71,
+    "rgb_mean": [
+      151.8,
+      85.9,
+      59.6
+    ],
+    "name": "Wolverine Horseman of War",
+    "cost": 4,
+    "power": 3
+  },
+  "WolverineXMen": {
+    "x": 1120,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 12,
+    "ty": 4,
+    "tw": 137,
+    "th": 72,
+    "rgb_mean": [
+      149.2,
+      124.9,
+      69.8
+    ],
+    "name": "WolverineXMen",
+    "cost": 0,
+    "power": 0
+  },
+  "Wolverine": {
+    "x": 1280,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 15,
+    "tw": 152,
+    "th": 50,
+    "rgb_mean": [
+      198.4,
+      129.6,
+      15.3
+    ],
+    "name": "Wolverine",
+    "cost": 2,
+    "power": 3
+  },
+  "Wong": {
+    "x": 1440,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 20,
+    "tw": 152,
+    "th": 40,
+    "rgb_mean": [
+      127,
+      163.2,
+      14.5
+    ],
+    "name": "Wong",
+    "cost": 4,
+    "power": 2
+  },
+  "X23": {
+    "x": 1600,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 32,
+    "ty": 4,
+    "tw": 96,
+    "th": 72,
+    "rgb_mean": [
+      160.8,
+      127.3,
+      13
+    ],
+    "name": "X-23",
+    "cost": 1,
+    "power": 1
+  },
+  "Xorn": {
+    "x": 1760,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 6,
+    "tw": 152,
+    "th": 68,
+    "rgb_mean": [
+      116.4,
+      111.9,
+      120.7
+    ],
+    "name": "Xorn",
+    "cost": 2,
+    "power": 3
+  },
+  "YakaArrow": {
+    "x": 1920,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 26,
+    "ty": 4,
+    "tw": 109,
+    "th": 72,
+    "rgb_mean": [
+      205.3,
+      114.2,
+      66.7
+    ],
+    "name": "YakaArrow",
+    "cost": 0,
+    "power": 0
+  },
+  "Yellowjacket": {
+    "x": 2080,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 28,
+    "tw": 152,
+    "th": 25,
+    "rgb_mean": [
+      202.1,
+      171,
+      101.7
+    ],
+    "name": "Yellowjacket",
+    "cost": 0,
+    "power": 2
+  },
+  "YoYo": {
+    "x": 2240,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 39,
+    "ty": 29,
+    "tw": 82,
+    "th": 23,
+    "rgb_mean": [
+      184.9,
+      185.2,
+      184.9
+    ],
+    "name": "YoYo",
+    "cost": 0,
+    "power": 0
+  },
+  "Yondu": {
+    "x": 2400,
+    "y": 3360,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 13,
+    "tw": 152,
+    "th": 54,
+    "rgb_mean": [
+      65.2,
+      142,
+      182.7
+    ],
+    "name": "Yondu",
+    "cost": 1,
+    "power": 2
+  },
+  "Zabu": {
+    "x": 0,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 7,
+    "tw": 152,
+    "th": 67,
+    "rgb_mean": [
+      213.9,
+      147,
+      99.5
+    ],
+    "name": "Zabu",
+    "cost": 1,
+    "power": 1
+  },
+  "Zero": {
+    "x": 160,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 14,
+    "tw": 152,
+    "th": 53,
+    "rgb_mean": [
+      87.1,
+      128.4,
+      150.1
+    ],
+    "name": "Zero",
+    "cost": 1,
+    "power": 3
+  },
+  "ZombieBlackCat": {
+    "x": 320,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 32,
+    "tw": 152,
+    "th": 16,
+    "rgb_mean": [
+      229.7,
+      229.8,
+      229.7
+    ],
+    "name": "ZombieBlackCat",
+    "cost": 0,
+    "power": 0
+  },
+  "ZombieBlade": {
+    "x": 480,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 19,
+    "rgb_mean": [
+      231.2,
+      230.7,
+      231.2
+    ],
+    "name": "ZombieBlade",
+    "cost": 0,
+    "power": 0
+  },
+  "ZombieCaptainMarvel": {
+    "x": 640,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 19,
+    "tw": 152,
+    "th": 43,
+    "rgb_mean": [
+      131.1,
+      81.3,
+      64.5
+    ],
+    "name": "Zombie Captain Marvel",
+    "cost": 4,
+    "power": 5
+  },
+  "ZombieGalacti": {
+    "x": 800,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 9,
+    "ty": 4,
+    "tw": 142,
+    "th": 72,
+    "rgb_mean": [
+      111.1,
+      74.2,
+      82.8
+    ],
+    "name": "Zombie Galacti",
+    "cost": 7,
+    "power": 5
+  },
+  "ZombieGiantMan": {
+    "x": 960,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 5,
+    "ty": 4,
+    "tw": 151,
+    "th": 72,
+    "rgb_mean": [
+      127.3,
+      104.7,
+      95.7
+    ],
+    "name": "Zombie Giant-Man",
+    "cost": 5,
+    "power": 4
+  },
+  "ZombieHorde": {
+    "x": 1120,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 30,
+    "ty": 4,
+    "tw": 100,
+    "th": 72,
+    "rgb_mean": [
+      126.8,
+      85.3,
+      24.1
+    ],
+    "name": "ZombieHorde",
+    "cost": 0,
+    "power": 0
+  },
+  "ZombieMisterFantastic": {
+    "x": 1280,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 16,
+    "ty": 4,
+    "tw": 129,
+    "th": 72,
+    "rgb_mean": [
+      98.2,
+      143.9,
+      165.6
+    ],
+    "name": "Zombie Mister Fantastic",
+    "cost": 2,
+    "power": 2
+  },
+  "ZombieNova": {
+    "x": 1440,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 30,
+    "tw": 152,
+    "th": 21,
+    "rgb_mean": [
+      228,
+      228.1,
+      228
+    ],
+    "name": "ZombieNova",
+    "cost": 0,
+    "power": 0
+  },
+  "ZombiePowerMan": {
+    "x": 1600,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 10,
+    "tw": 152,
+    "th": 61,
+    "rgb_mean": [
+      90.2,
+      101.7,
+      69.9
+    ],
+    "name": "Zombie Power Man",
+    "cost": 2,
+    "power": 4
+  },
+  "ZombieScarletWitch": {
+    "x": 1760,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 11,
+    "tw": 152,
+    "th": 58,
+    "rgb_mean": [
+      178.2,
+      99.3,
+      127.9
+    ],
+    "name": "Zombie Scarlet Witch",
+    "cost": 3,
+    "power": 4
+  },
+  "ZombieSentry": {
+    "x": 1920,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 23,
+    "ty": 4,
+    "tw": 115,
+    "th": 72,
+    "rgb_mean": [
+      117.4,
+      131.6,
+      104.1
+    ],
+    "name": "Zombie Sentry",
+    "cost": 2,
+    "power": 1
+  },
+  "ZombieVenom": {
+    "x": 2080,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 31,
+    "tw": 152,
+    "th": 19,
+    "rgb_mean": [
+      226.2,
+      225.7,
+      226.2
+    ],
+    "name": "ZombieVenom",
+    "cost": 0,
+    "power": 0
+  },
+  "vibranium": {
+    "x": 2240,
+    "y": 3440,
+    "w": 160,
+    "h": 80,
+    "tx": 4,
+    "ty": 25,
+    "tw": 152,
+    "th": 31,
+    "rgb_mean": [
+      136.8,
+      173.3,
+      208.1
+    ],
+    "name": "vibranium",
+    "cost": 0,
+    "power": 0
+  }
+}

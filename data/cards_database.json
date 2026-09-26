@@ -1,0 +1,4962 @@
+[
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Abomination",
+    "obtainable": true,
+    "description": "\"Foolish rabble! You are beneath me!\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Abomination",
+    "shortName": "AbmntnB"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Absorbing Man",
+    "obtainable": true,
+    "description": "On Reveal: If the last card you played has an On Reveal, copy its text. (if able)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AbsorbingMan",
+    "shortName": "AbsrbngMnC"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Adam Warlock",
+    "obtainable": true,
+    "description": "End of Turn: Draw a card if you're winning here. Otherwise, +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AdamWarlock",
+    "shortName": "AdmWrlckB"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Aero",
+    "obtainable": true,
+    "description": "On Reveal: The last card your opponent played moves to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Aero",
+    "shortName": "Ar4"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Agatha Harkness",
+    "obtainable": true,
+    "description": "Game Start: Draw Agatha. She controls your cards on even turns.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AgathaHarkness",
+    "shortName": "AgthHrknssE"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Agent 13",
+    "obtainable": true,
+    "description": "On Reveal: Add a random card to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Agent13",
+    "shortName": "Agnt137"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Agent Coulson",
+    "obtainable": true,
+    "description": "On Reveal: Add a random 4-Cost and 0-Cost card to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AgentCoulson",
+    "shortName": "AgntClsnC"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "America Chavez",
+    "obtainable": true,
+    "description": "On Reveal: Give the top card of your deck +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AmericaChavez",
+    "shortName": "AmrcChvzD"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Angela",
+    "obtainable": true,
+    "description": "After you play a card here,+1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Angela",
+    "shortName": "Angl6"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Angel",
+    "obtainable": true,
+    "description": "When one of your cards is destroyed, this flies out of your hand or deck to replace it.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Angel",
+    "shortName": "Angl5"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Ant Man",
+    "obtainable": true,
+    "description": "Ongoing: If your side of this location is full, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "AntMan",
+    "shortName": "AntMn6"
+  },
+  {
+    "power": 8,
+    "cost": 6,
+    "name": "Apocalypse",
+    "obtainable": true,
+    "description": "When Discarded: Put this back with +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Apocalypse",
+    "shortName": "ApclpsA"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Armor",
+    "obtainable": true,
+    "description": "Ongoing: Cards here can'tbe destroyed.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Armor",
+    "shortName": "Armr5"
+  },
+  {
+    "power": 0,
+    "cost": 6,
+    "name": "Arnim Zola",
+    "obtainable": true,
+    "description": "On Reveal: Destroy one of yourother cards here to copy itat the other locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ArnimZola",
+    "shortName": "ArnmZl9"
+  },
+  {
+    "power": 10,
+    "cost": 4,
+    "name": "Attuma",
+    "obtainable": true,
+    "description": "End of Turn: Destroy one of your cards here with less Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Attuma",
+    "shortName": "Attm6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Baron Mordo",
+    "obtainable": true,
+    "description": "On Reveal: The top card of your opponent's deck costs {card.AssignedCost} until turn 6.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BaronMordo",
+    "shortName": "BrnMrdA"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Bast",
+    "obtainable": true,
+    "description": "On Reveal: Set the Power of all cards in your hand to 3.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Bast",
+    "shortName": "Bst4"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Beast",
+    "obtainable": true,
+    "description": "On Reveal: Return your other cards here to your hand. They cost 1 less next turn.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Beast",
+    "shortName": "Bst5"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Bishop",
+    "obtainable": true,
+    "description": "After you play a card, this gains +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Bishop",
+    "shortName": "Bshp6"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Black Bolt",
+    "obtainable": true,
+    "description": "On Reveal: Discard the card that costs the least from youropponent's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BlackBolt",
+    "shortName": "BlckBlt9"
+  },
+  {
+    "power": 4,
+    "cost": 1,
+    "name": "Black Cat",
+    "obtainable": true,
+    "description": "End of Turn: Discard this from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BlackCat",
+    "shortName": "BlckCt8"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Black Panther",
+    "obtainable": true,
+    "description": "On Reveal: Double thiscard's Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BlackPanther",
+    "shortName": "BlckPnthrC"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Black Widow",
+    "obtainable": true,
+    "description": "Activate: Add a {card.Card_Token.Name} to your opponent's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BlackWidow",
+    "shortName": "BlckWdwA"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Blade",
+    "obtainable": true,
+    "description": "On Reveal: Discard the rightmost card from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Blade",
+    "shortName": "Bld5"
+  },
+  {
+    "power": 3,
+    "cost": 5,
+    "name": "Blue Marvel",
+    "obtainable": true,
+    "description": "Ongoing: Your other cards have +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BlueMarvel",
+    "shortName": "BlMrvlA"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Brood",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 Broodlings here with the same Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Brood",
+    "shortName": "Brd5"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Bucky Barnes",
+    "obtainable": true,
+    "description": "When Destroyed: Replace this with the {card.Card_Token.Name}.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "BuckyBarnes",
+    "shortName": "BckBrnsB"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Cable",
+    "obtainable": true,
+    "description": "On Reveal: Draw a card from your opponent's deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Cable",
+    "shortName": "Cbl5"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Captain America",
+    "obtainable": true,
+    "description": "Ongoing: Your other Ongoing cards here have +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "CaptainAmerica",
+    "shortName": "CptnAmrcE"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Captain Marvel",
+    "obtainable": true,
+    "description": "At the end of the game, move to a location that wins you thegame. (If possible)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "CaptainMarvel",
+    "shortName": "CptnMrvlD"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Carnage",
+    "obtainable": true,
+    "description": "On Reveal: Destroy your other cards here. +2 Power for each destroyed.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Carnage",
+    "shortName": "Crng7"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Cerebro",
+    "obtainable": true,
+    "description": "Ongoing: Your highest-Power cards have +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Cerebro",
+    "shortName": "Crbr7"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Cloak",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, all cards are Moveable to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Cloak",
+    "shortName": "Clk5"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Colleen Wing",
+    "obtainable": true,
+    "description": "On Reveal: Discard the card that costs the least from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ColleenWing",
+    "shortName": "CllnWngB"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Colossus",
+    "obtainable": true,
+    "description": "Ongoing: Can't be destroyed, moved, or have its Power reduced.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Colossus",
+    "shortName": "Clsss8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Cosmo",
+    "obtainable": true,
+    "description": "Ongoing: On Reveal abilities won't happen here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Cosmo",
+    "shortName": "Csm5"
+  },
+  {
+    "power": 10,
+    "cost": 4,
+    "name": "Crossbones",
+    "obtainable": true,
+    "description": "You can only play this at locations where you are winning.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Crossbones",
+    "shortName": "CrssbnsA"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Crystal",
+    "obtainable": true,
+    "description": "On Reveal: Each playerdraws a card.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Crystal",
+    "shortName": "Crstl7"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Cyclops",
+    "obtainable": true,
+    "description": "\"Let's move, X-Men.\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Cyclops",
+    "shortName": "Cclps7"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Dagger",
+    "obtainable": true,
+    "description": "When this moves to a location,+2 Power for each enemy card there.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Dagger",
+    "shortName": "Dggr6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Daredevil",
+    "obtainable": true,
+    "description": "On turn 5, you get to see your opponent's plays before youmake your own.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Daredevil",
+    "shortName": "Drdvl9"
+  },
+  {
+    "power": 3,
+    "cost": 5,
+    "name": "Darkhawk",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for each card in your opponent's deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Darkhawk",
+    "shortName": "Drkhwk8"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Dazzler",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for each location that's full on your side.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Dazzler",
+    "shortName": "Dzzlr7"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Deadpool",
+    "obtainable": true,
+    "description": "When Destroyed: Return this to your hand with double the Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Deadpool",
+    "shortName": "Ddpl8"
+  },
+  {
+    "power": 12,
+    "cost": 8,
+    "name": "Death",
+    "obtainable": true,
+    "description": "Costs 1 less for each card destroyed this game.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Death",
+    "shortName": "Dth5"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Deathlok",
+    "obtainable": true,
+    "description": "On Reveal: Destroy yourother cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Deathlok",
+    "shortName": "Dthlk8"
+  },
+  {
+    "power": 7,
+    "cost": 3,
+    "name": "Debrii",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Name} to each other location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Debrii",
+    "shortName": "Dbr6"
+  },
+  {
+    "power": 18,
+    "cost": 6,
+    "name": "Destroyer",
+    "obtainable": true,
+    "description": "On Reveal: Destroy your cards at other locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Destroyer",
+    "shortName": "Dstrr9"
+  },
+  {
+    "power": 4,
+    "cost": 5,
+    "name": "Devil Dinosaur",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for each card in your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "DevilDinosaur",
+    "shortName": "DvlDnsrD"
+  },
+  {
+    "power": 8,
+    "cost": 4,
+    "name": "Doctor Octopus",
+    "obtainable": true,
+    "description": "On Reveal: Pull the lowest-Power character from your opponent's hand to their side of this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "DoctorOctopus",
+    "shortName": "DctrOctpsD"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Doctor Strange",
+    "obtainable": true,
+    "description": "On Reveal: Move your highest-Power card(s) to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "DoctorStrange",
+    "shortName": "DctrStrngD"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Domino",
+    "obtainable": true,
+    "description": "You always draw this card on turn 2, and not before.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Domino",
+    "shortName": "Dmn6"
+  },
+  {
+    "power": 1,
+    "cost": 4,
+    "name": "Dracula",
+    "obtainable": true,
+    "description": "At the end of the game, discard a card from your hand to gain its Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Dracula",
+    "shortName": "Drcl7"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Drax",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Drax",
+    "shortName": "Drx4"
+  },
+  {
+    "power": 5,
+    "cost": 6,
+    "name": "Doctor Doom",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Power}-Power {card.Card_Token.Name} to each other location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "DrDoom",
+    "shortName": "DrDm6"
+  },
+  {
+    "power": 7,
+    "cost": 1,
+    "name": "Ebony Maw",
+    "obtainable": true,
+    "description": "You can't play this after turn 3.Ongoing: You can't play cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "EbonyMaw",
+    "shortName": "EbnMw8"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Electro",
+    "obtainable": true,
+    "description": "On Reveal: +1 Max Energy. Ongoing: You can only play{card.StageCardsLimit} card a turn.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Electro",
+    "shortName": "Elctr7"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Elektra",
+    "obtainable": true,
+    "description": "On Reveal: Destroy an enemy 1-Cost card here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Elektra",
+    "shortName": "Elktr7"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Enchantress",
+    "obtainable": true,
+    "description": "On Reveal: Remove the abilities from all Ongoing cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Enchantress",
+    "shortName": "EnchntrssB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Falcon",
+    "obtainable": true,
+    "description": "On Reveal: Return your 1-Cost cards to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Falcon",
+    "shortName": "Flcn6"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Forge",
+    "obtainable": true,
+    "description": "On Reveal: Give the next card you play +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Forge",
+    "shortName": "Frg5"
+  },
+  {
+    "power": 6,
+    "cost": 6,
+    "name": "Galactus",
+    "obtainable": true,
+    "description": "On Reveal: If you're winning this location and this is your only card here, destroy all other locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Galactus",
+    "shortName": "Glcts8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Gambit",
+    "obtainable": true,
+    "description": "On Reveal: Discard a card from your hand to destroy a random enemy card.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Gambit",
+    "shortName": "Gmbt6"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Gamora",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Gamora",
+    "shortName": "Gmr6"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Ghost",
+    "obtainable": true,
+    "description": "On Reveal: Remove the abilities from all End of Turn cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Ghost",
+    "shortName": "Ghst5"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Ghost Rider",
+    "obtainable": true,
+    "description": "On Reveal: Bring back one of your discarded cards to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "GhostRider",
+    "shortName": "GhstRdrA"
+  },
+  {
+    "power": 16,
+    "cost": 6,
+    "name": "Giganto",
+    "obtainable": true,
+    "description": "You can only play this at the left location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Giganto",
+    "shortName": "Ggnt7"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Goose",
+    "obtainable": true,
+    "description": "Ongoing: Nobody can play cards that cost 4 or more here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Goose",
+    "shortName": "Gs5"
+  },
+  {
+    "power": -4,
+    "cost": 3,
+    "name": "Green Goblin",
+    "obtainable": true,
+    "description": "On Reveal: Switch sides.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "GreenGoblin",
+    "shortName": "GrnGblnB"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Groot",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Groot",
+    "shortName": "Grt5"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Hawkeye",
+    "obtainable": true,
+    "description": "On Reveal: If you play a card at this location next turn, +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hawkeye",
+    "shortName": "Hwk7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Hazmat",
+    "obtainable": true,
+    "description": "On Reveal: Afflict all other cards with -1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hazmat",
+    "shortName": "Hzmt6"
+  },
+  {
+    "power": 10,
+    "cost": 6,
+    "name": "Heimdall",
+    "obtainable": true,
+    "description": "On Reveal: Move your other cards one location to the left.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Heimdall",
+    "shortName": "Hmdll8"
+  },
+  {
+    "power": 6,
+    "cost": 6,
+    "name": "Hela",
+    "obtainable": true,
+    "description": "On Reveal: For each different Cost among them, resurrect a card you discarded to a random location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hela",
+    "shortName": "Hl4"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Helicarrier",
+    "obtainable": true,
+    "description": "When Discarded: Fill your hand with random cards.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Helicarrier",
+    "shortName": "HlcrrrB"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Hellcow",
+    "obtainable": true,
+    "description": "Activate: Discard a card from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hellcow",
+    "shortName": "Hllcw7"
+  },
+  {
+    "power": -8,
+    "cost": 5,
+    "name": "Hobgoblin",
+    "obtainable": true,
+    "description": "On Reveal: Switch sides.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hobgoblin",
+    "shortName": "Hbgbln9"
+  },
+  {
+    "power": -3,
+    "cost": 1,
+    "name": "The Hood",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Name} to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hood",
+    "shortName": "Hd4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Hulkbuster",
+    "obtainable": true,
+    "description": "On Reveal: Merge this into one of your cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hulkbuster",
+    "shortName": "HlkbstrA"
+  },
+  {
+    "power": 14,
+    "cost": 6,
+    "name": "Hulk",
+    "obtainable": true,
+    "description": "\"HULK SMASH!\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Hulk",
+    "shortName": "Hlk4"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Human Torch",
+    "obtainable": true,
+    "description": "When this moves, doubleits Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "HumanTorch",
+    "shortName": "HmnTrchA"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Iceman",
+    "obtainable": true,
+    "description": "On Reveal: Give a card in your opponent's hand +1 Cost.(maximum {card.MaximumCost})",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Iceman",
+    "shortName": "Icmn6"
+  },
+  {
+    "power": 20,
+    "cost": 6,
+    "name": "The Infinaut",
+    "obtainable": true,
+    "description": "If you played a card last turn, you can't play this.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Infinaut",
+    "shortName": "Infnt8"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Invisible Woman",
+    "obtainable": true,
+    "description": "Ongoing: Cards you play here are not revealed until the game ends.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "InvisibleWoman",
+    "shortName": "InvsblWmnE"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Iron Fist",
+    "obtainable": true,
+    "description": "On Reveal: After you play your next card, move it one location to the left.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "IronFist",
+    "shortName": "IrnFst8"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Ironheart",
+    "obtainable": true,
+    "description": "On Reveal: Give {card.ModifiedCardCount} of your other cards +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Ironheart",
+    "shortName": "Irnhrt9"
+  },
+  {
+    "power": 0,
+    "cost": 5,
+    "name": "Iron Man",
+    "obtainable": true,
+    "description": "Ongoing: Your total Poweris doubled here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "IronMan",
+    "shortName": "IrnMn7"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Jane Foster Mighty Thor",
+    "obtainable": true,
+    "description": "On Reveal: Draw all cards that cost 0 from your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "JaneFoster",
+    "shortName": "JnFstrA"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Jessica Jones",
+    "obtainable": true,
+    "description": "On Reveal: If you don't play a card at this location next turn, +5 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "JessicaJones",
+    "shortName": "JsscJnsC"
+  },
+  {
+    "power": 1,
+    "cost": 4,
+    "name": "Jubilee",
+    "obtainable": true,
+    "description": "On Reveal: Add the top card of your deck to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Jubilee",
+    "shortName": "Jbl7"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Juggernaut",
+    "obtainable": true,
+    "description": "On Reveal: Move away all enemy cards played here this turn. (including unrevealed cards)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Juggernaut",
+    "shortName": "JggrntA"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Kang",
+    "obtainable": true,
+    "description": "Game Start: Replace this with 4 {card.Card_Token.Name}s with text from random cards that Cost {card.TargetCardCost} or more.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Kang",
+    "shortName": "Kng4"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Ka-Zar",
+    "obtainable": true,
+    "description": "Ongoing: Your 1-Cost cards have +{card.AddedPower} Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "KaZar",
+    "shortName": "KZr5"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Killmonger",
+    "obtainable": true,
+    "description": "On Reveal: Destroy ALL1-Cost cards.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Killmonger",
+    "shortName": "KllmngrA"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Kingpin",
+    "obtainable": true,
+    "description": "When an enemy card moves here, afflict it with -2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Kingpin",
+    "shortName": "Kngpn7"
+  },
+  {
+    "power": 4,
+    "cost": 5,
+    "name": "Klaw",
+    "obtainable": true,
+    "description": "Ongoing: The location to the right has +7 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Klaw",
+    "shortName": "Klw4"
+  },
+  {
+    "power": 0,
+    "cost": 6,
+    "name": "Knull",
+    "obtainable": true,
+    "description": "Ongoing: Has the combined Power of all cards destroyed this game.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Knull",
+    "shortName": "Knll5"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Korg",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle a {card.Card_Token.Name} into your opponent's deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Korg",
+    "shortName": "Krg4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Kraven",
+    "obtainable": true,
+    "description": "When a card moves here, this gains +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Kraven",
+    "shortName": "Krvn6"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Lady Sif",
+    "obtainable": true,
+    "description": "On Reveal: Discard the card that costs the most from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "LadySif",
+    "shortName": "LdSf7"
+  },
+  {
+    "power": 5,
+    "cost": 6,
+    "name": "Leader",
+    "obtainable": true,
+    "description": "On Reveal: Copy the enemy card(s) with the highest Power played this turn, but on your side.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Leader",
+    "shortName": "Ldr6"
+  },
+  {
+    "power": 4,
+    "cost": 4,
+    "name": "Leech",
+    "obtainable": true,
+    "description": "On Reveal: Remove the text from6-Cost cards in your opponent's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Leech",
+    "shortName": "Lch5"
+  },
+  {
+    "power": 6,
+    "cost": 2,
+    "name": "Lizard",
+    "obtainable": true,
+    "description": "Ongoing: -4 Power if your opponent has {card.LocationCardCount} cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Lizard",
+    "shortName": "Lzrd6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Lockjaw",
+    "obtainable": true,
+    "description": "Activate: After you play your next character, swap it with one from your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Lockjaw",
+    "shortName": "Lckjw7"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Luke Cage",
+    "obtainable": true,
+    "description": "Ongoing: Your front-row cards can't have their Power reduced.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "LukeCage",
+    "shortName": "LkCg8"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Magik",
+    "obtainable": true,
+    "description": "On Reveal: Replace this location with '{card.Location_Morphed.Name}'. Doesn't workafter turn 5.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Magik",
+    "shortName": "Mgk5"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Magneto",
+    "obtainable": true,
+    "description": "On Reveal: Move all enemy3 and 0-Cost cards to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Magneto",
+    "shortName": "Mgnt7"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Mantis",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played any cards here this turn, copy one of them into your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Mantis",
+    "shortName": "Mnts6"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Maria Hill",
+    "obtainable": true,
+    "description": "On Reveal: Add a random 2-Cost card to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MariaHill",
+    "shortName": "MrHll9"
+  },
+  {
+    "power": 6,
+    "cost": 2,
+    "name": "Maximus",
+    "obtainable": true,
+    "description": "On Reveal: Your opponentdraws 2 cards.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Maximus",
+    "shortName": "Mxms7"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "M'Baku",
+    "obtainable": true,
+    "description": "At the end of the game, this jumps from your deck to your lowest-Power location. (that isn't full)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MBaku",
+    "shortName": "MBk5"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Medusa",
+    "obtainable": true,
+    "description": "On Reveal: If this is at the middle location, +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Medusa",
+    "shortName": "Mds6"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Miles Morales Spider-Man",
+    "obtainable": true,
+    "description": "If a card moved last turn, this costs 1.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MilesMorales",
+    "shortName": "MlsMrlsC"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Misty Knight",
+    "obtainable": true,
+    "description": "\"We've got to save this city.\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MistyKnight",
+    "shortName": "MstKnghtB"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "M.O.D.O.K.",
+    "obtainable": true,
+    "description": "On Reveal: Discard your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Modok",
+    "shortName": "Mdk5"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Mojo",
+    "obtainable": true,
+    "description": "Ongoing: If both sides here are full, +6 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Mojo",
+    "shortName": "Mj4"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Moon Girl",
+    "obtainable": true,
+    "description": "On Reveal: Copy your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MoonGirl",
+    "shortName": "MnGrl8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Moon Knight",
+    "obtainable": true,
+    "description": "On Reveal: Discard an even-costed card from each player's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MoonKnight",
+    "shortName": "MnKnghtA"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Morbius",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for each time you discarded a card this game.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Morbius",
+    "shortName": "Mrbs7"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Morph",
+    "obtainable": true,
+    "description": "On Reveal: Become a copy of a card in your opponent's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Morph",
+    "shortName": "Mrph5"
+  },
+  {
+    "power": 1,
+    "cost": 3,
+    "name": "Mister Fantastic",
+    "obtainable": true,
+    "description": "Ongoing: Adjacent locations have +3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MrFantastic",
+    "shortName": "MrFntstcB"
+  },
+  {
+    "power": -1,
+    "cost": 4,
+    "name": "Mister Negative",
+    "obtainable": true,
+    "description": "On Reveal: Swap the Power and Cost of all cards in your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MrNegative",
+    "shortName": "MrNgtvA"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Mister Sinister",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Name} here with the same Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MrSinister",
+    "shortName": "MrSnstrA"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Multiple Man",
+    "obtainable": true,
+    "description": "When this moves, add a copy to the old location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "MultipleMan",
+    "shortName": "MltplMnB"
+  },
+  {
+    "power": 5,
+    "cost": 2,
+    "name": "Mysterio",
+    "obtainable": true,
+    "description": "On Reveal: Add an Illusionto another location.Activate: Swap Power with it.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Mysterio",
+    "shortName": "Mstr8"
+  },
+  {
+    "power": 1,
+    "cost": 3,
+    "name": "Mystique",
+    "obtainable": true,
+    "description": "On Reveal: If the last card you played has an Ongoing, copy its text. (if able)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Mystique",
+    "shortName": "Mstq8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Nakia",
+    "obtainable": true,
+    "description": "On Reveal: Give all cards in your hand +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Nakia",
+    "shortName": "Nk5"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Namor",
+    "obtainable": true,
+    "description": "Ongoing: +5 Power if this is your only card here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Namor",
+    "shortName": "Nmr5"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Nick Fury",
+    "obtainable": true,
+    "description": "On Reveal: Add 3 random{card.TokenEnergyCost}-Cost cards to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "NickFury",
+    "shortName": "NckFr8"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Nightcrawler",
+    "obtainable": true,
+    "description": "Moveable once.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Nightcrawler",
+    "shortName": "NghtcrwlrC"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Nova",
+    "obtainable": true,
+    "description": "When Destroyed: Give your cards +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Nova",
+    "shortName": "Nv4"
+  },
+  {
+    "power": 10,
+    "cost": 6,
+    "name": "Odin",
+    "obtainable": true,
+    "description": "On Reveal: Repeat the On Reveal abilities of your other cards here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Odin",
+    "shortName": "Odn4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Okoye",
+    "obtainable": true,
+    "description": "On Reveal: Give every card in your deck +1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Okoye",
+    "shortName": "Ok5"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Omega Red",
+    "obtainable": true,
+    "description": "Ongoing: If you're winning here, +3 Power to other locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "OmegaRed",
+    "shortName": "OmgRd8"
+  },
+  {
+    "power": 8,
+    "cost": 6,
+    "name": "Onslaught",
+    "obtainable": true,
+    "description": "Ongoing: Your other Ongoing effects here apply an additional time.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Onslaught",
+    "shortName": "Onslght9"
+  },
+  {
+    "power": 11,
+    "cost": 6,
+    "name": "Orka",
+    "obtainable": true,
+    "description": "Ongoing: +7 Power if this is your only card here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Orka",
+    "shortName": "Ork4"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Patriot",
+    "obtainable": true,
+    "description": "Ongoing: Your cards with no abilities have +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Patriot",
+    "shortName": "Ptrt7"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Polaris",
+    "obtainable": true,
+    "description": "On Reveal: Move an enemy1 or 0-Cost card to this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Polaris",
+    "shortName": "Plrs7"
+  },
+  {
+    "power": 2,
+    "cost": 5,
+    "name": "Professor X",
+    "obtainable": true,
+    "description": "Ongoing: Moving is the only way to add or remove a character from here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ProfessorX",
+    "shortName": "PrfssrXA"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Psylocke",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, you get +1 Energy.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Psylocke",
+    "shortName": "Pslck8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Punisher",
+    "obtainable": true,
+    "description": "Ongoing: +1 Power for each enemy card here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Punisher",
+    "shortName": "Pnshr8"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Quake",
+    "obtainable": true,
+    "description": "On Reveal: Swap the positions of the other two locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Quake",
+    "shortName": "Qk5"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Quicksilver",
+    "obtainable": true,
+    "description": "Starts in your opening hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Quicksilver",
+    "shortName": "QckslvrB"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Quinjet",
+    "obtainable": true,
+    "description": "Ongoing: Your created cards cost 1 less. (minimum {card.AssignedCost})",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Quinjet",
+    "shortName": "Qnjt7"
+  },
+  {
+    "power": 14,
+    "cost": 5,
+    "name": "Red Skull",
+    "obtainable": true,
+    "description": "Ongoing: Enemy cards here have +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "RedSkull",
+    "shortName": "RdSkll8"
+  },
+  {
+    "power": 4,
+    "cost": 4,
+    "name": "Rescue",
+    "obtainable": true,
+    "description": "On Reveal: If you play a card at this location next turn, +5 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Rescue",
+    "shortName": "Rsc6"
+  },
+  {
+    "power": 5,
+    "cost": 2,
+    "name": "Rhino",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Name} to your side of this location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Rhino",
+    "shortName": "Rhn5"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Rocket Raccoon",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "RocketRaccoon",
+    "shortName": "RcktRccnD"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Rockslide",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle 2 Rocks into your opponent's deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Rockslide",
+    "shortName": "Rcksld9"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Rogue",
+    "obtainable": true,
+    "description": "On Reveal: Steal the text from an enemy Ongoing card here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Rogue",
+    "shortName": "Rg5"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Ronan the Accuser",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for each card in your opponent's hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Ronan",
+    "shortName": "Rnn5"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Sabretooth",
+    "obtainable": true,
+    "description": "When Destroyed: Return this to your hand. It costs 0.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sabretooth",
+    "shortName": "SbrtthA"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Sandman",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, cards cost 1 more. (maximum {card.MaximumCost})",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sandman",
+    "shortName": "Sndmn7"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Sauron",
+    "obtainable": true,
+    "description": "On Reveal: Remove the abilities from all Ongoing cards in your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sauron",
+    "shortName": "Srn6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Scarlet Witch",
+    "obtainable": true,
+    "description": "On Reveal: Replace this location with a new one.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ScarletWitch",
+    "shortName": "ScrltWtchC"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Scorpion",
+    "obtainable": true,
+    "description": "On Reveal: Afflict cards in your opponent's hand with -1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Scorpion",
+    "shortName": "Scrpn8"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Sentinel",
+    "obtainable": true,
+    "description": "On Reveal: Add another Sentinel to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sentinel",
+    "shortName": "Sntnl8"
+  },
+  {
+    "power": 9,
+    "cost": 4,
+    "name": "Sentry",
+    "obtainable": true,
+    "description": "You can't play this at the right location.On Reveal: Add a {card.Card_Token.Power} Power Void to the right location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sentry",
+    "shortName": "Sntr6"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Sera",
+    "obtainable": true,
+    "description": "Ongoing: Cards in your hand cost 1 less. (minimum 1)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sera",
+    "shortName": "Sr4"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Shadow King",
+    "obtainable": true,
+    "description": "On Reveal: Reset all cards here to their original Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ShadowKing",
+    "shortName": "ShdwKngA"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Shang-Chi",
+    "obtainable": true,
+    "description": "On Reveal: Destroy an enemy card here that has 10 or more Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "ShangChi",
+    "shortName": "ShngCh8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Shanna",
+    "obtainable": true,
+    "description": "On Reveal: Add a random1-Cost character to each location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Shanna",
+    "shortName": "Shnn6"
+  },
+  {
+    "power": 10,
+    "cost": 6,
+    "name": "She-Hulk",
+    "obtainable": true,
+    "description": "Costs 1 less for each unspent Energy last turn.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SheHulk",
+    "shortName": "ShHlk7"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Shocker",
+    "obtainable": true,
+    "description": "\"I'm gonna blast you!\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Shocker",
+    "shortName": "Shckr7"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Shuri",
+    "obtainable": true,
+    "description": "On Reveal: If you play your next card at this location, double its Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Shuri",
+    "shortName": "Shr5"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Silver Surfer",
+    "obtainable": true,
+    "description": "On Reveal: Give your other3-Cost cards +{card.AddedPower} Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SilverSurfer",
+    "shortName": "SlvrSrfrC"
+  },
+  {
+    "power": 7,
+    "cost": 6,
+    "name": "Spectrum",
+    "obtainable": true,
+    "description": "On Reveal: Give your Ongoing cards +2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Spectrum",
+    "shortName": "Spctrm8"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Spider-Man",
+    "obtainable": true,
+    "description": "On Reveal: Move to another location and pull an enemy card fromhere to there.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SpiderMan",
+    "shortName": "SpdrMn9"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Spider-Woman",
+    "obtainable": true,
+    "description": "On Reveal: Afflict all enemy cards here with -1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SpiderWoman",
+    "shortName": "SpdrWmnB"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Squirrel Girl",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Power}-Power {card.Card_Token.Name} to each other location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SquirrelGirl",
+    "shortName": "SqrrlGrlC"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Star-Lord",
+    "obtainable": true,
+    "description": "On Reveal: If your opponent played a card here this turn, +4 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Starlord",
+    "shortName": "Strlrd8"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Stature",
+    "obtainable": true,
+    "description": "Costs 1 if your opponent discarded a card this game.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Stature",
+    "shortName": "Sttr7"
+  },
+  {
+    "power": 1,
+    "cost": 3,
+    "name": "Storm",
+    "obtainable": true,
+    "description": "On Reveal: Flood this location. Next turn is the last turn cards canbe played here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Storm",
+    "shortName": "Strm5"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Strong Guy",
+    "obtainable": true,
+    "description": "Ongoing: +6 Power if your hand has {card.TokenCount} or fewer cards.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "StrongGuy",
+    "shortName": "StrngG9"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Sunspot",
+    "obtainable": true,
+    "description": "End of Turn: Gain +1 Power for each unspent Energy.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Sunspot",
+    "shortName": "Snspt7"
+  },
+  {
+    "power": 2,
+    "cost": 4,
+    "name": "Super-Skrull",
+    "obtainable": true,
+    "description": "Ongoing: Has the Ongoing effects of all enemy cards.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SuperSkrull",
+    "shortName": "SprSkrllB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Swarm",
+    "obtainable": true,
+    "description": "When Discarded: Add two copies of this that cost 0 to your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Swarm",
+    "shortName": "Swrm5"
+  },
+  {
+    "power": 7,
+    "cost": 3,
+    "name": "Sword Master",
+    "obtainable": true,
+    "description": "On Reveal: Discard an odd-costed card from your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "SwordMaster",
+    "shortName": "SwrdMstrB"
+  },
+  {
+    "power": 0,
+    "cost": 6,
+    "name": "Taskmaster",
+    "obtainable": true,
+    "description": "On Reveal: Set this card’s Power equal to that of the last card you played. (if able)",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Taskmaster",
+    "shortName": "TskmstrA"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Thanos",
+    "obtainable": true,
+    "description": "Game Start: Shuffle the six Infinity Stones into your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Thanos",
+    "shortName": "Thns6"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "The Collector",
+    "obtainable": true,
+    "description": "When a card enters your hand from anywhere (except your deck),+1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "TheCollector",
+    "shortName": "ThCllctrC"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "The Thing",
+    "obtainable": true,
+    "description": "\"It's clobberin' time!\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "TheThing",
+    "shortName": "ThThng8"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Thor",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle Mjolnir into your deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Thor",
+    "shortName": "Thr4"
+  },
+  {
+    "power": 5,
+    "cost": 1,
+    "name": "Titania",
+    "obtainable": true,
+    "description": "After ANY card is played here, this card switches sides.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Titania",
+    "shortName": "Ttn7"
+  },
+  {
+    "power": 10,
+    "cost": 4,
+    "name": "Typhoid Mary",
+    "obtainable": true,
+    "description": "Ongoing: Your other cardshere have -2 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "TyphoidMary",
+    "shortName": "TphdMrB"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Uatu the Watcher",
+    "obtainable": true,
+    "description": "Game Start: You can see the unrevealed locations.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Uatu",
+    "shortName": "Ut4"
+  },
+  {
+    "power": 8,
+    "cost": 6,
+    "name": "Ultron",
+    "obtainable": true,
+    "description": "On Reveal: Deploy four {card.Card_Token.Power}-Power Drones to each other location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Ultron",
+    "shortName": "Ultrn6"
+  },
+  {
+    "power": 3,
+    "cost": 5,
+    "name": "Valkyrie",
+    "obtainable": true,
+    "description": "On Reveal: Set ALL cards here to 3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Valkyrie",
+    "shortName": "Vlkr8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Venom",
+    "obtainable": true,
+    "description": "On Reveal: Destroy your other cards here. Add their Power to this card.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Venom",
+    "shortName": "Vnm5"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Viper",
+    "obtainable": true,
+    "description": "On Reveal: One of your other cards here with the lowest Power switches sides.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Viper",
+    "shortName": "Vpr5"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Vision",
+    "obtainable": true,
+    "description": "Moveable",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Vision",
+    "shortName": "Vsn6"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Vulture",
+    "obtainable": true,
+    "description": "When this card moves,+3 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Vulture",
+    "shortName": "Vltr7"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Warpath",
+    "obtainable": true,
+    "description": "Ongoing: If any of your locations are empty, +5 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Warpath",
+    "shortName": "Wrpth7"
+  },
+  {
+    "power": 1,
+    "cost": 0,
+    "name": "Wasp",
+    "obtainable": true,
+    "description": "\"My secret power is that I get things done.\"",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Wasp",
+    "shortName": "Wsp4"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Wave",
+    "obtainable": true,
+    "description": "On Reveal: All cards cost a maximum of 4 until the endof next turn.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Wave",
+    "shortName": "Wv4"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "White Queen",
+    "obtainable": true,
+    "description": "On Reveal: Copy the card that costs the most from your opponent's hand into your hand.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "WhiteQueen",
+    "shortName": "WhtQnA"
+  },
+  {
+    "power": 1,
+    "cost": 5,
+    "name": "White Tiger",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Power}-Power Tiger to another location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "WhiteTiger",
+    "shortName": "WhtTgrA"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Wolfsbane",
+    "obtainable": true,
+    "description": "On Reveal: +2 Power for each other card you have here.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Wolfsbane",
+    "shortName": "Wlfsbn9"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Wolverine",
+    "obtainable": true,
+    "description": "When Discarded or Destroyed: Regenerate this with +2 Powerat a random location.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Wolverine",
+    "shortName": "Wlvrn9"
+  },
+  {
+    "power": 2,
+    "cost": 4,
+    "name": "Wong",
+    "obtainable": true,
+    "description": "Ongoing: Your On Reveal abilities here repeat.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Wong",
+    "shortName": "Wng4"
+  },
+  {
+    "power": 2,
+    "cost": 0,
+    "name": "Yellowjacket",
+    "obtainable": true,
+    "description": "On Reveal: Afflict your other cards here with -1 Power.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Yellowjacket",
+    "shortName": "YllwjcktC"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Yondu",
+    "obtainable": true,
+    "description": "On Reveal: Banish the card that costs the least in youropponent's deck.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Yondu",
+    "shortName": "Ynd5"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Zabu",
+    "obtainable": true,
+    "description": "On Reveal: Give each 4-Cost card in your deck -{card.ReducedCost} Cost.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Zabu",
+    "shortName": "Zb4"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Zero",
+    "obtainable": true,
+    "description": "On Reveal: Remove the abilities on the next card you play.",
+    "releaseDate": "0001-01-01T00:00:00",
+    "cardDefId": "Zero",
+    "shortName": "Zr4"
+  },
+  {
+    "power": 6,
+    "cost": 5,
+    "name": "Nimrod",
+    "obtainable": true,
+    "description": "When Destroyed: Add a copy of this to each other location.",
+    "releaseDate": "2023-03-07T19:00:00Z",
+    "cardDefId": "Nimrod",
+    "shortName": "Nmrd6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Master Mold",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 {card.Card_Token.Name} to your opponent's hand.",
+    "releaseDate": "2023-03-14T19:00:00Z",
+    "cardDefId": "MasterMold",
+    "shortName": "MstrMldA"
+  },
+  {
+    "power": 4,
+    "cost": 4,
+    "name": "Negasonic Teenage Warhead",
+    "obtainable": true,
+    "description": "After an enemy character is played here, destroy it. (once per game)",
+    "releaseDate": "2023-03-21T19:00:00Z",
+    "cardDefId": "NegasonicTeenageWarhead",
+    "shortName": "NgsncTngWrhd17"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Kitty Pryde",
+    "obtainable": true,
+    "description": "When this returns to your hand,+1 Power. Returns at the startof each turn.",
+    "releaseDate": "2023-03-28T19:00:00Z",
+    "cardDefId": "KittyPryde",
+    "shortName": "KttPrdA"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Hit-Monkey",
+    "obtainable": true,
+    "description": "On Reveal: Gain +2 Power for each other card you played this turn.",
+    "releaseDate": "2023-04-04T19:00:00Z",
+    "cardDefId": "HitMonkey",
+    "shortName": "HtMnk9"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Snowguard",
+    "obtainable": true,
+    "description": "On Reveal: Add the Hawk and Bear auroras to your hand.",
+    "releaseDate": "2023-04-11T19:00:00Z",
+    "cardDefId": "Snowguard",
+    "shortName": "Snwgrd9"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Jeff the Baby Land Shark",
+    "obtainable": true,
+    "description": "Moveable once.Nothing can stop you from moving orplaying this to any location.",
+    "releaseDate": "2023-04-18T19:00:00Z",
+    "cardDefId": "JeffTheBabyLandShark",
+    "shortName": "JffThBbLndShrk14"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Stegron",
+    "obtainable": true,
+    "description": "On Reveal: Move an enemy card here one location to the right.",
+    "releaseDate": "2023-04-25T19:00:00Z",
+    "cardDefId": "Stegron",
+    "shortName": "Stgrn7"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Nebula",
+    "obtainable": true,
+    "description": "Each turn your opponent doesn't play a card here, +2 Power. (except the turn you play this)",
+    "releaseDate": "2023-05-02T19:00:00Z",
+    "cardDefId": "Nebula",
+    "shortName": "Nbl6"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Iron Lad",
+    "obtainable": true,
+    "description": "On Reveal: Copy the text of your deck's top card.",
+    "releaseDate": "2023-05-09T19:00:00Z",
+    "cardDefId": "IronLad",
+    "shortName": "IrnLd7"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Howard the Duck",
+    "obtainable": true,
+    "description": "Ongoing: Tap this to see the top card of your deck.",
+    "releaseDate": "2023-05-16T19:00:00Z",
+    "cardDefId": "HowardTheDuck",
+    "shortName": "HwrdThDckD"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "High Evolutionary",
+    "obtainable": true,
+    "description": "Game Start: Unlock the potential of your cards with no abilities.",
+    "releaseDate": "2023-05-23T19:00:00Z",
+    "cardDefId": "HighEvolutionary",
+    "shortName": "HghEvltnr10"
+  },
+  {
+    "power": 9,
+    "cost": 6,
+    "name": "The Living Tribunal",
+    "obtainable": true,
+    "description": "Ongoing: Split your total Power evenly among all locations.",
+    "releaseDate": "2023-05-30T19:00:00Z",
+    "cardDefId": "LivingTribunal",
+    "shortName": "LvngTrbnlE"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Ghost-Spider",
+    "obtainable": true,
+    "description": "On Reveal: The last card you played moves here.",
+    "releaseDate": "2023-06-06T19:00:00Z",
+    "cardDefId": "GhostSpider",
+    "shortName": "GhstSpdrB"
+  },
+  {
+    "power": 5,
+    "cost": 2,
+    "name": "Silk",
+    "obtainable": true,
+    "description": "After ANY card is played here, move this to another location.",
+    "releaseDate": "2023-06-13T19:00:00Z",
+    "cardDefId": "Silk",
+    "shortName": "Slk4"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Spider-Ham",
+    "obtainable": true,
+    "description": "Activate: Replace the text of a random character in your opponent's hand with \"oink!\"",
+    "releaseDate": "2023-06-20T19:00:00Z",
+    "cardDefId": "SpiderHam",
+    "shortName": "SpdrHm9"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Spider-Man 2099",
+    "obtainable": true,
+    "description": "Moveable once.When this moves to a location, afflict an enemy card there with -3 Power.",
+    "releaseDate": "2023-06-27T19:00:00Z",
+    "cardDefId": "SpiderMan2099",
+    "shortName": "SpdrMn2099D"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Phoenix Force",
+    "obtainable": true,
+    "description": "On Reveal: Revive one of your destroyed cards and merge this into it. It gains Moveable.",
+    "releaseDate": "2023-07-04T19:00:00Z",
+    "cardDefId": "ThePhoenixForce",
+    "shortName": "ThPhnxFrcF"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Jean Grey",
+    "obtainable": true,
+    "description": "Ongoing: Players must play their first card here each turn. (if possible)",
+    "releaseDate": "2023-07-11T19:00:00Z",
+    "cardDefId": "JeanGrey",
+    "shortName": "JnGr8"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Echo",
+    "obtainable": true,
+    "description": "After your opponent plays an Ongoing card here, remove its abilities.",
+    "releaseDate": "2023-07-18T19:00:00Z",
+    "cardDefId": "Echo",
+    "shortName": "Ech4"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Legion",
+    "obtainable": true,
+    "description": "On Reveal: Replace each other location with this one.",
+    "releaseDate": "2023-07-25T19:00:00Z",
+    "cardDefId": "Legion",
+    "shortName": "Lgn6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Mirage",
+    "obtainable": true,
+    "description": "On Reveal: Copy the character that costs the least from your opponent's hand into your hand. Give it +2 Power.",
+    "releaseDate": "2023-08-01T19:00:00Z",
+    "cardDefId": "Mirage",
+    "shortName": "Mrg6"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Daken",
+    "obtainable": true,
+    "description": "On Reveal: Add the {card.Card_Token.Name} to your hand.",
+    "releaseDate": "2023-08-08T19:00:00Z",
+    "cardDefId": "Daken",
+    "shortName": "Dkn5"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Lady Deathstrike",
+    "obtainable": true,
+    "description": "On Reveal: Destroy each card here with 3 or less Power.",
+    "releaseDate": "2023-08-15T19:00:00Z",
+    "cardDefId": "LadyDeathstrike",
+    "shortName": "LdDthstrkF"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "X-23",
+    "obtainable": true,
+    "description": "When Discarded or Destroyed: Regenerate this at a random location and you get +1 Energy next turn.",
+    "releaseDate": "2023-08-22T19:00:00Z",
+    "cardDefId": "X23",
+    "shortName": "X233"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Silver Samurai",
+    "obtainable": true,
+    "description": "On Reveal: Each player discards the lowest-Power character from their hand.",
+    "releaseDate": "2023-08-29T19:00:00Z",
+    "cardDefId": "SilverSamurai",
+    "shortName": "SlvrSmrD"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Loki",
+    "obtainable": true,
+    "description": "On Reveal: Replace your deck with your opponent's starting deck. Give those cards -1 Cost.",
+    "releaseDate": "2023-09-05T19:00:00Z",
+    "cardDefId": "Loki",
+    "shortName": "Lk4"
+  },
+  {
+    "power": 7,
+    "cost": 6,
+    "name": "Alioth",
+    "obtainable": true,
+    "description": "On Reveal: Remove the text from all unrevealed enemy characters here.",
+    "releaseDate": "2023-09-12T19:00:00Z",
+    "cardDefId": "Alioth",
+    "shortName": "Alth6"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Ravonna Renslayer",
+    "obtainable": true,
+    "description": "Ongoing: Your cards with 1 or less Power cost {card.ReducedCost} less. (minimum 1)",
+    "releaseDate": "2023-09-19T19:00:00Z",
+    "cardDefId": "RavonnaRenslayer",
+    "shortName": "RvnnRnslr10"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Mobius M. Mobius",
+    "obtainable": true,
+    "description": "Ongoing: Your Costs can't be increased. Your opponent's Costs can't be reduced.",
+    "releaseDate": "2023-09-26T19:00:00Z",
+    "cardDefId": "MobiusMMobius",
+    "shortName": "MbsMMbsD"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Elsa Bloodstone",
+    "obtainable": true,
+    "description": "Each card you play to fill your side of a location gains +2 Power.",
+    "releaseDate": "2023-10-03T19:00:00Z",
+    "cardDefId": "ElsaBloodstone",
+    "shortName": "ElsBldstnE"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Man-Thing",
+    "obtainable": true,
+    "description": "Ongoing: 3-Cost or less cards here have -{card.ReducedPower} Power.",
+    "releaseDate": "2023-10-10T19:00:00Z",
+    "cardDefId": "ManThing",
+    "shortName": "MnThng8"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Black Knight",
+    "obtainable": true,
+    "description": "After you discard a card, add the {card.Card_Token.Name} to your hand with that card's Power. (once per game)",
+    "releaseDate": "2023-10-17T19:00:00Z",
+    "cardDefId": "BlackKnight",
+    "shortName": "BlckKnghtB"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Nico Minoru",
+    "obtainable": true,
+    "description": "On Reveal: After you play your next card, cast a spell. (The spellchanges each turn.)",
+    "releaseDate": "2023-10-24T19:00:00Z",
+    "cardDefId": "NicoMinoru",
+    "shortName": "NcMnrA"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Werewolf By Night",
+    "obtainable": true,
+    "description": "After you play a card, move there to gain +2 Power if it has an On Reveal.",
+    "releaseDate": "2023-10-31T19:00:00Z",
+    "cardDefId": "WerewolfByNight",
+    "shortName": "WrwlfBNghtF"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Ms. Marvel",
+    "obtainable": true,
+    "description": "Ongoing: Your adjacent locations with 2+ cards and no repeated Costs have +{card.AddedPower} Power.",
+    "releaseDate": "2023-11-07T19:00:00Z",
+    "cardDefId": "MsMarvel",
+    "shortName": "MsMrvl8"
+  },
+  {
+    "power": 8,
+    "cost": 3,
+    "name": "Gladiator",
+    "obtainable": true,
+    "description": "On Reveal: Add a card from your opponent's deck to their side of this location. If it has less Power, destroy it.",
+    "releaseDate": "2023-11-14T19:00:00Z",
+    "cardDefId": "Gladiator",
+    "shortName": "Gldtr9"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Annihilus",
+    "obtainable": true,
+    "description": "On Reveal: Your cards with Power below 0 switch sides. Destroythose that can't.",
+    "releaseDate": "2023-11-21T19:00:00Z",
+    "cardDefId": "Annihilus",
+    "shortName": "Annhls9"
+  },
+  {
+    "power": 5,
+    "cost": 1,
+    "name": "Martyr",
+    "obtainable": true,
+    "description": "At the end of the game, move to a location that LOSES you thegame. (if possible)",
+    "releaseDate": "2023-11-28T19:00:00Z",
+    "cardDefId": "Martyr",
+    "shortName": "Mrtr6"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Sebastian Shaw",
+    "obtainable": true,
+    "description": "When this is Empowered,gain an additional +2 Power.(if in hand, in deck, or in play)",
+    "releaseDate": "2023-12-05T19:00:00Z",
+    "cardDefId": "SebastianShaw",
+    "shortName": "SbstnShwD"
+  },
+  {
+    "power": 0,
+    "cost": 6,
+    "name": "Blob",
+    "obtainable": true,
+    "description": "On Reveal: Merge cards from your deck into this until it gains 13 or more Power.",
+    "releaseDate": "2023-12-12T19:00:00Z",
+    "cardDefId": "Blob",
+    "shortName": "Blb4"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Havok",
+    "obtainable": true,
+    "description": "End of Turn: You lose 1 Max Energy and this gains +{card.AddedPower} Power.",
+    "releaseDate": "2023-12-19T19:00:00Z",
+    "cardDefId": "Havok",
+    "shortName": "Hvk5"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Selene",
+    "obtainable": true,
+    "description": "On Reveal: Afflict the lowest-Power card in each player's handwith -3 Power.",
+    "releaseDate": "2023-12-26T19:00:00Z",
+    "cardDefId": "Selene",
+    "shortName": "Sln6"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Caiera",
+    "obtainable": true,
+    "description": "Ongoing: Your 1 and 0-Cost cards can't be destroyed.",
+    "releaseDate": "2024-01-02T19:00:00Z",
+    "cardDefId": "Caiera",
+    "shortName": "Cr6"
+  },
+  {
+    "power": 12,
+    "cost": 7,
+    "name": "Skaar",
+    "obtainable": true,
+    "description": "Costs {card.ReducedCost} less for each of your cards that has 10 or more Power.",
+    "releaseDate": "2024-01-02T19:00:00Z",
+    "cardDefId": "Skaar",
+    "shortName": "Skr5"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Hercules",
+    "obtainable": true,
+    "description": "The first time another one of your cards moves here each turn, move it to another location.",
+    "releaseDate": "2024-01-09T19:00:00Z",
+    "cardDefId": "Hercules",
+    "shortName": "Hrcls8"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Miek",
+    "obtainable": true,
+    "description": "When you discard a card, this gains +1 Power and Moveable next turn.",
+    "releaseDate": "2024-01-16T19:00:00Z",
+    "cardDefId": "Miek",
+    "shortName": "Mk4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Grand Master",
+    "obtainable": true,
+    "description": "On Reveal: Move one of your other On Reveal cards here to the middle location. Its ability happens again.",
+    "releaseDate": "2024-01-23T19:00:00Z",
+    "cardDefId": "GrandMaster",
+    "shortName": "GrndMstrB"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Beta Ray Bill",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle {card.Card_Token.Name} into your deck.",
+    "releaseDate": "2024-01-30T19:00:00Z",
+    "cardDefId": "BetaRayBill",
+    "shortName": "BtRBllB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Black Swan",
+    "obtainable": true,
+    "description": "Activate: Until the end of next turn, your 1-Cost cards cost {card.AssignedCost}.",
+    "releaseDate": "2024-02-06T19:00:00Z",
+    "cardDefId": "BlackSwan",
+    "shortName": "BlckSwn9"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Supergiant",
+    "obtainable": true,
+    "description": "On Reveal: All cards played next turn don't reveal until the game ends.",
+    "releaseDate": "2024-02-06T19:00:00Z",
+    "cardDefId": "Supergiant",
+    "shortName": "SprgntA"
+  },
+  {
+    "power": 10,
+    "cost": 4,
+    "name": "Cull Obsidian",
+    "obtainable": true,
+    "description": "You can only play this where you have a 1-Cost card.",
+    "releaseDate": "2024-02-13T19:00:00Z",
+    "cardDefId": "CullObsidian",
+    "shortName": "CllObsdnC"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Corvus Glaive",
+    "obtainable": true,
+    "description": "On Reveal: Discard 2 cards from your hand to get +{card.AddedMaxEnergy} Max Energy.",
+    "releaseDate": "2024-02-20T19:00:00Z",
+    "cardDefId": "CorvusGlaive",
+    "shortName": "CrvsGlvC"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Proxima Midnight",
+    "obtainable": true,
+    "description": "When Discarded: This jumps to your lowest-Power location. (that isn't full)",
+    "releaseDate": "2024-02-27T19:00:00Z",
+    "cardDefId": "ProximaMidnight",
+    "shortName": "PrxmMdnghtF"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Hope Summers",
+    "obtainable": true,
+    "description": "After you play a card here, you get +1 Energy next turn.",
+    "releaseDate": "2024-03-05T19:00:00Z",
+    "cardDefId": "HopeSummers",
+    "shortName": "HpSmmrsB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Pixie",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle the base Costsof all cards in your deckthat started there.",
+    "releaseDate": "2024-03-05T19:00:00Z",
+    "cardDefId": "Pixie",
+    "shortName": "Px5"
+  },
+  {
+    "power": 9,
+    "cost": 6,
+    "name": "Mockingbird",
+    "obtainable": true,
+    "description": "Costs 1 less for each of your created cards in play.",
+    "releaseDate": "2024-03-12T19:00:00Z",
+    "cardDefId": "Mockingbird",
+    "shortName": "MckngbrdB"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Cannonball",
+    "obtainable": true,
+    "description": "On Reveal: Move the highest-Power enemy card here away. If you can't, destroy it with a {card.Card_Token.Name}.",
+    "releaseDate": "2024-03-19T19:00:00Z",
+    "cardDefId": "Cannonball",
+    "shortName": "CnnnbllA"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "War Machine",
+    "obtainable": true,
+    "description": "Ongoing: Nothing can stop you from playing cards anywhere.",
+    "releaseDate": "2024-03-26T19:00:00Z",
+    "cardDefId": "WarMachine",
+    "shortName": "WrMchnA"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Baron Zemo",
+    "obtainable": true,
+    "description": "On Reveal: Recruit a card that costs the least from your opponent's deck to your side of this location.",
+    "releaseDate": "2024-04-02T19:00:00Z",
+    "cardDefId": "BaronZemo",
+    "shortName": "BrnZm9"
+  },
+  {
+    "power": 10,
+    "cost": 6,
+    "name": "Red Hulk",
+    "obtainable": true,
+    "description": "End of Turn: If your opponent has unspent Energy, +3 Power.(if in hand or in play)",
+    "releaseDate": "2024-04-02T19:00:00Z",
+    "cardDefId": "RedHulk",
+    "shortName": "RdHlk7"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "U.S. Agent",
+    "obtainable": true,
+    "description": "Ongoing: 4-Cost or more cards here have -{card.ReducedPower} Power.",
+    "releaseDate": "2024-04-09T19:00:00Z",
+    "cardDefId": "USAgent",
+    "shortName": "USAgnt7"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Red Guardian",
+    "obtainable": true,
+    "description": "On Reveal: Afflict the lowest-Power enemy card here with -2 Power and remove its text.",
+    "releaseDate": "2024-04-16T19:00:00Z",
+    "cardDefId": "RedGuardian",
+    "shortName": "RdGrdnB"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "White Widow",
+    "obtainable": true,
+    "description": "On Reveal: Add a {card.Card_Token.Name} to your opponent's side of this location.",
+    "releaseDate": "2024-04-23T19:00:00Z",
+    "cardDefId": "WhiteWidow",
+    "shortName": "WhtWdwA"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Valentina",
+    "obtainable": true,
+    "description": "On Reveal: Add a random 6-Cost card to your hand. Give it -{card.ReducedCost} Costand -{card.ReducedPower} Power.",
+    "releaseDate": "2024-04-30T19:00:00Z",
+    "cardDefId": "Valentina",
+    "shortName": "Vlntn9"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Blink",
+    "obtainable": true,
+    "description": "On Reveal: Swap the last card you played with a card that costs more from your deck.",
+    "releaseDate": "2024-05-07T19:00:00Z",
+    "cardDefId": "Blink",
+    "shortName": "Blnk5"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Nocturne",
+    "obtainable": true,
+    "description": "Moveable once.When this moves, replace its locationwith a random new one.",
+    "releaseDate": "2024-05-07T19:00:00Z",
+    "cardDefId": "Nocturne",
+    "shortName": "Nctrn8"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Sage",
+    "obtainable": true,
+    "description": "On Reveal: +2 Power for each different Power among allother cards here.",
+    "releaseDate": "2024-05-14T19:00:00Z",
+    "cardDefId": "Sage",
+    "shortName": "Sg4"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Namora",
+    "obtainable": true,
+    "description": "On Reveal: Give +5 Power to each of your cards alone at another location.",
+    "releaseDate": "2024-05-21T19:00:00Z",
+    "cardDefId": "Namora",
+    "shortName": "Nmr6"
+  },
+  {
+    "power": 11,
+    "cost": 6,
+    "name": "Sasquatch",
+    "obtainable": true,
+    "description": "Costs 1 less for each card you played last turn.",
+    "releaseDate": "2024-05-28T19:00:00Z",
+    "cardDefId": "Sasquatch",
+    "shortName": "Ssqtch9"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Gilgamesh",
+    "obtainable": true,
+    "description": "On Reveal: +1 Power for each of your other cards in play with increased Power.",
+    "releaseDate": "2024-06-04T19:00:00Z",
+    "cardDefId": "Gilgamesh",
+    "shortName": "Glgmsh9"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Thena",
+    "obtainable": true,
+    "description": "End of Turn: +{card.AddedPower} Power if you played (exactly) 2 cards.",
+    "releaseDate": "2024-06-04T19:00:00Z",
+    "cardDefId": "Thena",
+    "shortName": "Thn5"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Sersi",
+    "obtainable": true,
+    "description": "On Reveal: Transform your other characters here into random ones thatcost 1 more. (if possible)",
+    "releaseDate": "2024-06-11T19:00:00Z",
+    "cardDefId": "Sersi",
+    "shortName": "Srs5"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Makkari",
+    "obtainable": true,
+    "description": "End of Turn: Runs from your hand to a random location. (if possible)",
+    "releaseDate": "2024-06-18T19:00:00Z",
+    "cardDefId": "Makkari",
+    "shortName": "Mkkr7"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Phastos",
+    "obtainable": true,
+    "description": "On Reveal: Give each card in your deck -1 Cost or +{card.AddedPower} Power.",
+    "releaseDate": "2024-06-25T19:00:00Z",
+    "cardDefId": "Phastos",
+    "shortName": "Phsts7"
+  },
+  {
+    "power": 7,
+    "cost": 7,
+    "name": "Arishem",
+    "obtainable": true,
+    "description": "Game Start: Shuffle {card.TokenCount} new cards into your deck. On turn {card.TurnNumber}, get +1 Max Energy.",
+    "releaseDate": "2024-07-02T19:00:00Z",
+    "cardDefId": "Arishem",
+    "shortName": "Arshm7"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Gwenpool",
+    "obtainable": true,
+    "description": "On Reveal: Pick a random character in your hand 3 times. Give +{card.AddedPower} Power each time.",
+    "releaseDate": "2024-07-09T19:00:00Z",
+    "cardDefId": "Gwenpool",
+    "shortName": "Gwnpl8"
+  },
+  {
+    "power": 4,
+    "cost": 1,
+    "name": "Hydra Bob",
+    "obtainable": true,
+    "description": "End of Turn: This moves ifa player Snapped.",
+    "releaseDate": "2024-07-09T19:00:00Z",
+    "cardDefId": "HydraBob",
+    "shortName": "HdrBb8"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Ajax",
+    "obtainable": true,
+    "description": "Ongoing: +1 Power for each card in play afflicted with negative Power.",
+    "releaseDate": "2024-07-16T19:00:00Z",
+    "cardDefId": "Ajax",
+    "shortName": "Ajx4"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Cassandra Nova",
+    "obtainable": true,
+    "description": "On Reveal: Steal 1 Power from each card in your opponent's deck.",
+    "releaseDate": "2024-07-23T19:00:00Z",
+    "cardDefId": "CassandraNova",
+    "shortName": "CssndrNvD"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Copycat",
+    "obtainable": true,
+    "description": "When you draw this, copy the text from the bottom card of youropponent's deck.",
+    "releaseDate": "2024-07-23T19:00:00Z",
+    "cardDefId": "Copycat",
+    "shortName": "Cpct7"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Hawkeye Kate Bishop",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 Arrows to your hand.",
+    "releaseDate": "2024-08-06T19:00:00Z",
+    "cardDefId": "KateBishop",
+    "shortName": "KtBshpA"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Marvel Boy",
+    "obtainable": true,
+    "description": "End of Turn: Give 3 of your{card.TargetCardCost}-Cost cards +{card.AddedPower} Power.",
+    "releaseDate": "2024-08-06T19:00:00Z",
+    "cardDefId": "MarvelBoy",
+    "shortName": "MrvlB9"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Wiccan",
+    "obtainable": true,
+    "description": "On Reveal: If you've spent all your Energy on previous turns, +2 Max Energy.",
+    "releaseDate": "2024-08-13T19:00:00Z",
+    "cardDefId": "Wiccan",
+    "shortName": "Wccn6"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Speed",
+    "obtainable": true,
+    "description": "Ongoing: +1 Power for each turn in which you spent all your Energy.",
+    "releaseDate": "2024-08-20T19:00:00Z",
+    "cardDefId": "Speed",
+    "shortName": "Spd5"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Emperor Hulkling",
+    "obtainable": true,
+    "description": "Game Start: Copy the text of a random 6-Cost card.",
+    "releaseDate": "2024-08-27T19:00:00Z",
+    "cardDefId": "Hulkling",
+    "shortName": "Hlklng8"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Silver Sable",
+    "obtainable": true,
+    "description": "On Reveal: Steal 2 Power from the top card of your opponent's deck.",
+    "releaseDate": "2024-09-03T19:00:00Z",
+    "cardDefId": "SilverSable",
+    "shortName": "SlvrSblB"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Symbiote Spider-Man",
+    "obtainable": true,
+    "description": "Activate: Merge your lowest-Cost card here into this. Copy its text like it just revealed.",
+    "releaseDate": "2024-09-03T19:00:00Z",
+    "cardDefId": "SymbioteSpiderMan",
+    "shortName": "SmbtSpdrMn11"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Madame Web",
+    "obtainable": true,
+    "description": "Ongoing: Each turn, one of your other cards here is Moveable.(your choice)",
+    "releaseDate": "2024-09-10T19:00:00Z",
+    "cardDefId": "MadameWeb",
+    "shortName": "MdmWb9"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Araña",
+    "obtainable": true,
+    "description": "Activate: After you play your next card, give it +1 Power and move it to the right.",
+    "releaseDate": "2024-09-17T19:00:00Z",
+    "cardDefId": "Arana",
+    "shortName": "Arn5"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Scarlet Spider",
+    "obtainable": true,
+    "description": "Activate: Add an exact clone of this to another location.",
+    "releaseDate": "2024-09-24T19:00:00Z",
+    "cardDefId": "ScarletSpider",
+    "shortName": "ScrltSpdrD"
+  },
+  {
+    "power": 5,
+    "cost": 2,
+    "name": "Agent Venom",
+    "obtainable": true,
+    "description": "On Reveal: Set the Power of all cards in your deck to 3.",
+    "releaseDate": "2024-10-01T19:00:00Z",
+    "cardDefId": "AgentVenom",
+    "shortName": "AgntVnmA"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Scream",
+    "obtainable": true,
+    "description": "When an enemy card moves, steal 2 Power from it. (once per turn)",
+    "releaseDate": "2024-10-01T19:00:00Z",
+    "cardDefId": "Scream",
+    "shortName": "Scrm6"
+  },
+  {
+    "power": 8,
+    "cost": 4,
+    "name": "Misery",
+    "obtainable": true,
+    "description": "On Reveal: Repeat the On Reveal abilities of your other cards here, then destroy them.",
+    "releaseDate": "2024-10-08T19:00:00Z",
+    "cardDefId": "Misery",
+    "shortName": "Msr6"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Scorn",
+    "obtainable": true,
+    "description": "When Discarded: Put this back and give +2 Power to itself and one ofyour cards in play.",
+    "releaseDate": "2024-10-15T19:00:00Z",
+    "cardDefId": "Scorn",
+    "shortName": "Scrn5"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Agony",
+    "obtainable": true,
+    "description": "After you play a card here, merge this into it.",
+    "releaseDate": "2024-10-16T19:00:00Z",
+    "cardDefId": "Agony",
+    "shortName": "Agn5"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Toxin",
+    "obtainable": true,
+    "description": "On Reveal: Return your other cards here to your hand. +2 Powerfor each returned.",
+    "releaseDate": "2024-10-22T19:00:00Z",
+    "cardDefId": "Toxin",
+    "shortName": "Txn5"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Anti-Venom",
+    "obtainable": true,
+    "description": "On Reveal: Set the Cost and Power of your deck's top card to 0.",
+    "releaseDate": "2024-10-29T19:00:00Z",
+    "cardDefId": "AntiVenom",
+    "shortName": "AntVnm9"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Frigga",
+    "obtainable": true,
+    "description": "On Reveal: Add a copy of the last card you played to your hand. (if able)",
+    "releaseDate": "2024-11-05T19:00:00Z",
+    "cardDefId": "Frigga",
+    "shortName": "Frgg6"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Surtur",
+    "obtainable": true,
+    "description": "After you play a card with {card.AssignedPower} or more Power, this gains +2 Power.",
+    "releaseDate": "2024-11-05T19:00:00Z",
+    "cardDefId": "Surtur",
+    "shortName": "Srtr6"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Malekith",
+    "obtainable": true,
+    "description": "On Reveal: Add a 3-Cost or less card from your deck here, but don't reveal it until the game ends.",
+    "releaseDate": "2024-11-12T19:00:00Z",
+    "cardDefId": "Malekith",
+    "shortName": "Mlkth8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Fenris Wolf",
+    "obtainable": true,
+    "description": "Activate: Resurrect your opponent's highest-Power discarded or destroyed card on your side of this location.",
+    "releaseDate": "2024-11-19T19:00:00Z",
+    "cardDefId": "FenrisWolf",
+    "shortName": "FnrsWlfA"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "King Eitri",
+    "obtainable": true,
+    "description": "Activate: Draw a created card from your deck.",
+    "releaseDate": "2024-11-21T19:00:00Z",
+    "cardDefId": "KingEitri",
+    "shortName": "KngEtr9"
+  },
+  {
+    "power": 1,
+    "cost": 6,
+    "name": "Gorr the God Butcher",
+    "obtainable": true,
+    "description": "Ongoing: +2 Power for EACH On Reveal card in play.",
+    "releaseDate": "2024-11-26T19:00:00Z",
+    "cardDefId": "Gorr",
+    "shortName": "Grr4"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Galacta",
+    "obtainable": true,
+    "description": "Each turn, the first card you play at another location revealswith +2 Power.",
+    "releaseDate": "2024-12-03T19:00:00Z",
+    "cardDefId": "Galacta",
+    "shortName": "Glct7"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Luna Snow",
+    "obtainable": true,
+    "description": "On Reveal: Add an {card.Card_Token.Name} to each side of this location.",
+    "releaseDate": "2024-12-03T19:00:00Z",
+    "cardDefId": "LunaSnow",
+    "shortName": "LnSnw8"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Peni Parker",
+    "obtainable": true,
+    "description": "On Reveal: Add SP//dr to your hand.When this merges, you get+1 Energy next turn.",
+    "releaseDate": "2024-12-10T19:00:00Z",
+    "cardDefId": "PeniParker",
+    "shortName": "PnPrkrA"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Doctor Doom 2099",
+    "obtainable": true,
+    "description": "End of Turn: Add a {card.Card_Token.Name} to a random location if you played (exactly) 1 card.",
+    "releaseDate": "2024-12-17T19:00:00Z",
+    "cardDefId": "Doom2099",
+    "shortName": "Dm20998"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Bruce Banner",
+    "obtainable": true,
+    "description": "End of Turn: If you have unspent Energy, 33% chance to HULK OUT!",
+    "releaseDate": "2024-12-24T19:00:00Z",
+    "cardDefId": "BruceBanner",
+    "shortName": "BrcBnnrB"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Lasher",
+    "obtainable": true,
+    "description": "Activate: Afflict an enemy card here with negative Power equal to this card's Power.",
+    "releaseDate": "2024-12-28T19:00:00Z",
+    "cardDefId": "Lasher",
+    "shortName": "Lshr6"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Rocket and Groot",
+    "obtainable": true,
+    "description": "Moveable once.After your opponent plays a card here, steal 1 Power from it.",
+    "releaseDate": "2024-12-31T19:00:00Z",
+    "cardDefId": "RocketAndGroot",
+    "shortName": "RcktAndGrtE"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Iron Patriot",
+    "obtainable": true,
+    "description": "On Reveal: Add a random 4-Cost or more card to your hand. If you’re winning here after next turn, give it -{card.ReducedCost} Cost.",
+    "releaseDate": "2025-01-07T19:00:00Z",
+    "cardDefId": "IronPatriot",
+    "shortName": "IrnPtrtB"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Victoria Hand",
+    "obtainable": true,
+    "description": "Ongoing: Your cards that were created in your hand have +2 Power.",
+    "releaseDate": "2025-01-07T19:00:00Z",
+    "cardDefId": "VictoriaHand",
+    "shortName": "VctrHndC"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Moonstone",
+    "obtainable": true,
+    "description": "Ongoing: Has the Ongoing effects of your 3-Cost or less cards here.",
+    "releaseDate": "2025-01-14T19:00:00Z",
+    "cardDefId": "Moonstone",
+    "shortName": "Mnstn9"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Bullseye",
+    "obtainable": true,
+    "description": "Activate: Discard all cards that cost 1 or less from your hand. Afflict that many different enemy cards with -{card.ReducedPower} Power.",
+    "releaseDate": "2025-01-21T19:00:00Z",
+    "cardDefId": "Bullseye",
+    "shortName": "Blls8"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Ares",
+    "obtainable": true,
+    "description": "On Reveal: Compare the Power of the top 3 cards of both decks. If your total is higher, +{card.AddedPower} Power.",
+    "releaseDate": "2025-01-28T19:00:00Z",
+    "cardDefId": "Ares",
+    "shortName": "Ars4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Joaquin Torres Falcon II",
+    "obtainable": true,
+    "description": "Ongoing: The On Reveal abilities of your 1-Cost cards here repeat.",
+    "releaseDate": "2025-02-04T19:00:00Z",
+    "cardDefId": "JoaquinTorres",
+    "shortName": "JqnTrrsD"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Sam Wilson Captain America",
+    "obtainable": true,
+    "description": "On Reveal: Add {card.Card_Token.Name} to another location.Ongoing: {card.Card_Token.Name} is Moveable.",
+    "releaseDate": "2025-02-04T19:00:00Z",
+    "cardDefId": "SamWilson",
+    "shortName": "SmWlsn9"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Thaddeus Ross",
+    "obtainable": true,
+    "description": "End of Turn: If your opponent has unspent Energy, draw a card with10 or more Power.",
+    "releaseDate": "2025-02-11T19:00:00Z",
+    "cardDefId": "ThaddeusRoss",
+    "shortName": "ThddsRssC"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Redwing",
+    "obtainable": true,
+    "description": "The first time this moves, add a card from your hand to the old location.",
+    "releaseDate": "2025-02-18T19:00:00Z",
+    "cardDefId": "Redwing",
+    "shortName": "Rdwng7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Diamondback",
+    "obtainable": true,
+    "description": "Ongoing: Enemy cards here afflicted with negative Power have an additional -2 Power.",
+    "releaseDate": "2025-02-25T19:00:00Z",
+    "cardDefId": "Diamondback",
+    "shortName": "DmndbckB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Gorgon",
+    "obtainable": true,
+    "description": "Ongoing: Your opponent's created cards cost 1 more. (maximum {card.MaximumCost})",
+    "releaseDate": "2025-02-25T19:00:00Z",
+    "cardDefId": "Gorgon",
+    "shortName": "Grgn6"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Laufey",
+    "obtainable": true,
+    "description": "On Reveal: Steal 1 Power from each other card here.",
+    "releaseDate": "2025-02-25T19:00:00Z",
+    "cardDefId": "Laufey",
+    "shortName": "Lf6"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Uncle Ben",
+    "obtainable": true,
+    "description": "When Destroyed: Replace this with {card.Card_Token.Name}.",
+    "releaseDate": "2025-02-25T19:00:00Z",
+    "cardDefId": "UncleBen",
+    "shortName": "UnclBn8"
+  },
+  {
+    "power": 10,
+    "cost": 5,
+    "name": "Agamotto",
+    "obtainable": true,
+    "description": "Game Start: Shuffle 4 Ancient Arcana into your deck.",
+    "releaseDate": "2025-03-04T19:00:00Z",
+    "cardDefId": "Agamotto",
+    "shortName": "Agmtt8"
+  },
+  {
+    "power": 10,
+    "cost": 6,
+    "name": "Eson",
+    "obtainable": true,
+    "description": "End of Turn: Put a created card from your hand here.",
+    "releaseDate": "2025-03-04T19:00:00Z",
+    "cardDefId": "Eson",
+    "shortName": "Esn4"
+  },
+  {
+    "power": 10,
+    "cost": 3,
+    "name": "Starbrand",
+    "obtainable": true,
+    "description": "Ongoing: Your opponent has +3 Power at each other location.",
+    "releaseDate": "2025-03-11T19:00:00Z",
+    "cardDefId": "Starbrand",
+    "shortName": "Strbrnd9"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Firehair",
+    "obtainable": true,
+    "description": "When one of your cards is destroyed, this uses that card’s On Reveal.",
+    "releaseDate": "2025-03-18T19:00:00Z",
+    "cardDefId": "Firehair",
+    "shortName": "Frhr8"
+  },
+  {
+    "power": 7,
+    "cost": 2,
+    "name": "The First Ghost Rider",
+    "obtainable": true,
+    "description": "On Reveal: Discard the lowest-Power character from your hand. Remove that card's Power from this.",
+    "releaseDate": "2025-03-21T19:00:00Z",
+    "cardDefId": "GhostTheFirstRider",
+    "shortName": "GhstThFrstRdr12"
+  },
+  {
+    "power": 5,
+    "cost": 6,
+    "name": "Khonshu",
+    "obtainable": true,
+    "description": "When Discarded: Return in its next phase.On Reveal: Resurrect a card you discarded to another location with its Power set to 5.",
+    "releaseDate": "2025-03-25T19:00:00Z",
+    "cardDefId": "Khonshu",
+    "shortName": "Khnsh7"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Captain Carter",
+    "obtainable": true,
+    "description": "Ongoing: Add this card's Power to your back-row cards here.(can't add to itself)",
+    "releaseDate": "2025-04-01T19:00:00Z",
+    "cardDefId": "CaptainCarter",
+    "shortName": "CptnCrtrD"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Goliath",
+    "obtainable": true,
+    "description": "Ongoing: +1 Power for each other Ongoing card you have in play.",
+    "releaseDate": "2025-04-01T19:00:00Z",
+    "cardDefId": "Goliath",
+    "shortName": "Glth7"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Kahhori",
+    "obtainable": true,
+    "description": "On Reveal: Each card in your hand gives one of your other cards in play +1 Power.",
+    "releaseDate": "2025-04-08T19:00:00Z",
+    "cardDefId": "Kahhori",
+    "shortName": "Khhr7"
+  },
+  {
+    "power": 6,
+    "cost": 5,
+    "name": "Infinity Ultron",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 of Ultron's Stones to your hand.",
+    "releaseDate": "2025-04-15T19:00:00Z",
+    "cardDefId": "InfinityUltron",
+    "shortName": "InfntUltrnE"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Toxie Doxie",
+    "obtainable": true,
+    "description": "On Reveal: Give {card.ModifiedCardCount} characters in your hand +2 Power. You can't play them next turn.",
+    "releaseDate": "2025-04-17T19:00:00Z",
+    "cardDefId": "ToxieDoxie",
+    "shortName": "TxDxA"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Strange Supreme",
+    "obtainable": true,
+    "description": "Gains +2 Power from merging.End of Turn: Merge one of your created cards into this.",
+    "releaseDate": "2025-04-22T19:00:00Z",
+    "cardDefId": "StrangeSupreme",
+    "shortName": "StrngSprmE"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Batroc the Leaper",
+    "obtainable": true,
+    "description": "When a card moves, follow it to gain +2 Power. (once per turn)",
+    "releaseDate": "2025-04-29T19:00:00Z",
+    "cardDefId": "Batroc",
+    "shortName": "Btrc6"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Fan Fei",
+    "obtainable": true,
+    "description": "Activate: Give your other cards here +1 Power and move them to the right.",
+    "releaseDate": "2025-04-29T19:00:00Z",
+    "cardDefId": "FanFei",
+    "shortName": "FnF6"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Hydra Stomper",
+    "obtainable": true,
+    "description": "Ongoing: +1 Power for each time one of your cards moved this game.",
+    "releaseDate": "2025-04-29T19:00:00Z",
+    "cardDefId": "HydraStomper",
+    "shortName": "HdrStmprC"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Topaz",
+    "obtainable": true,
+    "description": "After you play a card here, move it to the middle location.",
+    "releaseDate": "2025-04-29T19:00:00Z",
+    "cardDefId": "Topaz",
+    "shortName": "Tpz5"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Esme Cuckoo",
+    "obtainable": true,
+    "description": "On Reveal: Copy a card from your deck into your hand. Set its Cost to 3 and Power to {card.AssignedPower}.",
+    "releaseDate": "2025-05-06T19:00:00Z",
+    "cardDefId": "EsmeCuckoo",
+    "shortName": "EsmCckA"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Surge",
+    "obtainable": true,
+    "description": "On Reveal: Give the top card of your deck -1 Cost and +{card.AddedPower} Power. After you play it, repeat this ability.",
+    "releaseDate": "2025-05-06T19:00:00Z",
+    "cardDefId": "Surge",
+    "shortName": "Srg5"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Prodigy",
+    "obtainable": true,
+    "description": "On Reveal: If this is in the back row, copy the text of the card in front of it.",
+    "releaseDate": "2025-05-13T19:00:00Z",
+    "cardDefId": "Prodigy",
+    "shortName": "Prdg7"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Elixir",
+    "obtainable": true,
+    "description": "On Reveal: One of your cards destroyed last turn gets revived here.",
+    "releaseDate": "2025-05-20T19:00:00Z",
+    "cardDefId": "Elixir",
+    "shortName": "Elxr6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Xorn",
+    "obtainable": true,
+    "description": "After ANY 3 or 0-Cost card is played here, move it to another location.",
+    "releaseDate": "2025-05-27T19:00:00Z",
+    "cardDefId": "Xorn",
+    "shortName": "Xrn4"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Hellion",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, your cards are Moveable to this location.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "Hellion",
+    "shortName": "Hlln7"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Jennifer Kale",
+    "obtainable": true,
+    "description": "Activate: Next turn, you get +1 Energy.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "JenniferKale",
+    "shortName": "JnnfrKlC"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Mercury",
+    "obtainable": true,
+    "description": "Moveable once.Ongoing: Enemy cards herecan't move.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "Mercury",
+    "shortName": "Mrcr7"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Merlin",
+    "obtainable": true,
+    "description": "At the start of each turn, add an Incantation to your hand.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "Merlin",
+    "shortName": "Mrln6"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Morgan le Fay",
+    "obtainable": true,
+    "description": "On Reveal: Return all your discarded and destroyed cards to handwith +3 Power.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "MorganLeFay",
+    "shortName": "MrgnLFB"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Nicholas Scratch",
+    "obtainable": true,
+    "description": "After you play a skill, +1 Power.",
+    "releaseDate": "2025-06-03T19:00:00Z",
+    "cardDefId": "NicholasScratch",
+    "shortName": "NchlsScrtchF"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "The Ancient One",
+    "obtainable": true,
+    "description": "On Reveal: Add {card.Card_Token.Name} to your hand.",
+    "releaseDate": "2025-06-10T19:00:00Z",
+    "cardDefId": "TheAncientOne",
+    "shortName": "ThAncntOnD"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Cobra",
+    "obtainable": true,
+    "description": "Activate: Destroy an enemy created card here.",
+    "releaseDate": "2025-06-16T19:00:00Z",
+    "cardDefId": "Cobra",
+    "shortName": "Cbr5"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Kid Omega",
+    "obtainable": true,
+    "description": "Activate: Destroy the next card you play this turn to gain its Power.",
+    "releaseDate": "2025-06-16T19:00:00Z",
+    "cardDefId": "KidOmega",
+    "shortName": "KdOmg8"
+  },
+  {
+    "power": 1,
+    "cost": 3,
+    "name": "Nightmare",
+    "obtainable": true,
+    "description": "On Reveal: Replace the text of each card in your hand with text from a random card of the same Cost.",
+    "releaseDate": "2025-06-17T19:00:00Z",
+    "cardDefId": "Nightmare",
+    "shortName": "Nghtmr9"
+  },
+  {
+    "power": 13,
+    "cost": 7,
+    "name": "Dormammu",
+    "obtainable": true,
+    "description": "Game Start: Begin a Summoning Ritual. (Add step 1 to hand.)",
+    "releaseDate": "2025-06-24T19:00:00Z",
+    "cardDefId": "Dormammu",
+    "shortName": "Drmmm8"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "Astral Projection",
+    "obtainable": true,
+    "description": "On Reveal: Copy the text of an On Reveal card in your hand.",
+    "releaseDate": "2025-06-26T19:00:00Z",
+    "cardDefId": "AstralProjection",
+    "shortName": "AstrlPrjctn10"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "Clea",
+    "obtainable": true,
+    "description": "When this is Empowered, add{card.Card_Token.Name} to your hand.(if in hand or in play)",
+    "releaseDate": "2025-07-01T19:00:00Z",
+    "cardDefId": "Clea",
+    "shortName": "Cl4"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Fantasticar",
+    "obtainable": true,
+    "description": "Activate: Give your End of Turn cards +2 Power.",
+    "releaseDate": "2025-07-08T19:00:00Z",
+    "cardDefId": "Fantasticar",
+    "shortName": "FntstcrB"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "H.E.R.B.I.E.",
+    "obtainable": true,
+    "description": "Each turn this is in play, swap to a new Activate ability until one is used.",
+    "releaseDate": "2025-07-08T19:00:00Z",
+    "cardDefId": "Herbie",
+    "shortName": "Hrb6"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Mister Fantastic First Steps",
+    "obtainable": true,
+    "description": "End of Turn: Give a card in your hand -{card.ReducedCost} Cost or +2 Power.",
+    "releaseDate": "2025-07-08T19:00:00Z",
+    "cardDefId": "MrFantasticFirstSteps",
+    "shortName": "MrFntstcFrstStps15"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Human Torch First Steps",
+    "obtainable": true,
+    "description": "End of Turn: +1 Power. Once per game, if your side here is full, double this card’s Power instead.",
+    "releaseDate": "2025-07-15T19:00:00Z",
+    "cardDefId": "HumanTorchFirstSteps",
+    "shortName": "HmnTrchFrstStps14"
+  },
+  {
+    "power": 6,
+    "cost": 5,
+    "name": "The Thing First Steps",
+    "obtainable": true,
+    "description": "End of Turn: +2 Power. Once per game, if your side here is full, destroy an enemy card here with less Power.",
+    "releaseDate": "2025-07-22T19:00:00Z",
+    "cardDefId": "TheThingFirstSteps",
+    "shortName": "ThThngFrstStps12"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Mad Thinker",
+    "obtainable": true,
+    "description": "At the start of each turn (after drawing), +2 Power if yourhand is full.",
+    "releaseDate": "2025-07-24T19:00:00Z",
+    "cardDefId": "MadThinker",
+    "shortName": "MdThnkrA"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Mole Man",
+    "obtainable": true,
+    "description": "On Reveal: Banish the top card of your deck. Add 2 {card.Card_Token.Name}s to your hand. Set their Power to the banished card’s Cost.",
+    "releaseDate": "2025-07-24T19:00:00Z",
+    "cardDefId": "MoleMan",
+    "shortName": "MlMn7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Invisible Woman First Steps",
+    "obtainable": true,
+    "description": "Activate: This turn, your End of Turn abilities repeat.",
+    "releaseDate": "2025-07-29T19:00:00Z",
+    "cardDefId": "InvisibleWomanFirstSteps",
+    "shortName": "InvsblWmnFrstStps18"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Galactus First Steps",
+    "obtainable": true,
+    "description": "My Herald is the next character I see you play.End of Turn: +2 Power if you're winning my Herald's location. (if in hand or in play)",
+    "releaseDate": "2025-08-05T19:00:00Z",
+    "cardDefId": "GalactusFirstSteps",
+    "shortName": "GlctsFrstStps12"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Red Shift",
+    "obtainable": true,
+    "description": "On Reveal: Discard the leftmost card in your hand to add a random card with the same Cost to your hand.",
+    "releaseDate": "2025-08-05T19:00:00Z",
+    "cardDefId": "RedShift",
+    "shortName": "RdShft8"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Silver Surfer First Steps",
+    "obtainable": true,
+    "description": "End of Turn: If you're winning this location with an On Reveal card, copy its text.",
+    "releaseDate": "2025-08-05T19:00:00Z",
+    "cardDefId": "SilverSurferFirstSteps",
+    "shortName": "SlvrSrfrFrstStps16"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Stardust",
+    "obtainable": true,
+    "description": "Ongoing: Cards can’t be added to locations except by playingor moving them.",
+    "releaseDate": "2025-08-05T19:00:00Z",
+    "cardDefId": "Stardust",
+    "shortName": "Strdst8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Terrax the Tamer",
+    "obtainable": true,
+    "description": "On Reveal: For each location, shuffle a {card.Card_Token.Name} into the losing player's deck.",
+    "releaseDate": "2025-08-05T19:00:00Z",
+    "cardDefId": "Terrax",
+    "shortName": "Trrx6"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Nova Frankie Raye",
+    "obtainable": true,
+    "description": "After the next time you play a6-Cost card, double this card's Power.",
+    "releaseDate": "2025-08-12T19:00:00Z",
+    "cardDefId": "FrankieRaye",
+    "shortName": "FrnkRB"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "The Fallen One",
+    "obtainable": true,
+    "description": "On Reveal: Set your Max Energy equal to this card's Power.",
+    "releaseDate": "2025-08-19T19:00:00Z",
+    "cardDefId": "FallenOne",
+    "shortName": "FllnOn9"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Air-Walker",
+    "obtainable": true,
+    "description": "When Destroyed: Replace this with a 4-Cost card from your hand or deck.",
+    "releaseDate": "2025-08-21T19:00:00Z",
+    "cardDefId": "AirWalker",
+    "shortName": "ArWlkr9"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Firelord",
+    "obtainable": true,
+    "description": "On Reveal: Revive one of your discarded or destroyed3-Cost cards here.",
+    "releaseDate": "2025-08-21T19:00:00Z",
+    "cardDefId": "Firelord",
+    "shortName": "Frlrd8"
+  },
+  {
+    "power": 6,
+    "cost": 5,
+    "name": "Cosmic Ghost Rider",
+    "obtainable": true,
+    "description": "On Reveal: Remove the text from front-row enemy cards here.",
+    "releaseDate": "2025-08-26T19:00:00Z",
+    "cardDefId": "CosmicGhostRider",
+    "shortName": "CsmcGhstRdr10"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Awesome Andy",
+    "obtainable": true,
+    "description": "Activate: Give one of your cards at each other location +2 Power.",
+    "releaseDate": "2025-09-02T19:00:00Z",
+    "cardDefId": "AwesomeAndy",
+    "shortName": "AwsmAndB"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Omega Sentinel",
+    "obtainable": true,
+    "description": "Activate: Afflict thehighest-Power enemy cardwith -7 Power.",
+    "releaseDate": "2025-09-02T19:00:00Z",
+    "cardDefId": "KarimaShapandar",
+    "shortName": "KrmShpndrF"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Moira X",
+    "obtainable": true,
+    "description": "When Destroyed: Get a copy of your opening hand.",
+    "releaseDate": "2025-09-02T19:00:00Z",
+    "cardDefId": "MoiraX",
+    "shortName": "MrX6"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Sparky",
+    "obtainable": true,
+    "description": "Activate: Give your card that last moved +2 Power and move itback to its previous location.",
+    "releaseDate": "2025-09-02T19:00:00Z",
+    "cardDefId": "Sparky",
+    "shortName": "Sprk6"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Viv Vision",
+    "obtainable": true,
+    "description": "At the start of each turn, give all cards in your hand +1 Power if you’re winning here. Otherwise, move this to another location.",
+    "releaseDate": "2025-09-02T19:00:00Z",
+    "cardDefId": "Viv",
+    "shortName": "Vv3"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Bastion",
+    "obtainable": true,
+    "description": "On Reveal: Add copies of your other cards here to your hand. Set their Costs to 2 and Power to {card.AssignedPower}.",
+    "releaseDate": "2025-09-09T19:00:00Z",
+    "cardDefId": "Bastion",
+    "shortName": "Bstn7"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Jim Hammond Human Torch",
+    "obtainable": true,
+    "description": "At the start of each turn, +1 Power for each bonus Energy you have.",
+    "releaseDate": "2025-09-16T19:00:00Z",
+    "cardDefId": "JimHammond",
+    "shortName": "JmHmmndA"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Danger",
+    "obtainable": true,
+    "description": "Activate: Destroy an enemy card here with less Power.",
+    "releaseDate": "2025-09-18T19:00:00Z",
+    "cardDefId": "Danger",
+    "shortName": "Dngr6"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Warlock",
+    "obtainable": true,
+    "description": "Activate: For each unspent Energy, give a card in your hand -1 Cost.",
+    "releaseDate": "2025-09-23T19:00:00Z",
+    "cardDefId": "Warlock",
+    "shortName": "Wrlck7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Jocasta",
+    "obtainable": true,
+    "description": "Activate: Immediately Activate your other cards here. (without using up their Activate abilities)",
+    "releaseDate": "2025-09-30T19:00:00Z",
+    "cardDefId": "Jocasta",
+    "shortName": "Jcst7"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Super-Adaptoid",
+    "obtainable": true,
+    "description": "On Reveal: Steal the text from an enemy Activate card here.",
+    "releaseDate": "2025-09-30T19:00:00Z",
+    "cardDefId": "SuperAdaptoid",
+    "shortName": "SprAdptdD"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Colonel America",
+    "obtainable": true,
+    "description": "Ongoing: Your other cards here have +1 Power for each turn you've discarded a card.",
+    "releaseDate": "2025-10-07T19:00:00Z",
+    "cardDefId": "ColonelAmerica",
+    "shortName": "ClnlAmrcE"
+  },
+  {
+    "power": 1,
+    "cost": 1,
+    "name": "Headpool",
+    "obtainable": true,
+    "description": "When Destroyed: Return this to your hand, then give all cards in your hand +1 Power.",
+    "releaseDate": "2025-10-07T19:00:00Z",
+    "cardDefId": "Headpool",
+    "shortName": "Hdpl8"
+  },
+  {
+    "power": 4,
+    "cost": 5,
+    "name": "Zombie Giant-Man",
+    "obtainable": true,
+    "description": "On Reveal: Horde +2, then this gains Power equal to your {card.Card_Token.Name}.",
+    "releaseDate": "2025-10-07T19:00:00Z",
+    "cardDefId": "ZombieGiantMan",
+    "shortName": "ZmbGntMnE"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Zombie Power Man",
+    "obtainable": true,
+    "description": "End of Turn: If you're winning here, discard the leftmost cardfrom your hand.",
+    "releaseDate": "2025-10-07T19:00:00Z",
+    "cardDefId": "ZombiePowerMan",
+    "shortName": "ZmbPwrMnE"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Zombie Scarlet Witch",
+    "obtainable": true,
+    "description": "After you play a card here, Horde +2.",
+    "releaseDate": "2025-10-07T19:00:00Z",
+    "cardDefId": "ZombieScarletWitch",
+    "shortName": "ZmbScrltWtch12"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Zombie Mister Fantastic",
+    "obtainable": true,
+    "description": "On Reveal: Horde +2.Activate: Give {card.ModifiedCardCount} of your created cards +{card.AddedPower} Power.",
+    "releaseDate": "2025-10-14T19:00:00Z",
+    "cardDefId": "ZombieMisterFantastic",
+    "shortName": "ZmbMstrFntstc15"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "The Hunger",
+    "obtainable": true,
+    "description": "On Reveal: Horde +3.",
+    "releaseDate": "2025-10-15T19:00:00Z",
+    "cardDefId": "TheHunger",
+    "shortName": "ThHngr9"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Zombie Captain Marvel",
+    "obtainable": true,
+    "description": "Activate: Destroy your other cards here to get +3 Power for each. Move to a location you're losing.",
+    "releaseDate": "2025-10-21T19:00:00Z",
+    "cardDefId": "ZombieCaptainMarvel",
+    "shortName": "ZmbCptnMrvl13"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Zombie Sentry",
+    "obtainable": true,
+    "description": "On Reveal: Horde +1 for each of your cards at the right location.",
+    "releaseDate": "2025-10-27T19:00:00Z",
+    "cardDefId": "ZombieSentry",
+    "shortName": "ZmbSntrC"
+  },
+  {
+    "power": 5,
+    "cost": 7,
+    "name": "Zombie Galacti",
+    "obtainable": true,
+    "description": "Game Start: Choose 6 other charactersin your deck.On Reveal: Transform those cardsinto copies of this.",
+    "releaseDate": "2025-10-28T19:00:00Z",
+    "cardDefId": "ZombieGalacti",
+    "shortName": "ZmbGlctD"
+  },
+  {
+    "power": 1,
+    "cost": 5,
+    "name": "Man-Spider",
+    "obtainable": true,
+    "description": "On Reveal: Merge thelast card you played into this.When this merges, double its Power.",
+    "releaseDate": "2025-11-04T19:00:00Z",
+    "cardDefId": "ManSpider",
+    "shortName": "MnSpdr9"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Spider-Punk",
+    "obtainable": true,
+    "description": "Moveable once.When this moves to a location, steal 2 Power from the highest-Power enemy there.",
+    "releaseDate": "2025-11-04T19:00:00Z",
+    "cardDefId": "SpiderPunk",
+    "shortName": "SpdrPnkA"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Superior Spider-Man",
+    "obtainable": true,
+    "description": "At the start of each turn, you get +1 Energy if you have any cards with increased Power in play.",
+    "releaseDate": "2025-11-04T19:00:00Z",
+    "cardDefId": "SuperiorSpiderMan",
+    "shortName": "SprrSpdrMn11"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Web Sling",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, one of your cards here is Moveable and gets +1 Power when it moves. (your choice)",
+    "releaseDate": "2025-11-04T19:00:00Z",
+    "cardDefId": "WebSling",
+    "shortName": "WbSlng8"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Chameleon",
+    "obtainable": true,
+    "description": "On Reveal: Copy the text of another card here you revealed this turn.",
+    "releaseDate": "2025-11-11T19:00:00Z",
+    "cardDefId": "Chameleon",
+    "shortName": "Chmln9"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Ezekiel Sims",
+    "obtainable": true,
+    "description": "After you play a card with higher Power here, give this +2 Power and move this to another location.",
+    "releaseDate": "2025-11-11T19:00:00Z",
+    "cardDefId": "EzekielSims",
+    "shortName": "EzklSmsB"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Spider-Man Noir",
+    "obtainable": true,
+    "description": "On Reveal: Set the top card of your deck's Power to {card.AssignedPower}. If your other cards in play cost exactly 8 total, add it here. (0/8)",
+    "releaseDate": "2025-11-18T19:00:00Z",
+    "cardDefId": "SpiderManNoir",
+    "shortName": "SpdrMnNrD"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Deafening Chord",
+    "obtainable": true,
+    "description": "On Reveal: Remove the text of a 3-Cost or lower enemy character here.",
+    "releaseDate": "2025-11-20T19:00:00Z",
+    "cardDefId": "DeafeningChord",
+    "shortName": "DfnngChrdE"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Hydro-Man",
+    "obtainable": true,
+    "description": "On Reveal: Set the Cost of EACH deck's top card to 1.",
+    "releaseDate": "2025-11-20T19:00:00Z",
+    "cardDefId": "HydroMan",
+    "shortName": "HdrMn8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Prowler",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 Thief’s Tools to your hand. Set their Costs to {card.AssignedCost} if a card moved last turn.",
+    "releaseDate": "2025-11-25T19:00:00Z",
+    "cardDefId": "Prowler",
+    "shortName": "Prwlr7"
+  },
+  {
+    "power": 0,
+    "cost": 4,
+    "name": "Adamantium Infusion",
+    "obtainable": true,
+    "description": "On Reveal: Banish this to revive your highest-Power destroyed card here with its Power doubled.",
+    "releaseDate": "2025-12-02T19:00:00Z",
+    "cardDefId": "AdamantiumInfusion",
+    "shortName": "AdmntmInfsn12"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Chamber",
+    "obtainable": true,
+    "description": "Activate: +2 Power for each{card.TargetCardCost}-Cost or more card you havehere and in hand.",
+    "releaseDate": "2025-12-02T19:00:00Z",
+    "cardDefId": "Chamber",
+    "shortName": "Chmbr7"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Wade Wilson",
+    "obtainable": true,
+    "description": "When Destroyed: Replace this with a 1-Cost card from your hand or deck with +{card.AddedPower} Power.",
+    "releaseDate": "2025-12-02T19:00:00Z",
+    "cardDefId": "WadeWilson",
+    "shortName": "WdWlsnA"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Weapon X Wolverine",
+    "obtainable": true,
+    "description": "After one of your other cards is destroyed, +1 Power. After every {card.ModifiedCardCount}rd time, improve this effect by {card.AssignedPower}. ({card.ModifiedCardCount_2}/{card.ModifiedCardCount})",
+    "releaseDate": "2025-12-02T19:00:00Z",
+    "cardDefId": "WeaponXWolverine",
+    "shortName": "WpnXWlvrn10"
+  },
+  {
+    "power": 14,
+    "cost": 7,
+    "name": "Weapon H",
+    "obtainable": true,
+    "description": "When Discarded: Put this back with -2 Cost.",
+    "releaseDate": "2025-12-09T19:00:00Z",
+    "cardDefId": "WeaponH",
+    "shortName": "WpnH7"
+  },
+  {
+    "power": 2,
+    "cost": 3,
+    "name": "Maverick",
+    "obtainable": true,
+    "description": "Activate: Give the next card you play Power equal to this card’s Power.",
+    "releaseDate": "2025-12-16T19:00:00Z",
+    "cardDefId": "Maverick",
+    "shortName": "Mvrck8"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Fastball Special",
+    "obtainable": true,
+    "description": "On Reveal: Destroy your highest-Power card here to afflict an enemy card here with that much negative Power.",
+    "releaseDate": "2025-12-18T19:00:00Z",
+    "cardDefId": "FastballSpecial",
+    "shortName": "FstbllSpclF"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Marrow",
+    "obtainable": true,
+    "description": "When Discarded or Destroyed: Randomly split -7 Poweramong enemy cards.",
+    "releaseDate": "2025-12-18T19:00:00Z",
+    "cardDefId": "Marrow",
+    "shortName": "Mrrw6"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Wild Child",
+    "obtainable": true,
+    "description": "Ongoing: +4 Power if you’ve discarded a card. +4 Power if one of your cards has been destroyed.",
+    "releaseDate": "2025-12-18T19:00:00Z",
+    "cardDefId": "WildChild",
+    "shortName": "WldChld9"
+  },
+  {
+    "power": 5,
+    "cost": 6,
+    "name": "Aurora",
+    "obtainable": true,
+    "description": "On Reveal: Give one of your other On Reveal cards at each location +2 Power. Repeat for Ongoing, Activate, and End of Turn.",
+    "releaseDate": "2025-12-23T19:00:00Z",
+    "cardDefId": "Aurora",
+    "shortName": "Arr6"
+  },
+  {
+    "power": 7,
+    "cost": 4,
+    "name": "Fantomex",
+    "obtainable": true,
+    "description": "Activate: If you've had cards discarded and destroyed, afflict front-row enemy cards at each location with -2 Power.",
+    "releaseDate": "2025-12-30T19:00:00Z",
+    "cardDefId": "Fantomex",
+    "shortName": "Fntmx8"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Dragon of the Moon",
+    "obtainable": true,
+    "description": "On Reveal: Steal 1 Power from even-costed cards in ALL hands.",
+    "releaseDate": "2026-01-06T19:00:00Z",
+    "cardDefId": "DragonOfTheMoon",
+    "shortName": "DrgnOfThMnF"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Lockheed",
+    "obtainable": true,
+    "description": "End of Turn: If you played a 1-Cost card this turn, afflict an enemy card here with -{card.ReducedPower} Power.",
+    "releaseDate": "2026-01-06T19:00:00Z",
+    "cardDefId": "Lockheed",
+    "shortName": "Lckhd8"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Majestic Wingbeat",
+    "obtainable": true,
+    "description": "On Reveal: Give the leftmost card in your hand +2 Power. If it’s {card.AssignedCost}-Cost or more, -{card.ReducedCost} Cost too.",
+    "releaseDate": "2026-01-06T19:00:00Z",
+    "cardDefId": "MajesticWingbeat",
+    "shortName": "MjstcWngbt10"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Shou-Lao the Undying",
+    "obtainable": true,
+    "description": "On Reveal: Give the last character you played +2 Power for each turn you played {card.TokenCount} or more cards. (+{card.AssignedPower})",
+    "releaseDate": "2026-01-06T19:00:00Z",
+    "cardDefId": "ShouLao",
+    "shortName": "ShL7"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Dragon Lord",
+    "obtainable": true,
+    "description": "On Reveal: Put a card from your hand here.",
+    "releaseDate": "2026-01-12T19:00:00Z",
+    "cardDefId": "DragonLord",
+    "shortName": "DrgnLrdA"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Lin Lie Iron Fist",
+    "obtainable": true,
+    "description": "On Reveal: Add the {card.Card_Token.Name} to another location.",
+    "releaseDate": "2026-01-13T19:00:00Z",
+    "cardDefId": "LinLie",
+    "shortName": "LnL6"
+  },
+  {
+    "power": 12,
+    "cost": 7,
+    "name": "Fin Fang Foom",
+    "obtainable": true,
+    "description": "On Reveal: Gain the Power of a front-row enemy card here.",
+    "releaseDate": "2026-01-20T19:00:00Z",
+    "cardDefId": "FinFangFoom",
+    "shortName": "FnFngFmB"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Shang-Chi, Master of the Rings",
+    "obtainable": true,
+    "description": "Game Start: The Ten Ringsstarts in your hand.On Reveal: Unlock their potential.",
+    "releaseDate": "2026-01-27T19:00:00Z",
+    "cardDefId": "ShangChiMasterOfTheRings",
+    "shortName": "ShngChMstrOfThRngs18"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Magus",
+    "obtainable": true,
+    "description": "Activate: Copy the text of a character in your deck with Cost equal to your unspent Energy. (without using its On Reveal)",
+    "releaseDate": "2026-02-03T19:00:00Z",
+    "cardDefId": "Magus",
+    "shortName": "Mgs5"
+  },
+  {
+    "power": 1,
+    "cost": 2,
+    "name": "Moondragon",
+    "obtainable": true,
+    "description": "End of Turn: +2 Power if you played {card.ModifiedCardCount} card this turn and spentall your Energy.",
+    "releaseDate": "2026-02-03T19:00:00Z",
+    "cardDefId": "Moondragon",
+    "shortName": "MndrgnA"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Star-Lord, Master of the Sun",
+    "obtainable": true,
+    "description": "On Reveal: Next turn, you get +1 Energy for each turn you've ended with unspent Energy.",
+    "releaseDate": "2026-02-03T19:00:00Z",
+    "cardDefId": "StarlordMasterOfTheSun",
+    "shortName": "StrlrdMstrOfThSn16"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Drax, Avatar Of Life",
+    "obtainable": true,
+    "description": "End of Turn: +3 Power if your opponent played a card with greater Power this turn. Move to that card if you'd be winning its location.",
+    "releaseDate": "2026-02-10T19:00:00Z",
+    "cardDefId": "DraxAvatarOfLife",
+    "shortName": "DrxAvtrOfLf10"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Major Victory",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 members of the Guardians crew to your hand.",
+    "releaseDate": "2026-02-12T19:00:00Z",
+    "cardDefId": "MajorVictory",
+    "shortName": "MjrVctrC"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Kraglin",
+    "obtainable": true,
+    "description": "On Reveal: Banish the top card of your deck. If it was 4-Cost or more, +{card.AddedEnergy} Energy next turn, otherwise give this +{card.AddedPower} Power.",
+    "releaseDate": "2026-02-17T19:00:00Z",
+    "cardDefId": "Kraglin",
+    "shortName": "Krgln7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Jack Flag",
+    "obtainable": true,
+    "description": "Ongoing: Your cards here with increased Power have +2 Power.",
+    "releaseDate": "2026-02-24T19:00:00Z",
+    "cardDefId": "JackFlag",
+    "shortName": "JckFlg8"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Starhawk",
+    "obtainable": true,
+    "description": "On Reveal: +1 Power to your cards at the left location if it's an odd turn, otherwise give to the right location.",
+    "releaseDate": "2026-02-26T19:00:00Z",
+    "cardDefId": "Starhawk",
+    "shortName": "Strhwk8"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "En Sabah Nur",
+    "obtainable": true,
+    "description": " Objective: Have a full front row at each location  Transform into {card.Card_Token.Name}. ({card.ObjectiveProgress}/6)",
+    "releaseDate": "2026-03-03T19:00:00Z",
+    "cardDefId": "EnSabahNur",
+    "shortName": "EnSbhNrA"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Isca the Unbeaten",
+    "obtainable": true,
+    "description": "End of Turn: If you’re losing this location, double this card’s Power.",
+    "releaseDate": "2026-03-03T19:00:00Z",
+    "cardDefId": "Isca",
+    "shortName": "Isc4"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Juggernaut Horseman of War",
+    "obtainable": true,
+    "description": " Objective: Have 6 different Powers among your other cards in play +{card.AddedPower} Power. ({card.ObjectiveProgress}/6)",
+    "releaseDate": "2026-03-03T19:00:00Z",
+    "cardDefId": "JuggernautHorseman",
+    "shortName": "JggrntHrsmn12"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Gambit Horseman of Death",
+    "obtainable": true,
+    "description": " Objective: Play 6 total Cost of created cards  Randomly destroy up to {card.AssignedCost} total Cost of enemy cards. ({card.ObjectiveProgress}/6)",
+    "releaseDate": "2026-03-10T19:00:00Z",
+    "cardDefId": "GambitHorseman",
+    "shortName": "GmbtHrsmnE"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Sandstorm",
+    "obtainable": true,
+    "description": "On Reveal: Add 2 {card.Card_Token.Name}s to your hand. Give them +{card.AddedPower} Power for eachof your front-Row characters.",
+    "releaseDate": "2026-03-12T19:00:00Z",
+    "cardDefId": "Sandstorm",
+    "shortName": "Sndstrm9"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Caliban Horseman of Pestilence",
+    "obtainable": true,
+    "description": " Objective: Have 3 cards that are {card.TargetCardCost}-Cost or more in play  Afflict the highest-Cost enemy card with -{card.ReducedPower} Power. ({card.ObjectiveProgress}/3)",
+    "releaseDate": "2026-03-17T19:00:00Z",
+    "cardDefId": "CalibanHorseman",
+    "shortName": "ClbnHrsmnF"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Ozymandias",
+    "obtainable": true,
+    "description": "Ongoing: Your {card.Card_Token.Name}s have+3 Power.",
+    "releaseDate": "2026-03-23T19:00:00Z",
+    "cardDefId": "Ozymandias",
+    "shortName": "OzmndsA"
+  },
+  {
+    "power": 4,
+    "cost": 4,
+    "name": "Selene Horseman of Famine",
+    "obtainable": true,
+    "description": " Objective: Have 3 cards with no abilities in play  Steal {card.StolenPower} Power from an enemy card here. ({card.ObjectiveProgress}/3)",
+    "releaseDate": "2026-03-24T19:00:00Z",
+    "cardDefId": "SeleneHorseman",
+    "shortName": "SlnHrsmnE"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Rama-Tut",
+    "obtainable": true,
+    "description": "On Reveal: Use 3 On Reveals from cards released before{card.Name}'s time.",
+    "releaseDate": "2026-03-31T19:00:00Z",
+    "cardDefId": "RamaTut",
+    "shortName": "RmTt7"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Stryfe",
+    "obtainable": true,
+    "description": " Objective: Play 3 On Reveal cards  Use the highest-Cost On Reveal in your hand. ({card.ObjectiveProgress}/3)",
+    "releaseDate": "2026-04-07T19:00:00Z",
+    "cardDefId": "Stryfe",
+    "shortName": "Strf6"
+  },
+  {
+    "power": 0,
+    "cost": 2,
+    "name": "Techno-Organic Virus",
+    "obtainable": true,
+    "description": "On Reveal: Infect your othercards here (replace their text).Copy this to your hand.",
+    "releaseDate": "2026-04-07T19:00:00Z",
+    "cardDefId": "TechnoOrganicVirus",
+    "shortName": "TchnOrgncVrs12"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Wolverine Horseman of War",
+    "obtainable": true,
+    "description": " Objective: This has 5 or more Power  Give one of your cards at each location +{card.AddedPower} Power. ({card.ObjectiveProgress}/5)",
+    "releaseDate": "2026-04-07T19:00:00Z",
+    "cardDefId": "WolverineHorseman",
+    "shortName": "WlvrnHrsmn11"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Askani'son",
+    "obtainable": true,
+    "description": "Activate: Create a 1-Cost card at another location. Increase the Cost each time you're winning here as the turn starts.",
+    "releaseDate": "2026-04-09T19:00:00Z",
+    "cardDefId": "Askanison",
+    "shortName": "Asknsn9"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Archangel Horseman of Death",
+    "obtainable": true,
+    "description": " Objective: Your cards are destroyed 4 times  Resurrect one here with +{card.AddedPower} Power. ({card.ObjectiveProgress}/4)",
+    "releaseDate": "2026-04-14T19:00:00Z",
+    "cardDefId": "ArchangelHorseman",
+    "shortName": "ArchnglHrsmn11"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Polaris Horseman of Pestilence",
+    "obtainable": true,
+    "description": " Objective: Cards in play are afflicted with -5 Power  Put a card from your hand here. ({card.ObjectiveProgress}/5)",
+    "releaseDate": "2026-04-21T19:00:00Z",
+    "cardDefId": "PolarisHorseman",
+    "shortName": "PlrsHrsmnF"
+  },
+  {
+    "power": 4,
+    "cost": 4,
+    "name": "Mother Askani",
+    "obtainable": true,
+    "description": "On Reveal: Give the leftmost card in your hand +2 Power and -{card.ReducedCost} Cost,then copy it.",
+    "releaseDate": "2026-04-23T19:00:00Z",
+    "cardDefId": "MotherAskani",
+    "shortName": "MthrAsknC"
+  },
+  {
+    "power": 1,
+    "cost": 3,
+    "name": "Storm Horseman of Famine",
+    "obtainable": true,
+    "description": " Objective: End 2 turns in a row with unspent Energy  Give your other cards here and in your hand +{card.AddedPower} Power. ({card.ObjectiveProgress}/2)",
+    "releaseDate": "2026-04-28T19:00:00Z",
+    "cardDefId": "StormHorseman",
+    "shortName": "StrmHrsmnD"
+  },
+  {
+    "power": 5,
+    "cost": 4,
+    "name": "Karen Page",
+    "obtainable": true,
+    "description": "On Reveal: Give one of your 1, 3, and 114-Cost characters +{card.AddedPower} Power each.",
+    "releaseDate": "2026-05-05T19:00:00Z",
+    "cardDefId": "KarenPage",
+    "shortName": "KrnPg9"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Shadowlands Daredevil",
+    "obtainable": true,
+    "description": "On Reveal: Shuffle in 3 {card.Card_Token.Name}s.When you draw a card with {card.AssignedPower} or more Power, +{card.AddedPower} Power.",
+    "releaseDate": "2026-05-05T19:00:00Z",
+    "cardDefId": "ShadowlandsDaredevil",
+    "shortName": "ShdwlndsDrdvl14"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Wilson Fisk",
+    "obtainable": true,
+    "description": "Costs 3 if you have the highest Power among cards in play.",
+    "releaseDate": "2026-05-05T19:00:00Z",
+    "cardDefId": "WilsonFisk",
+    "shortName": "WlsnFskA"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Punisher War Machine",
+    "obtainable": true,
+    "description": "When drawn, mark one of your empty locations. Objective: Win that location  +1 Max Energy.",
+    "releaseDate": "2026-05-12T19:00:00Z",
+    "cardDefId": "PunisherWarMachine",
+    "shortName": "PnshrWrMchn12"
+  },
+  {
+    "power": 12,
+    "cost": 4,
+    "name": "Ikari",
+    "obtainable": true,
+    "description": "You can only play this where an enemy is afflicted withnegative Power.",
+    "releaseDate": "2026-05-14T19:00:00Z",
+    "cardDefId": "Ikari",
+    "shortName": "Ikr5"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Muse",
+    "obtainable": true,
+    "description": "Ongoing: +3 Power for each location where one of your cards has been destroyed.",
+    "releaseDate": "2026-05-19T19:00:00Z",
+    "cardDefId": "Muse",
+    "shortName": "Ms4"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Lady Bullseye",
+    "obtainable": true,
+    "description": "On Reveal: Afflict an enemy card with -2 Power. Repeat on a different enemy for each of your unspent Energy.",
+    "releaseDate": "2026-05-26T19:00:00Z",
+    "cardDefId": "LadyBullseye",
+    "shortName": "LdBllsC"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Stick",
+    "obtainable": true,
+    "description": "On Reveal: Give the next card you play Power equal to this card's Power.",
+    "releaseDate": "2026-05-26T19:00:00Z",
+    "cardDefId": "Stick",
+    "shortName": "Stck5"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Jeff the Baby Dolphin!?",
+    "obtainable": true,
+    "description": "Your cards reveal here with +1 Power.Moveable once.",
+    "releaseDate": "2026-06-02T19:00:00Z",
+    "cardDefId": "JeffTheBabyDolphin",
+    "shortName": "JffThBbDlphn12"
+  },
+  {
+    "power": 8,
+    "cost": 8,
+    "name": "Monstro",
+    "obtainable": true,
+    "description": "This card’s cost is reduced by the cost of your deck’s top card.",
+    "releaseDate": "2026-06-02T19:00:00Z",
+    "cardDefId": "MonstroOctopus",
+    "shortName": "MnstrOctpsE"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Venus",
+    "obtainable": true,
+    "description": "When your cards in play are Empowered, give those cardsan additional +1 Power.",
+    "releaseDate": "2026-06-02T19:00:00Z",
+    "cardDefId": "Venus",
+    "shortName": "Vns5"
+  },
+  {
+    "power": 3,
+    "cost": 4,
+    "name": "Jubilee Silver Surfer",
+    "obtainable": true,
+    "description": "When you draw a card, add this card's Power to it.",
+    "releaseDate": "2026-06-09T19:00:00Z",
+    "cardDefId": "JubileeSilverSurfer",
+    "shortName": "JblSlvrSrfr13"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Quicksand",
+    "obtainable": true,
+    "description": "The next time your opponent would start a turn with bonus Energy,they don't get it.",
+    "releaseDate": "2026-06-11T19:00:00Z",
+    "cardDefId": "Quicksand",
+    "shortName": "Qcksnd9"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Sub-Mariner",
+    "obtainable": true,
+    "description": "When this is Empowered, add a random1-Cost character to your hand with that same increase. (if in hand or in play)",
+    "releaseDate": "2026-06-16T19:00:00Z",
+    "cardDefId": "SubMariner",
+    "shortName": "SbMrnrA"
+  },
+  {
+    "power": 6,
+    "cost": 3,
+    "name": "Triton",
+    "obtainable": true,
+    "description": "On Reveal: Give the last character EACH player played last turn+3 Power.",
+    "releaseDate": "2026-06-22T19:00:00Z",
+    "cardDefId": "Triton",
+    "shortName": "Trtn6"
+  },
+  {
+    "power": 5,
+    "cost": 3,
+    "name": "Namorita",
+    "obtainable": true,
+    "description": "When you draw a card, give it -1 Cost if this is your only card here.",
+    "releaseDate": "2026-06-23T19:00:00Z",
+    "cardDefId": "Namorita",
+    "shortName": "Nmrt8"
+  },
+  {
+    "power": 4,
+    "cost": 2,
+    "name": "Aunt May",
+    "obtainable": true,
+    "description": "End of Turn: If you used a Moveable ability, give a Moveable card in your hand -1 Cost and +{card.AddedPower} Power.",
+    "releaseDate": "2026-06-30T19:00:00Z",
+    "cardDefId": "AuntMay",
+    "shortName": "AntM7"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Mary Jane",
+    "obtainable": true,
+    "description": "End of Turn: Give each of your cards that moved this turn +1 Power.",
+    "releaseDate": "2026-06-30T19:00:00Z",
+    "cardDefId": "MaryJane",
+    "shortName": "MrJn8"
+  },
+  {
+    "power": 2,
+    "cost": 1,
+    "name": "Spider-Man Brand New Day",
+    "obtainable": true,
+    "description": "Moveable twice.After this moves to a location. give one of your other cards there +1 Power. (even unrevealed ones)",
+    "releaseDate": "2026-06-30T19:00:00Z",
+    "cardDefId": "SpiderManBrandNewDay",
+    "shortName": "SpdrMnBrndNwD14"
+  },
+  {
+    "power": 3,
+    "cost": 2,
+    "name": "Tombstone",
+    "obtainable": true,
+    "description": "On Reveal: Destroy your lowest-Power card at each other location.",
+    "releaseDate": "2026-07-06T19:00:00Z",
+    "cardDefId": "Tombstone",
+    "shortName": "Tmbstn9"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Tarantula",
+    "obtainable": true,
+    "description": "End of Turn: If you have the highest Power among cards in play, give this and 2 cards in your hand +{card.AddedPower} Power.",
+    "releaseDate": "2026-07-07T19:00:00Z",
+    "cardDefId": "Tarantula",
+    "shortName": "Trntl9"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Boomerang",
+    "obtainable": true,
+    "description": "When this returns to your hand, randomly steal 4 Power from cards in your opponent's hand.Activate: Return this to your hand.",
+    "releaseDate": "2026-07-14T19:00:00Z",
+    "cardDefId": "Boomerang",
+    "shortName": "Bmrng9"
+  },
+  {
+    "power": 3,
+    "cost": 1,
+    "name": "J. Jonah Jameson",
+    "obtainable": true,
+    "description": "Ongoing: Your text emotesare ruder.",
+    "releaseDate": "2026-07-21T19:00:00Z",
+    "cardDefId": "JJonahJameson",
+    "shortName": "JJnhJmsnD"
+  },
+  {
+    "power": 8,
+    "cost": 6,
+    "name": "Scorpion Brand New Day",
+    "obtainable": true,
+    "description": "Ongoing: Double the Power reductions on all enemy cards.",
+    "releaseDate": "2026-07-21T19:00:00Z",
+    "cardDefId": "ScorpionBrandNewDay",
+    "shortName": "ScrpnBrndNwD13"
+  },
+  {
+    "power": 0,
+    "cost": 5,
+    "name": "Spider Sense",
+    "obtainable": true,
+    "description": "On Reveal: Give your characters here +2 Power. Costs {card.ReducedCost} less for each Moveable card you've played.",
+    "releaseDate": "2026-07-22T19:00:00Z",
+    "cardDefId": "SpiderSense",
+    "shortName": "SpdrSnsB"
+  },
+  {
+    "power": 12,
+    "cost": 6,
+    "name": "Sinister Six",
+    "obtainable": true,
+    "description": "Game Start: The first 6 characters you draw are EVIL! After you play them all, merge them into this and add this to the last one's location. ({card.DrawCount}/6)",
+    "releaseDate": "2026-07-28T19:00:00Z",
+    "cardDefId": "SinisterSix",
+    "shortName": "SnstrSxB"
+  },
+  {
+    "power": 7,
+    "cost": 5,
+    "name": "Superior Iron Man",
+    "obtainable": true,
+    "description": "Double Cost reductions to this.Ongoing: Double Powerincreases to this.",
+    "releaseDate": "2026-09-01T19:00:00Z",
+    "cardDefId": "SuperiorIronMan",
+    "shortName": "SprrIrnMnF"
+  },
+  {
+    "power": 5,
+    "cost": 5,
+    "name": "Rogue Scion of Division",
+    "obtainable": true,
+    "description": "On Reveal: Steal the text of the highest-Cost card in youropponent's hand.",
+    "releaseDate": "2026-09-15T19:00:00Z",
+    "cardDefId": "RogueScionOfDivision",
+    "shortName": "RgScnOfDvsn14"
+  },
+  {
+    "power": 0,
+    "cost": 3,
+    "name": "The Inversion",
+    "obtainable": true,
+    "description": "On Reveal: Invert the Power of the lowest-Power card(s) here. (positive becomes negative and vice versa)",
+    "releaseDate": "2028-01-01T19:00:00Z",
+    "cardDefId": "TheInversion",
+    "shortName": "ThInvrsnC"
+  },
+  {
+    "power": 0,
+    "cost": 1,
+    "name": "Brand of Shou-Lao",
+    "obtainable": true,
+    "description": "On Reveal: One of your other cards here steals 2 Power from the character that costs the most in your opponent's hand.",
+    "releaseDate": "2028-01-04T19:00:00Z",
+    "cardDefId": "BrandOfShouLao",
+    "shortName": "BrndOfShLE"
+  },
+  {
+    "power": 0,
+    "cost": 4,
+    "name": "Dragon Breath",
+    "obtainable": true,
+    "description": "On Reveal: Give a 5-Cost or more character in your hand +{card.AddedPower} Power. Afflict an enemy card at each location with -{card.ReducedPower} Power.",
+    "releaseDate": "2028-01-04T19:00:00Z",
+    "cardDefId": "DragonBreath",
+    "shortName": "DrgnBrthC"
+  },
+  {
+    "power": 6,
+    "cost": 4,
+    "name": "Dragon Man",
+    "obtainable": true,
+    "description": "End of Turn: +1 Power for each location that's full on your side.",
+    "releaseDate": "2028-01-04T19:00:00Z",
+    "cardDefId": "DragonMan",
+    "shortName": "DrgnMn9"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Jane Foster (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: Judge 4 other random characters. +1 Power (if yours) or -1 Power (enemies). Quickdraw: Judge the worthy again.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "JaneFosterFracturedFrontier",
+    "shortName": "JnFstrFF"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Psylocke (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: Give cards in your hand that are 5-Cost or more -1 Cost. Quickdraw: Your whole hand instead.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "PsylockeFracturedFrontier",
+    "shortName": "PslckFF"
+  },
+  {
+    "power": 8,
+    "cost": 5,
+    "name": "Thanos (Fractured Frontier)",
+    "obtainable": true,
+    "description": "Game Start: Load an Infinity Shot. Your cards have Quickdraw: Thanos loads again. On Reveal: Fire all loaded Shots.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "ThanosFracturedFrontier",
+    "shortName": "ThnsFF"
+  },
+  {
+    "power": 9,
+    "cost": 5,
+    "name": "Death (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: Resurrect all your destroyed characters to random locations.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "DeathFracturedFrontier",
+    "shortName": "DthFF"
+  },
+  {
+    "power": 2,
+    "cost": 2,
+    "name": "Doctor Octopus (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: Put your leftmost card in hand on top of your deck to get a random character. Give both +3 Power.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "DoctorOctopusFracturedFrontier",
+    "shortName": "DocOctFF"
+  },
+  {
+    "power": 3,
+    "cost": 3,
+    "name": "Hellcow (Fractured Frontier)",
+    "obtainable": true,
+    "description": "End of Turn: Afflict ALL other cards here with -1 Power. Then destroy your cards here with 0 Power or less.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "HellcowFracturedFrontier",
+    "shortName": "HllcwFF"
+  },
+  {
+    "power": 8,
+    "cost": 3,
+    "name": "Red Hulk (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: -1 Power for each enemy card here. Quickdraw: +1 Power instead.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "RedHulkFracturedFrontier",
+    "shortName": "RdHlkFF"
+  },
+  {
+    "power": 4,
+    "cost": 3,
+    "name": "Red Wolf (Fractured Frontier)",
+    "obtainable": true,
+    "description": "On Reveal: +1 Power for each card in your hand. Quickdraw: Give your hand +1 Power.",
+    "releaseDate": "2026-08-04T19:00:00Z",
+    "cardDefId": "RedWolfFracturedFrontier",
+    "shortName": "RdWlfFF"
+  },
+  {
+    "power": 9,
+    "cost": 6,
+    "name": "Anti-Polar Magneto",
+    "obtainable": true,
+    "description": "On Reveal: Move all enemy 3 and 4-Cost cards to this location.",
+    "releaseDate": "2026-06-02T19:00:00Z",
+    "cardDefId": "AntiPolarMagneto",
+    "shortName": "AntPlrMgnt"
+  }
+]

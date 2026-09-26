@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deck Scanner Visual Benchmark</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
+    <style>
+        body { background: #0b0f19; color: #f1f5f9; font-family: system-ui, sans-serif; }
+    </style>
+</head>
+<body class="p-8 max-w-7xl mx-auto">
+    <div class="flex items-center justify-between border-b border-slate-800 pb-6 mb-8">
+        <div>
+            <h1 class="text-3xl font-extrabold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                Deck Scanner Visual Benchmark Runner
+            </h1>
+            <p class="text-xs text-slate-400 mt-1">Automated test harness testing in-browser OCR + cascade matching against ground-truth samples</p>
+        </div>
+        <button onclick="runAllBenchmarks()" class="px-5 py-2.5 bg-blue-600 hover:bg-blue-500 rounded-xl font-bold text-xs shadow-lg shadow-blue-600/30">
+            ▶ Run All Benchmarks
+        </button>
+    </div>
+
+    <!-- Benchmark Results Container -->
+    <div id="resultsContainer" class="space-y-10">
+        <!-- Test suites dynamically rendered here -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="../src/deck_encoder.js?v=25"></script>
+    <script src="../src/layout_detector.js?v=25"></script>
+    <script src="../src/stat_pruner.js?v=25"></script>
+    <script src="../src/logo_matcher.js?v=25"></script>
+    <script src="../src/ocr_matcher.js?v=25"></script>
+    <script src="../src/deck_scanner.js?v=25"></script>
+
+    <script>
+        const TEST_SUITES = [
+            {
+                id: 'sample1',
+                name: 'Sample 1: Clean PC 6x2 (Bounce / Move)',
+                url: 'samples/sample1_pc_6x2.jpg',
+                expectedLayout: '6x2',
+                expectedCards: ['MajesticWingbeat', 'KittyPryde', 'Agony', 'SpiderManBrandNewDay', 'GrandMaster', 'ScarletWitch', 'Magik', 'HopeSummers', 'Psylocke', 'MotherAskani', 'SuperiorIronMan', 'ShouLao']
+            },
+            {
+                id: 'sample2',
+                name: 'Sample 2: Mobile Foiled 6x2 (Evil Bounce)',
+                url: 'samples/sample2_mobile_foil_6x2.png',
+                expectedLayout: '6x2',
+                expectedCards: ['SilverSable', 'Hawkeye', 'RocketRaccoon', 'AmericaChavez', 'NicoMinoru', 'Toxin', 'Falcon', 'JoaquinTorres', 'Frigga', 'Venom', 'Beast', 'SinisterSix']
+            },
+            {
+                id: 'sample4',
+                name: 'Sample 4: Tracker UI 6x2 (Draft/Constructed)',
+                url: 'samples/sample4_tracker_6x2.png',
+                expectedLayout: '6x2',
+                expectedCards: ['SilverSable', 'Agony', 'Forge', 'Forge', 'Lasher', 'MrSinister', 'Starlord', 'Ironheart', 'Beast', 'BlackPanther', 'Stick', 'MotherAskani']
+            },
+            {
+                id: 'sample5',
+                name: 'Sample 5: Streamer Stream Capture 3x4 (Hela / Infinaut)',
+                url: 'samples/sample5_stream_3x4.png',
+                expectedLayout: '3x4',
+                expectedCards: ['Blade', 'GrandMaster', 'Kraglin', 'LadySif', 'Jubilee', 'IronLad', 'IronMan', 'Blink', 'Hela', 'Infinaut', 'FinFangFoom', 'MonstroOctopus']
+            }
+        ];
+
+        let scanner = null;
+
+        async function init() {
+            const res = await fetch('../data/cards_database.json');
+            const cardsDb = await res.json();
+            scanner = new DeckScanner(cardsDb);
+            console.log('✅ Benchmark Runner Initialized with', cardsDb.length, 'cards');
+            runAllBenchmarks();
+        }
+
+        async function runAllBenchmarks() {
+            const container = document.getElementById('resultsContainer');
+            container.innerHTML = '<div class="p-8 text-center"><div class="inline-block animate-spin w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full mb-3"></div><p class="text-blue-400 font-mono text-sm">Initializing In-Browser Tesseract WASM OCR Engine & Scanning Samples...</p></div>';
+
+            const cardsDb = scanner.cardsDatabase;
+            container.innerHTML = '';
+
+            for (const suite of TEST_SUITES) {
+                const section = document.createElement('div');
+                section.className = 'bg-slate-900/60 border border-slate-800 rounded-2xl p-6';
+                
+                const img = new Image();
+                await new Promise((resolve) => {
+                    img.onload = resolve;
+                    img.src = suite.url;
+                });
+
+                const t0 = performance.now();
+                const scan = await scanner.scanDeck(img);
+                const elapsed = (performance.now() - t0).toFixed(1);
+
+                // Compute accuracy
+                let matchCount = 0;
+                scan.cards.forEach((slot, i) => {
+                    const defId = slot.selectedCard ? slot.selectedCard.cardDefId : '';
+                    const expDefId = suite.expectedCards[i];
+                    if (defId.toLowerCase() === (expDefId || '').toLowerCase()) matchCount++;
+                });
+                const accPct = Math.round((matchCount / 12) * 100);
+
+                section.innerHTML = `
+                    <div class="flex items-center justify-between border-b border-slate-800 pb-4 mb-4">
+                        <div>
+                            <div class="flex items-center space-x-3">
+                                <h3 class="font-bold text-base text-white">${suite.name}</h3>
+                                <span class="px-2.5 py-0.5 rounded-full text-xs font-black ${accPct >= 80 ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' : 'bg-amber-500/20 text-amber-400 border border-amber-500/30'}">
+                                    Accuracy: ${matchCount}/12 (${accPct}%)
+                                </span>
+                            </div>
+                            <p class="text-xs text-slate-400 font-mono mt-0.5">Layout: ${scan.layout} • Latency: ${elapsed}ms</p>
+                        </div>
+                        <div class="px-3 py-1 rounded-lg bg-slate-800 border border-slate-700 font-mono text-xs text-blue-300">
+                            Deck: ${scan.deckCode.substring(0, 24)}...
+                        </div>
+                    </div>
+
+                    <!-- Cards Row -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3" id="grid_${suite.id}">
+                    </div>
+                `;
+
+                container.appendChild(section);
+
+                const grid = document.getElementById(`grid_${suite.id}`);
+                scan.cards.forEach((slot, i) => {
+                    const card = slot.selectedCard;
+                    const name = card ? card.name : 'Unknown';
+                    const defId = card ? card.cardDefId : 'Unknown';
+                    const expDefId = suite.expectedCards[i];
+                    const isExactMatch = defId.toLowerCase() === (expDefId || '').toLowerCase();
+
+                    const slotEl = document.createElement('div');
+                    slotEl.className = `p-2.5 rounded-xl border ${isExactMatch ? 'border-emerald-500/40 bg-emerald-950/20 shadow-md shadow-emerald-500/10' : 'border-rose-500/40 bg-rose-950/20'} flex flex-col items-center`;
+
+                    const canvas = document.createElement('canvas');
+                    canvas.width = 100;
+                    canvas.height = 150;
+                    canvas.className = 'w-full rounded-lg mb-2 object-cover border border-slate-800';
+                    canvas.getContext('2d').drawImage(slot.cardCanvas, 0, 0, 100, 150);
+
+                    slotEl.appendChild(canvas);
+
+                    const infoDiv = document.createElement('div');
+                    infoDiv.className = 'w-full text-center';
+                    infoDiv.innerHTML = `
+                        <p class="font-bold text-xs truncate text-slate-200" title="${name}">${name}</p>
+                        <span class="text-[10px] font-mono text-slate-400">[${defId}]</span>
+                        ${slot.detectedText ? `<p class="text-[9px] font-mono text-cyan-300/80 truncate">OCR: "${slot.detectedText}"</p>` : ''}
+                        <div class="mt-1 flex items-center justify-center space-x-1">
+                            <span class="px-1.5 py-0.5 rounded text-[9px] font-bold ${isExactMatch ? 'bg-emerald-500/20 text-emerald-400' : 'bg-rose-500/20 text-rose-400'}">
+                                ${isExactMatch ? '✓ EXACT MATCH' : `EXPECTED: ${expDefId}`}
+                            </span>
+                        </div>
+                    `;
+                    slotEl.appendChild(infoDiv);
+
+                    grid.appendChild(slotEl);
+                });
+            }
+        }
+
+        init();
+    </script>
+</body>
+</html>

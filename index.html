@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapLens - Marvel Snap Deck Scanner</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        nexus: {
+                            gold: '#ffce2b',
+                            goldHover: '#eab308',
+                            bg: '#0b0e14',
+                            surface: '#151b26',
+                            surfaceHover: '#1c2433',
+                            border: '#232f3e',
+                            borderHover: '#334155',
+                            text: '#f1f5f9',
+                            muted: '#94a3b8'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        body {
+            background-color: #0b0e14;
+            color: #f1f5f9;
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #0f141d;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: #232f3e;
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: #334155;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-4 sm:p-8">
+
+    <!-- Top Navigation / Header -->
+    <header class="w-full max-w-5xl flex items-center justify-between pb-5 mb-8 border-b border-nexus-border">
+        <div class="flex items-center space-x-3">
+            <!-- SnapLens Brand Emblem -->
+            <div class="w-9 h-9 rounded-xl bg-nexus-surface border border-nexus-border flex items-center justify-center shadow-md">
+                <svg class="w-5 h-5 text-nexus-gold" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="9"></circle>
+                    <circle cx="12" cy="12" r="3.5"></circle>
+                    <line x1="12" y1="3" x2="12" y2="6"></line>
+                    <line x1="12" y1="18" x2="12" y2="21"></line>
+                    <line x1="3" y1="12" x2="6" y2="12"></line>
+                    <line x1="18" y1="12" x2="21" y2="12"></line>
+                </svg>
+            </div>
+            <h1 class="text-xl font-extrabold text-white tracking-tight">SnapLens</h1>
+        </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="w-full max-w-5xl grid grid-cols-1 lg:grid-cols-12 gap-8">
+
+        <!-- Left Column: Upload / Paste & Recent Scans -->
+        <section class="lg:col-span-5 flex flex-col space-y-6">
+            
+            <!-- Drop Zone -->
+            <div id="dropZone" class="relative group border-2 border-dashed border-nexus-border hover:border-nexus-gold/60 rounded-2xl p-6 flex flex-col items-center justify-center text-center cursor-pointer transition-all bg-nexus-surface/60 hover:bg-nexus-surface/90">
+                <input type="file" id="fileInput" accept="image/*" class="absolute inset-0 opacity-0 cursor-pointer w-full h-full">
+                
+                <div class="w-11 h-11 rounded-xl bg-slate-800/80 border border-nexus-border text-nexus-gold flex items-center justify-center text-xl mb-3 group-hover:scale-105 transition-transform">
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                </div>
+                <h3 class="font-bold text-sm text-slate-200 mb-1">Drop Screenshot or Browse File</h3>
+                <p class="text-xs text-nexus-muted mb-3">Press <kbd class="px-1.5 py-0.5 rounded bg-slate-900 border border-nexus-border text-slate-300 font-mono text-[11px]">⌘+V</kbd> / <kbd class="px-1.5 py-0.5 rounded bg-slate-900 border border-nexus-border text-slate-300 font-mono text-[11px]">Ctrl+V</kbd> anywhere</p>
+                <button type="button" class="px-3.5 py-1.5 rounded-lg bg-nexus-surface hover:bg-nexus-surfaceHover border border-nexus-border text-slate-200 font-semibold text-xs transition-colors">
+                    Select Screenshot
+                </button>
+            </div>
+
+            <!-- Source Image Preview (collapsible) -->
+            <div id="previewContainer" class="hidden bg-nexus-surface border border-nexus-border rounded-2xl p-4">
+                <div class="flex items-center justify-between mb-2">
+                    <h4 class="text-xs font-bold text-nexus-muted uppercase tracking-wider">Source Screenshot</h4>
+                    <span id="layoutBadge" class="px-2 py-0.5 rounded text-[10px] font-mono bg-blue-500/10 text-blue-400 border border-blue-500/20 font-bold">6x2</span>
+                </div>
+                <img id="sourcePreview" class="w-full rounded-lg border border-nexus-border object-contain max-h-48 bg-black/40" alt="Preview" />
+            </div>
+
+            <!-- Recent Scans Section -->
+            <div class="bg-nexus-surface border border-nexus-border rounded-2xl p-5">
+                <div class="flex items-center justify-between mb-3.5">
+                    <div class="flex items-center space-x-2">
+                        <h4 class="text-xs font-bold text-slate-300 uppercase tracking-wider">Recent Scans</h4>
+                        <span id="recentCountBadge" class="text-[10px] px-1.5 py-0.2 rounded-full bg-slate-800 text-nexus-muted font-bold font-mono">0</span>
+                    </div>
+                    <button id="clearHistoryBtn" onclick="clearRecentScans()" class="text-[11px] text-slate-500 hover:text-rose-400 transition-colors hidden">
+                        Clear History
+                    </button>
+                </div>
+
+                <!-- Recent Scans List -->
+                <div id="recentScansList" class="flex flex-col space-y-2.5 max-h-80 overflow-y-auto custom-scrollbar pr-1">
+                    <div class="text-center py-6 text-nexus-muted text-xs">
+                        No recent scans yet. Paste or drop a deck screenshot to start.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Right Column: Deck Output & Cards Grid -->
+        <section class="lg:col-span-7 flex flex-col space-y-6">
+
+            <!-- Result Header & Unified Deck Code Action Box -->
+            <div id="outputBox" class="bg-nexus-surface border border-nexus-border rounded-2xl p-5 shadow-sm">
+                <div class="flex items-center justify-between mb-3">
+                    <h2 class="text-base font-bold text-white flex items-center">
+                        <span>Detected Deck</span>
+                    </h2>
+                    <span id="scanTime" class="text-xs text-nexus-muted"></span>
+                </div>
+
+                <!-- Unified Sleek Deck Code Box with Integrated Button -->
+                <div class="flex items-center bg-[#0d121a] border border-nexus-border hover:border-nexus-borderHover focus-within:border-nexus-gold/60 rounded-xl overflow-hidden transition-colors">
+                    <input type="text" id="deckCodeInput" readonly class="flex-1 bg-transparent px-3.5 py-2.5 text-xs font-mono text-nexus-gold placeholder-nexus-muted select-all focus:outline-none" placeholder="Upload or paste an image to generate deck code..." />
+                    <button id="copyBtn" onclick="copyDeckCode()" class="mr-1.5 px-4 py-1.5 rounded-lg bg-nexus-gold hover:bg-nexus-goldHover text-slate-950 font-bold text-xs flex items-center space-x-1.5 shadow-sm transition-all shrink-0">
+                        <svg class="w-3.5 h-3.5 text-slate-950" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                            <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                        </svg>
+                        <span id="copyText">Copy Code</span>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 12 Cards Grid -->
+            <div class="bg-nexus-surface border border-nexus-border rounded-2xl p-5">
+                <div class="flex items-center justify-between mb-4">
+                    <h3 class="text-xs font-bold text-slate-300 uppercase tracking-wider">12 Card Slots (Click to swap)</h3>
+                </div>
+                
+                <div id="cardsGrid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+                    <div class="col-span-full py-12 flex flex-col items-center justify-center text-center text-nexus-muted">
+                        <div class="w-12 h-12 rounded-xl bg-slate-900 border border-nexus-border flex items-center justify-center text-nexus-gold mb-3">
+                            <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                <polyline points="21 15 16 10 5 21"></polyline>
+                            </svg>
+                        </div>
+                        <p class="text-sm font-semibold text-slate-200">Scanner Engine Ready</p>
+                        <p class="text-xs text-nexus-muted mt-1 max-w-sm">Drop a screenshot or paste from clipboard (<kbd class="px-1.5 py-0.5 rounded bg-slate-900 border border-nexus-border font-mono text-[11px]">⌘+V</kbd>) to instantly identify your deck.</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Searchable Card Picker Modal -->
+    <div id="cardPickerModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-nexus-surface border border-nexus-border rounded-2xl w-full max-w-lg shadow-2xl overflow-hidden flex flex-col max-h-[85vh] animate-in fade-in zoom-in-95 duration-150">
+            
+            <!-- Modal Header -->
+            <div class="px-5 py-4 border-b border-nexus-border flex items-center justify-between">
+                <div>
+                    <h3 id="modalTitle" class="text-sm font-bold text-white">Swap Card — Slot #1</h3>
+                    <p class="text-[11px] text-nexus-muted">Search database or pick from top alternatives</p>
+                </div>
+                <button onclick="closeCardPicker()" class="w-8 h-8 rounded-lg bg-slate-900 hover:bg-slate-800 text-slate-400 hover:text-white flex items-center justify-center transition-colors">
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Search Input Box -->
+            <div class="p-4 border-b border-nexus-border bg-[#0d121a]">
+                <div class="relative">
+                    <svg class="w-4 h-4 absolute left-3.5 top-3 text-nexus-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="cardSearchInput" placeholder="Search 600+ Marvel Snap cards..." autocomplete="off" class="w-full bg-nexus-surface border border-nexus-border rounded-xl pl-10 pr-4 py-2 text-xs text-white placeholder-nexus-muted focus:outline-none focus:border-nexus-gold transition-colors" />
+                </div>
+            </div>
+
+            <!-- Modal Body (Suggestions & Card List) -->
+            <div class="flex-1 overflow-y-auto custom-scrollbar p-4 space-y-4">
+                
+                <!-- Top Alternatives Section -->
+                <div id="modalAlternativesSection">
+                    <h4 class="text-[11px] font-bold text-nexus-gold uppercase tracking-wider mb-2">Top Match Alternatives</h4>
+                    <div id="modalAlternativesList" class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <!-- All Cards Section -->
+                <div>
+                    <h4 class="text-[11px] font-bold text-nexus-muted uppercase tracking-wider mb-2">Card Database (<span id="filteredCardCount">0</span>)</h4>
+                    <div id="modalAllCardsList" class="flex flex-col space-y-1">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="px-5 py-3 border-t border-nexus-border bg-[#0d121a] flex items-center justify-between">
+                <span class="text-[11px] text-nexus-muted">Press <kbd class="px-1 py-0.5 rounded bg-slate-900 border border-nexus-border font-mono text-[10px]">Esc</kbd> to cancel</span>
+                <button onclick="closeCardPicker()" class="px-3.5 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 transition-colors">
+                    Close
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts with Relative Paths for GitHub Pages -->
+    <script src="./src/deck_encoder.js?v=47"></script>
+    <script src="./src/layout_detector.js?v=47"></script>
+    <script src="./src/logo_matcher.js?v=47"></script>
+    <script src="./src/deck_scanner.js?v=47"></script>
+
+    <script>
+        let scanner = null;
+        let cardsDb = [];
+        let cardsDbMap = new Map();
+        let currentScanResult = null;
+        let activeModalSlotIdx = null;
+
+        const LOCAL_STORAGE_RECENTS_KEY = 'snaplens_recent_scans';
+
+        // 1. Initialization
+        async function init() {
+            try {
+                const [dbRes, templatesRes] = await Promise.all([
+                    fetch('./data/cards_database.json?v=17'),
+                    fetch('./data/cards_templates.json?v=33')
+                ]);
+                cardsDb = await dbRes.json();
+                
+                cardsDbMap.clear();
+                for (const card of cardsDb) {
+                    if (card && card.cardDefId) {
+                        cardsDbMap.set(card.cardDefId, card);
+                        cardsDbMap.set(card.cardDefId.toLowerCase(), card);
+                    }
+                }
+
+                const templates = await templatesRes.json();
+                const logoMatcher = new LogoMatcher(templates);
+                scanner = new DeckScanner(cardsDb, logoMatcher, templates);
+
+                renderRecentScans();
+            } catch (err) {
+                console.error('Failed to initialize cards database:', err);
+            }
+        }
+
+        function getCardDisplayName(cardOrDefId) {
+            if (!cardOrDefId) return 'Unknown Card';
+            if (typeof cardOrDefId === 'object' && cardOrDefId.name) {
+                if (cardOrDefId.name.includes(' ') || cardOrDefId.name.includes('(')) return cardOrDefId.name;
+            }
+            const defId = typeof cardOrDefId === 'object' ? cardOrDefId.cardDefId : cardOrDefId;
+            const dbCard = cardsDbMap.get(defId) || cardsDbMap.get((defId || '').toLowerCase());
+            if (dbCard && dbCard.name) return dbCard.name;
+            if (typeof cardOrDefId === 'object' && cardOrDefId.name) return cardOrDefId.name;
+            return defId ? defId.replace(/([A-Z])/g, ' $1').trim() : 'Unknown Card';
+        }
+
+        // 2. Drop Zone & File Input Listeners
+        const dropZone = document.getElementById('dropZone');
+        const fileInput = document.getElementById('fileInput');
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files && e.target.files[0]) {
+                processImageFile(e.target.files[0]);
+            }
+        });
+
+        window.addEventListener('paste', (e) => {
+            const items = (e.clipboardData || e.originalEvent.clipboardData).items;
+            for (const item of items) {
+                if (item.type.indexOf('image') === 0) {
+                    const blob = item.getAsFile();
+                    processImageFile(blob);
+                    break;
+                }
+            }
+        });
+
+        function processImageFile(file) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const img = new Image();
+                img.onload = () => runScan(img);
+                img.src = event.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        let activeScanToken = 0;
+
+        // 3. Run Deck Scan
+        async function runScan(img) {
+            if (!scanner) return;
+            const scanToken = ++activeScanToken;
+
+            document.getElementById('previewContainer').classList.remove('hidden');
+            document.getElementById('sourcePreview').src = img.src;
+
+            const grid = document.getElementById('cardsGrid');
+            grid.innerHTML = `
+                <div class="col-span-full py-12 flex flex-col items-center justify-center text-center">
+                    <div class="inline-block animate-spin w-8 h-8 border-3 border-nexus-gold border-t-transparent rounded-full mb-3"></div>
+                    <p id="progressStatus" class="text-sm font-bold text-nexus-gold">Scanning 12 Cards...</p>
+                    <div class="w-64 bg-slate-900 rounded-full h-2 mt-3 overflow-hidden border border-nexus-border">
+                        <div id="progressBar" class="bg-nexus-gold h-2 rounded-full transition-all duration-300" style="width: 5%"></div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('deckCodeInput').value = 'Scanning deck...';
+            const scanTimeEl = document.getElementById('scanTime');
+            if (scanTimeEl) scanTimeEl.innerText = '';
+
+            const t0 = (typeof performance !== 'undefined') ? performance.now() : Date.now();
+            try {
+                const result = await scanner.scanDeck(img, (current, total) => {
+                    if (scanToken !== activeScanToken) return;
+                    const statusEl = document.getElementById('progressStatus');
+                    const barEl = document.getElementById('progressBar');
+                    const pct = Math.round((current / total) * 100);
+                    if (statusEl) statusEl.innerText = `Scanning Card ${current} of ${total} (${pct}%)...`;
+                    if (barEl) barEl.style.width = `${pct}%`;
+                });
+
+                if (scanToken !== activeScanToken) return;
+
+                const elapsed = Math.round((typeof performance !== 'undefined') ? (performance.now() - t0) : (Date.now() - t0));
+                currentScanResult = result;
+
+                document.getElementById('layoutBadge').innerText = result.layout;
+                document.getElementById('deckCodeInput').value = result.deckCode;
+                if (scanTimeEl) {
+                    scanTimeEl.innerText = `Scanned in ${elapsed}ms`;
+                }
+
+                renderCardsGrid(result.cards);
+                saveRecentScan(result, img);
+            } catch (err) {
+                if (scanToken !== activeScanToken) return;
+                console.error('Scan failed:', err);
+                grid.innerHTML = `
+                    <div class="col-span-full p-6 text-center text-rose-400 bg-rose-500/10 border border-rose-500/20 rounded-xl">
+                        <p class="font-bold text-sm mb-1">Scan Encountered an Error</p>
+                        <p class="text-xs font-mono text-slate-400">${err.message || err}</p>
+                    </div>
+                `;
+            }
+        }
+
+        // 4. Render Cards Grid
+        function renderCardsGrid(cards) {
+            const grid = document.getElementById('cardsGrid');
+            grid.innerHTML = '';
+
+            cards.forEach((slot, idx) => {
+                const card = slot.selectedCard;
+                const displayName = getCardDisplayName(card);
+                const confidence = Math.round((slot.matchConfidence || 0) * 100);
+
+                const slotEl = document.createElement('div');
+                slotEl.className = 'card-slot bg-[#0d121a] border border-nexus-border hover:border-nexus-gold/50 rounded-xl p-2.5 flex flex-col items-center relative overflow-hidden transition-all duration-150';
+
+                // Slot Header: Slot Number & Confidence
+                const headerEl = document.createElement('div');
+                headerEl.className = 'w-full flex items-center justify-between mb-1.5 px-0.5';
+                headerEl.innerHTML = `
+                    <span class="text-[11px] font-bold text-slate-400 font-mono">#${idx + 1}</span>
+                    <span class="text-[10px] font-bold font-mono px-1.5 py-0.2 rounded ${confidence >= 70 ? 'bg-emerald-500/10 text-emerald-400 border border-emerald-500/20' : 'bg-amber-500/10 text-amber-400 border border-amber-500/20'}">
+                        ${confidence}%
+                    </span>
+                `;
+                slotEl.appendChild(headerEl);
+
+                // Thumbnail Container (Canvas or Cached Slice)
+                const imgContainer = document.createElement('div');
+                imgContainer.className = 'w-full h-36 rounded-lg mb-2 overflow-hidden border border-nexus-border bg-black/60 shadow-inner flex items-center justify-center';
+
+                if (slot.cardCanvas) {
+                    const previewCanvas = document.createElement('canvas');
+                    previewCanvas.width = 100;
+                    previewCanvas.height = 140;
+                    previewCanvas.className = 'w-full h-full object-cover';
+                    const pCtx = previewCanvas.getContext('2d');
+                    pCtx.drawImage(slot.cardCanvas, 0, 0, 100, 140);
+                    imgContainer.appendChild(previewCanvas);
+                } else if (slot.thumbnailDataUrl) {
+                    const img = document.createElement('img');
+                    img.src = slot.thumbnailDataUrl;
+                    img.className = 'w-full h-full object-cover';
+                    img.alt = displayName;
+                    imgContainer.appendChild(img);
+                } else {
+                    // Fallback to official card art if slice missing
+                    const defId = card ? card.cardDefId : null;
+                    if (defId) {
+                        const img = document.createElement('img');
+                        img.src = `https://static.marvelsnap.pro/cards/${defId}.webp`;
+                        img.className = 'w-full h-full object-cover';
+                        img.alt = displayName;
+                        imgContainer.appendChild(img);
+                    }
+                }
+                slotEl.appendChild(imgContainer);
+
+                // Card Name Swap Button
+                const btnEl = document.createElement('button');
+                btnEl.type = 'button';
+                btnEl.className = 'w-full py-1.5 px-2 rounded-lg bg-nexus-surface hover:bg-nexus-surfaceHover border border-nexus-border hover:border-nexus-gold/40 text-xs font-semibold text-slate-200 hover:text-nexus-gold flex items-center justify-between transition-colors group';
+                btnEl.title = 'Click to swap card';
+                btnEl.innerHTML = `
+                    <span class="truncate pr-1">${displayName}</span>
+                    <svg class="w-3.5 h-3.5 text-nexus-muted group-hover:text-nexus-gold shrink-0 transition-colors" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="17 1 21 5 17 9"></polyline>
+                        <path d="M3 11V9a4 4 0 0 1 4-4h14"></path>
+                        <polyline points="7 23 3 19 7 15"></polyline>
+                        <path d="M21 13v2a4 4 0 0 1-4 4H3"></path>
+                    </svg>
+                `;
+                btnEl.addEventListener('click', () => openCardPicker(idx));
+                slotEl.appendChild(btnEl);
+
+                grid.appendChild(slotEl);
+            });
+        }
+
+        // 5. Searchable Card Picker Modal Logic
+        function openCardPicker(slotIdx) {
+            activeModalSlotIdx = slotIdx;
+            const slot = currentScanResult.cards[slotIdx];
+            const currentCard = slot.selectedCard;
+
+            document.getElementById('modalTitle').innerText = `Swap Card — Slot #${slotIdx + 1} (${getCardDisplayName(currentCard)})`;
+            const modal = document.getElementById('cardPickerModal');
+            modal.classList.remove('hidden');
+
+            const searchInput = document.getElementById('cardSearchInput');
+            searchInput.value = '';
+
+            const altListEl = document.getElementById('modalAlternativesList');
+            altListEl.innerHTML = '';
+            let alternatives = [];
+            if (slot.candidateMatches && Array.isArray(slot.candidateMatches)) {
+                alternatives = slot.candidateMatches
+                    .filter(c => c.card && c.card.cardDefId !== (currentCard ? currentCard.cardDefId : null))
+                    .slice(0, 4);
+            }
+
+            if (alternatives.length > 0) {
+                document.getElementById('modalAlternativesSection').classList.remove('hidden');
+                alternatives.forEach(alt => {
+                    const altName = getCardDisplayName(alt.card);
+                    const pct = Math.round((alt.score || 0) * 100);
+                    const altBtn = document.createElement('button');
+                    altBtn.className = 'p-2 rounded-lg bg-slate-900/90 hover:bg-slate-800 border border-nexus-border hover:border-nexus-gold/40 text-left flex items-center justify-between transition-colors';
+                    altBtn.innerHTML = `
+                        <span class="text-xs font-semibold text-slate-200 truncate pr-2">${altName}</span>
+                        <span class="text-[10px] font-mono font-bold px-1.5 py-0.5 rounded bg-nexus-gold/10 text-nexus-gold shrink-0">${pct}%</span>
+                    `;
+                    altBtn.onclick = () => selectCardFromModal(alt.card.cardDefId);
+                    altListEl.appendChild(altBtn);
+                });
+            } else {
+                document.getElementById('modalAlternativesSection').classList.add('hidden');
+            }
+
+            renderModalCardList('');
+            setTimeout(() => searchInput.focus(), 50);
+        }
+
+        function closeCardPicker() {
+            document.getElementById('cardPickerModal').classList.add('hidden');
+            activeModalSlotIdx = null;
+        }
+
+        document.getElementById('cardSearchInput').addEventListener('input', (e) => {
+            renderModalCardList(e.target.value);
+        });
+
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeCardPicker();
+        });
+
+        document.getElementById('cardPickerModal').addEventListener('click', (e) => {
+            if (e.target.id === 'cardPickerModal') closeCardPicker();
+        });
+
+        function renderModalCardList(query) {
+            const listEl = document.getElementById('modalAllCardsList');
+            listEl.innerHTML = '';
+
+            const q = query.trim().toLowerCase();
+            const currentCard = activeModalSlotIdx !== null ? currentScanResult.cards[activeModalSlotIdx].selectedCard : null;
+            const currentDefId = currentCard ? currentCard.cardDefId : null;
+
+            const filtered = cardsDb.filter(c => {
+                if (!c) return false;
+                if (!q) return true;
+                return (c.name && c.name.toLowerCase().includes(q)) ||
+                       (c.cardDefId && c.cardDefId.toLowerCase().includes(q));
+            }).sort((a, b) => a.name.localeCompare(b.name));
+
+            document.getElementById('filteredCardCount').innerText = filtered.length;
+
+            const visibleCards = filtered.slice(0, 50);
+            visibleCards.forEach(c => {
+                const isCurrent = c.cardDefId === currentDefId;
+                const cardRow = document.createElement('button');
+                cardRow.className = `w-full px-3 py-2 rounded-lg text-left flex items-center justify-between transition-colors ${
+                    isCurrent ? 'bg-nexus-gold/15 border border-nexus-gold/40 text-nexus-gold' : 'hover:bg-slate-900 border border-transparent text-slate-300'
+                }`;
+                cardRow.innerHTML = `
+                    <div class="flex items-center space-x-2.5 truncate pr-2">
+                        <span class="text-xs font-semibold text-slate-100 truncate">${c.name}</span>
+                    </div>
+                    <span class="text-[11px] font-mono text-nexus-muted shrink-0">${c.cost} Cost / ${c.power} Power</span>
+                `;
+                cardRow.onclick = () => selectCardFromModal(c.cardDefId);
+                listEl.appendChild(cardRow);
+            });
+
+            if (filtered.length > 50) {
+                const hint = document.createElement('div');
+                hint.className = 'text-center py-2 text-[11px] text-nexus-muted';
+                hint.innerText = `+${filtered.length - 50} more cards. Type in search to narrow down.`;
+                listEl.appendChild(hint);
+            }
+        }
+
+        function selectCardFromModal(defId) {
+            if (activeModalSlotIdx === null || !currentScanResult) return;
+            const newCard = cardsDbMap.get(defId) || cardsDbMap.get((defId || '').toLowerCase());
+            if (!newCard) return;
+
+            const slot = currentScanResult.cards[activeModalSlotIdx];
+            slot.selectedCard = newCard;
+            slot.matchConfidence = 1.0;
+
+            const cardDefIds = currentScanResult.cards.map(s => s.selectedCard ? s.selectedCard.cardDefId : 'Unknown');
+            currentScanResult.deckCode = DeckEncoder.encodeDeck(cardDefIds, 'Custom Marvel Snap Deck');
+            document.getElementById('deckCodeInput').value = currentScanResult.deckCode;
+
+            renderCardsGrid(currentScanResult.cards);
+            saveRecentScan(currentScanResult);
+
+            closeCardPicker();
+        }
+
+        // 6. Recent Scans Management (localStorage with Slice Caching)
+        function getRecentScans() {
+            try {
+                const raw = localStorage.getItem(LOCAL_STORAGE_RECENTS_KEY) || localStorage.getItem('snap_nexus_recent_scans');
+                return raw ? JSON.parse(raw) : [];
+            } catch (_) {
+                return [];
+            }
+        }
+
+        function createMiniThumbnail(img, maxW = 80, maxH = 50) {
+            try {
+                const canvas = document.createElement('canvas');
+                canvas.width = maxW;
+                canvas.height = maxH;
+                const ctx = canvas.getContext('2d');
+                ctx.drawImage(img, 0, 0, maxW, maxH);
+                return canvas.toDataURL('image/jpeg', 0.6);
+            } catch (_) {
+                return '';
+            }
+        }
+
+        function saveRecentScan(result, sourceImg = null) {
+            if (!result || !result.cards || result.cards.length !== 12) return;
+            try {
+                let recents = getRecentScans();
+                
+                // Compress card slices to compact JPEGs
+                const cardSummary = result.cards.map((s, idx) => {
+                    let thumb = s.thumbnailDataUrl || '';
+                    if (!thumb && s.cardCanvas && s.cardCanvas.toDataURL) {
+                        try {
+                            const c = document.createElement('canvas');
+                            c.width = 100;
+                            c.height = 140;
+                            const ctx = c.getContext('2d');
+                            ctx.drawImage(s.cardCanvas, 0, 0, 100, 140);
+                            thumb = c.toDataURL('image/jpeg', 0.5);
+                            s.thumbnailDataUrl = thumb;
+                        } catch (_) {}
+                    }
+
+                    return {
+                        cardDefId: s.selectedCard ? s.selectedCard.cardDefId : 'Unknown',
+                        name: getCardDisplayName(s.selectedCard),
+                        confidence: s.matchConfidence || 0.5,
+                        thumb
+                    };
+                });
+
+                // Deck mini thumbnail
+                let deckThumb = '';
+                if (sourceImg) {
+                    deckThumb = createMiniThumbnail(sourceImg);
+                } else if (cardSummary[0] && cardSummary[0].thumb) {
+                    deckThumb = cardSummary[0].thumb;
+                }
+
+                const newEntry = {
+                    id: 'scan_' + Date.now(),
+                    timestamp: Date.now(),
+                    deckCode: result.deckCode,
+                    layout: result.layout,
+                    cardNames: cardSummary.map(c => c.name),
+                    cards: cardSummary,
+                    deckThumb
+                };
+
+                // Deduplicate if identical deckCode is present
+                recents = recents.filter(r => r.deckCode !== result.deckCode);
+                recents.unshift(newEntry);
+                if (recents.length > 8) recents = recents.slice(0, 8);
+
+                localStorage.setItem(LOCAL_STORAGE_RECENTS_KEY, JSON.stringify(recents));
+                renderRecentScans();
+            } catch (err) {
+                console.warn('Failed to save recent scan to localStorage:', err);
+            }
+        }
+
+        function renderRecentScans() {
+            const listEl = document.getElementById('recentScansList');
+            const clearBtn = document.getElementById('clearHistoryBtn');
+            const badge = document.getElementById('recentCountBadge');
+            const recents = getRecentScans();
+
+            badge.innerText = recents.length;
+            if (recents.length === 0) {
+                clearBtn.classList.add('hidden');
+                listEl.innerHTML = `
+                    <div class="text-center py-6 text-nexus-muted text-xs">
+                        No recent scans yet. Paste or drop a deck screenshot to start.
+                    </div>
+                `;
+                return;
+            }
+
+            clearBtn.classList.remove('hidden');
+            listEl.innerHTML = '';
+
+            recents.forEach(entry => {
+                const itemEl = document.createElement('div');
+                itemEl.className = 'p-2.5 rounded-xl bg-slate-900/80 hover:bg-slate-900 border border-nexus-border hover:border-nexus-gold/30 transition-all flex items-center space-x-3';
+
+                const timeAgo = formatTimeAgo(entry.timestamp);
+                const titleStr = entry.cardNames ? entry.cardNames.slice(0, 3).join(', ') + '...' : 'Marvel Snap Deck';
+
+                // Thumbnail image on left
+                let thumbHtml = '';
+                if (entry.deckThumb) {
+                    thumbHtml = `<img src="${entry.deckThumb}" class="w-12 h-10 rounded-lg object-cover border border-nexus-border bg-black/60 shrink-0" alt="Deck" />`;
+                } else if (entry.cards && entry.cards[0]?.thumb) {
+                    thumbHtml = `<img src="${entry.cards[0].thumb}" class="w-12 h-10 rounded-lg object-cover border border-nexus-border bg-black/60 shrink-0" alt="Deck" />`;
+                } else {
+                    thumbHtml = `<div class="w-12 h-10 rounded-lg bg-slate-800 border border-nexus-border flex items-center justify-center text-xs text-nexus-gold shrink-0 font-bold">🃏</div>`;
+                }
+
+                itemEl.innerHTML = `
+                    ${thumbHtml}
+                    <div class="flex-1 min-w-0 flex flex-col justify-center">
+                        <span class="text-xs font-bold text-slate-200 truncate">${titleStr}</span>
+                        <span class="text-[11px] text-nexus-muted">${timeAgo}</span>
+                    </div>
+                    <div class="flex items-center space-x-1.5 shrink-0">
+                        <button onclick="loadRecentScan('${entry.id}')" class="px-2.5 py-1 rounded-lg bg-nexus-surface hover:bg-nexus-surfaceHover border border-nexus-border text-slate-300 hover:text-white font-medium text-xs transition-colors">
+                            Load
+                        </button>
+                        <button onclick="copySpecificDeckCode('${entry.deckCode}', this)" class="px-2.5 py-1 rounded-lg bg-nexus-gold hover:bg-nexus-goldHover text-slate-950 font-bold text-xs transition-colors">
+                            Copy
+                        </button>
+                    </div>
+                `;
+                listEl.appendChild(itemEl);
+            });
+        }
+
+        function loadRecentScan(id) {
+            const recents = getRecentScans();
+            const entry = recents.find(r => r.id === id);
+            if (!entry) return;
+
+            document.getElementById('deckCodeInput').value = entry.deckCode;
+            document.getElementById('layoutBadge').innerText = entry.layout || 'Loaded';
+            const scanTimeEl = document.getElementById('scanTime');
+            if (scanTimeEl) scanTimeEl.innerText = 'Loaded from history';
+
+            // Construct hydrated card slots with cached slices
+            const hydratedCards = entry.cards.map((c, i) => {
+                const dbCard = cardsDbMap.get(c.cardDefId) || cardsDbMap.get((c.cardDefId || '').toLowerCase());
+                return {
+                    slotIndex: i,
+                    selectedCard: dbCard || { cardDefId: c.cardDefId, name: c.name },
+                    matchConfidence: c.confidence || 1.0,
+                    thumbnailDataUrl: c.thumb || null,
+                    candidateMatches: []
+                };
+            });
+
+            currentScanResult = {
+                deckCode: entry.deckCode,
+                layout: entry.layout || 'Unknown',
+                confidence: 1.0,
+                cards: hydratedCards
+            };
+
+            renderCardsGrid(hydratedCards);
+        }
+
+        function clearRecentScans() {
+            if (confirm('Clear all recent deck scans?')) {
+                localStorage.removeItem(LOCAL_STORAGE_RECENTS_KEY);
+                renderRecentScans();
+            }
+        }
+
+        function formatTimeAgo(ts) {
+            if (!ts) return 'Earlier';
+            const sec = Math.floor((Date.now() - ts) / 1000);
+            if (sec < 60) return 'Just now';
+            const min = Math.floor(sec / 60);
+            if (min < 60) return `${min}m ago`;
+            const hr = Math.floor(min / 60);
+            if (hr < 24) return `${hr}h ago`;
+            return `${Math.floor(hr / 24)}d ago`;
+        }
+
+        // 7. Copy Actions
+        function copyDeckCode() {
+            const codeInput = document.getElementById('deckCodeInput');
+            if (!codeInput.value || codeInput.value.includes('Scanning')) return;
+
+            codeInput.select();
+            navigator.clipboard.writeText(codeInput.value).then(() => {
+                const btnText = document.getElementById('copyText');
+                btnText.innerText = 'Copied!';
+                setTimeout(() => {
+                    btnText.innerText = 'Copy Code';
+                }, 2000);
+            });
+        }
+
+        function copySpecificDeckCode(code, btn) {
+            if (!code) return;
+            navigator.clipboard.writeText(code).then(() => {
+                const orig = btn.innerText;
+                btn.innerText = 'Copied!';
+                setTimeout(() => { btn.innerText = orig; }, 1500);
+            });
+        }
+
+        init();
+    </script>
+</body>
+</html>
