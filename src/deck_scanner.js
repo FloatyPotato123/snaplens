@@ -19,15 +19,6 @@ const NON_COLLECTIBLE_TOKENS = new Set([
   'Spell03Agamotto', 'Spell04Agamotto', 'Spell05Agamotto', 'TenRings', 'TheTenRings'
 ]);
 
-// Marvel Snap Limited/Draft game modes allow up to 2 copies of a card in a deck.
-// Standard constructed decks enforce strict 1-to-1 uniqueness.
-// We permit a second copy only when recognition confidence is unequivocally high:
-const DRAFT_MODE_CONSTRAINTS = {
-    MAX_CARD_COPIES: 2,
-    MIN_CONFIDENCE_FOR_DUPLICATE: 0.65,
-    MIN_RAW_ZNCC_FOR_DUPLICATE: 0.70,
-};
-
 class DeckScanner {
     constructor(cardsDatabase, logoMatcher, templatesData = null) {
         this.cardsDatabase = cardsDatabase || [];
@@ -312,17 +303,12 @@ class DeckScanner {
         }
         allPairs.sort((a, b) => b.score - a.score);
 
-        // Assign top non-conflicting pairs (allows draft duplicate cards when confidence >= 65% or rawZNCC >= 70%)
-        const usedCardCounts = {};
+        // Assign top non-conflicting pairs (Strict 1-to-1 uniqueness: exactly 1 copy per card)
         for (const pair of allPairs) {
-            const count = usedCardCounts[pair.card.cardDefId] || 0;
-            const canAllowDuplicate = (pair.score >= DRAFT_MODE_CONSTRAINTS.MIN_CONFIDENCE_FOR_DUPLICATE ||
-                (pair.rawZNCC && pair.rawZNCC >= DRAFT_MODE_CONSTRAINTS.MIN_RAW_ZNCC_FOR_DUPLICATE));
-            const maxAllowed = canAllowDuplicate ? DRAFT_MODE_CONSTRAINTS.MAX_CARD_COPIES : 1;
-            if (assignedCards[pair.slotIndex] === null && count < maxAllowed) {
+            if (assignedCards[pair.slotIndex] === null && !usedCardDefIds.has(pair.card.cardDefId)) {
                 assignedCards[pair.slotIndex] = pair.card;
                 assignedConf[pair.slotIndex] = Math.min(1.0, pair.score);
-                usedCardCounts[pair.card.cardDefId] = count + 1;
+                usedCardDefIds.add(pair.card.cardDefId);
             }
         }
 

@@ -34,38 +34,35 @@ const MARVEL_SNAP_LOGO_SPEC = {
     CANVAS_WIDTH: 240,
     CANVAS_HEIGHT: 336,
 
-    // Vertical boundary: card logo banner ends before ability description panel (318px / 336px = ~94.6%)
-    // Standard cards have sh < 55px. Extremely tall multi-line logos (e.g. Friendly Neighborhood Spider-Man)
-    // can extend slightly further down into 350px in oversized framebreak variants.
-    LOGO_BASELINE_MAX_Y_STANDARD: 318,
-    LOGO_BASELINE_MAX_Y_TALL: 350,
-    LOGO_STANDARD_HEIGHT_THRESHOLD: 55,
+    // Vertical boundary: card logo baseline limit (accommodates tall multi-line and standard logos)
+    LOGO_BASELINE_MAX_Y: 350,
 
     // Scale search hypothesis testing:
     // Scale 1.0 is the physical rendering scale in the Marvel Snap deck view.
     // Scales deviating by >= 4% (s <= 0.96 or s >= 1.04) must exceed scale 1.0 correlation
-    // by at least MIN_SCALE_IMPROVEMENT_DELTA (0.04) to avoid false positives on background noise.
+    // by at least MIN_SCALE_IMPROVEMENT_DELTA (0.060), and minor deviations by MIN_SCALE_IMPROVEMENT_MINOR (0.035).
     SCALE_DEVIATION_THRESHOLD: 0.04,
-    MIN_SCALE_IMPROVEMENT_DELTA: 0.04,
+    MIN_SCALE_IMPROVEMENT_DELTA: 0.060,
+    MIN_SCALE_IMPROVEMENT_MINOR: 0.035,
 
-    // Multi-scale refinement trigger threshold:
-    // Accounts for scale-distorted wide logos (sw >= 200, such as Hawkeye or Toxin)
-    // whose baseline scale 1.0 correlation is ~0.16 before 1.05 refinement.
+    // Multi-scale refinement candidates within delta of leader:
     MULTI_SCALE_TRIGGER_ZNCC: 0.15,
+    MULTI_SCALE_MAX_DELTA_FROM_LEADER: 0.25,
 
-    // Maximum empirical correlation gain achievable when refining across scales [0.94 .. 1.05]
-    // over scale 1.0 baseline (observed on Hawkeye: +0.29, Toxin: +0.34).
-    // Candidates whose scale 1.0 score + MAX_SCALE_GAIN is below the current top candidate
-    // cannot possibly overtake the leader and are safely pruned from expensive multi-scale search.
-    MAX_SCALE_GAIN: 0.35,
-
-    // Wide logos (sw >= 200) scaled down in-game to fit inside card borders:
-    WIDE_LOGO_MIN_WIDTH: 200,
-    WIDE_LOGO_SCALE_DELTA: 0.10,
+    // Universal scale exploration bracket
+    SCALES: [0.92, 0.95, 0.98, 1.02, 1.05],
 
     // Maximum expected horizontal slice jitter (8px deadband)
     CENTERING_DEADBAND_PX: 8,
     CENTERING_PENALTY_RATE: 0.010,
+
+    // Physical baseline geometry:
+    // Standard cards rest on shelf at baseline ~ 302..320 depending on logo height (sh).
+    // Baselines outside [MIN_BASELINE_PX, MAX_BASELINE_BASE_PX + excess] are penalized.
+    BASELINE_MIN_PX: 294,
+    BASELINE_MAX_BASE_PX: 308,
+    BASELINE_HEIGHT_SLOPE: 0.25,
+    BASELINE_PENALTY_RATE: 0.010,
 };
 
 class LogoMatcher {
@@ -417,19 +414,6 @@ class LogoMatcher {
             }
         }
 
-        // 2. Precompute gradient energy in the upper logo region [y: 235..265] vs lower region [y: 275..305]
-        // This objectively identifies multi-line tall logos (e.g. Daken, Wiccan, Thanos, Sera, Adam Warlock)
-        let upperEdge = 0, lowerEdge = 0;
-        for (let y = 235; y <= 265; y++) {
-            for (let x = 40; x <= 200; x++) upperEdge += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-        }
-        for (let y = 275; y <= 305; y++) {
-            for (let x = 40; x <= 200; x++) lowerEdge += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-        }
-        upperEdge = upperEdge / (31 * 161);
-        lowerEdge = Math.max(1, lowerEdge / (31 * 161));
-        const hasTallLogo = (upperEdge >= 18 && (upperEdge / lowerEdge) >= 0.70);
-
         // 3. Stage 1: Fast Coarse Screening across all 650+ templates anchored at physical baseline
         const coarseScores = [];
         const numTemplates = this.templates.length;
@@ -562,13 +546,13 @@ class LogoMatcher {
         }
 
         coarseScores.sort((a, b) => b.coarseZNCC - a.coarseZNCC);
-        // Retain top 250 candidates for full-resolution fine refinement
-        const topCandidates = coarseScores.slice(0, 250);
+        // Retain top 300 candidates for full-resolution fine refinement
+        const topCandidates = coarseScores.slice(0, 300);
 
-        // 4. Stage 2: Full-Resolution Fine Refinement with Multi-scale Alignment & MAP Prior
-        // Pass 1: Scale 1.0 exact refinement across top candidates (anchored to exact coarse peak +-2px)
+        // 4. Stage 2: Full-Resolution Fine Refinement at Scale 1.0
         const intermediate = [];
         let maxObservedScore = 0;
+        const maxBaselineY = MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y;
 
         for (let i = 0; i < topCandidates.length; i++) {
             const item = topCandidates[i];
@@ -586,22 +570,18 @@ class LogoMatcher {
             let bestFineX = fineBaseX;
             let bestFineY = fineBaseY;
 
-            const maxBaselineY = (tpl.sh < MARVEL_SNAP_LOGO_SPEC.LOGO_STANDARD_HEIGHT_THRESHOLD)
-                ? MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_STANDARD
-                : MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL;
-
-            // Step 2a: +-2px window around coarse anchor at scale 1.0 (exact sub-pixel range)
+            // Search +/- 3px window around coarse anchor at scale 1.0
             const sOffsets = tpl.sOffsets;
             const sRem = sCount & 3;
             const sCount4 = sCount - sRem;
             const sInvStd = tpl.sInvStd;
             const sSumTpl = tpl.sSumTpl;
 
-            for (let cy = fineBaseY - 2; cy <= fineBaseY + 2; cy += 1) {
+            for (let cy = fineBaseY - 3; cy <= fineBaseY + 3; cy += 1) {
                 if (cy + Math.round(tpl.sh * 1.0) > maxBaselineY) continue;
                 const cyInside = (cy >= 0 && cy + tpl.sh < cH);
                 const rowOffset = cy * cW;
-                for (let cx = fineBaseX - 2; cx <= fineBaseX + 2; cx += 1) {
+                for (let cx = fineBaseX - 3; cx <= fineBaseX + 3; cx += 1) {
                     let sum = 0, sumSq = 0, dotRaw = 0, sumTpl = 0, overlap = 0;
 
                     if (cyInside && cx >= 0 && cx + tpl.sw < cW) {
@@ -668,15 +648,10 @@ class LogoMatcher {
             });
         }
 
-        // Pass 2: Upper-bound elimination for multi-scale exploration
-        // Only candidates with mathematical potential to exceed maxObservedScore run multi-scale refinement
-        const minTriggerWide = Math.max(
+        // Pass 2: Universal multi-scale refinement for candidates near leader
+        const minTrigger = Math.max(
             MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_TRIGGER_ZNCC,
-            maxObservedScore - MARVEL_SNAP_LOGO_SPEC.MAX_SCALE_GAIN
-        );
-        const minTriggerStandard = Math.max(
-            MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_TRIGGER_ZNCC,
-            maxObservedScore - 0.08
+            maxObservedScore - MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_MAX_DELTA_FROM_LEADER
         );
 
         const fineResults = [];
@@ -692,36 +667,26 @@ class LogoMatcher {
             let bestScale = cand.bestScale;
             const scale1ZNCC = cand.scale1ZNCC;
 
-            const isWide = tpl.sw >= MARVEL_SNAP_LOGO_SPEC.WIDE_LOGO_MIN_WIDTH;
-            const trigger = isWide ? minTriggerWide : minTriggerStandard;
-
-            if (bestFineZNCC >= trigger) {
+            if (bestFineZNCC >= minTrigger) {
                 const sPointsX = tpl.sPointsX;
                 const sPointsY = tpl.sPointsY;
                 const sPointsVal = tpl.sPointsVal;
                 const sCount = tpl.sCount;
                 const minFineOverlap = sCount * 0.65;
                 const sStd = tpl.sStd;
-                const maxBaselineY = (tpl.sh < MARVEL_SNAP_LOGO_SPEC.LOGO_STANDARD_HEIGHT_THRESHOLD)
-                    ? MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_STANDARD
-                    : MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL;
 
-                // Step 2b: Standard multi-scale refinement around fine anchor
-                if (bestFineZNCC >= trigger) {
-                    const scales = isWide ? [0.96, 0.98, 1.02, 1.04, 1.05] : [0.98, 1.02];
-                    for (const s of scales) {
+                for (const s of MARVEL_SNAP_LOGO_SPEC.SCALES) {
                     const scaledH = Math.round(tpl.sh * s);
-                    if (bestFineY - 2 + scaledH > maxBaselineY) continue;
+                    if (bestFineY - 3 + scaledH > maxBaselineY) continue;
 
-                    // Precompute scaled coordinates once per scale, eliminating millions of inner-loop Math.round calls
                     for (let p = 0; p < sCount; p++) {
                         scaledPointsX[p] = Math.round(sPointsX[p] * s);
                         scaledPointsY[p] = Math.round(sPointsY[p] * s);
                     }
 
-                    for (let cy = bestFineY - 2; cy <= bestFineY + 2; cy += 1) {
+                    for (let cy = bestFineY - 3; cy <= bestFineY + 3; cy += 1) {
                         if (cy + scaledH > maxBaselineY) continue;
-                        for (let cx = bestFineX - 2; cx <= bestFineX + 2; cx += 1) {
+                        for (let cx = bestFineX - 4; cx <= bestFineX + 4; cx += 1) {
                             let sum = 0, sumSq = 0, dotRaw = 0, sumTpl = 0, overlap = 0;
                             for (let p = 0; p < sCount; p++) {
                                 const px = cx + scaledPointsX[p];
@@ -744,7 +709,7 @@ class LogoMatcher {
                             const dot = dotRaw - (sum / overlap) * sumTpl;
                             const zncc = dot / (sStd * Math.sqrt(iStd));
                             const isSignificantScaleDeviation = (s <= (1.0 - MARVEL_SNAP_LOGO_SPEC.SCALE_DEVIATION_THRESHOLD) || s >= (1.0 + MARVEL_SNAP_LOGO_SPEC.SCALE_DEVIATION_THRESHOLD));
-                            const minDelta = isSignificantScaleDeviation ? MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_DELTA : 0.0;
+                            const minDelta = isSignificantScaleDeviation ? MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_DELTA : MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_MINOR;
                             if (isFinite(zncc) && zncc > bestFineZNCC && (zncc - scale1ZNCC >= minDelta)) {
                                 bestFineZNCC = zncc;
                                 bestFineX = cx;
@@ -756,93 +721,26 @@ class LogoMatcher {
                 }
             }
 
-            // Step 2c: Wide / tall logo downscale refinement [0.90, 0.94]
-            if (scale1ZNCC >= minTriggerWide && tpl.sw >= MARVEL_SNAP_LOGO_SPEC.WIDE_LOGO_MIN_WIDTH) {
-                const wideScales = (tpl.sh > 70) ? [0.90, 0.94] : [0.94];
-                for (const s of wideScales) {
-                    const expScaledX = Math.round((cW - tpl.sw * s) / 2);
-                    const scaledH = Math.round(tpl.sh * s);
-
-                    for (let p = 0; p < sCount; p++) {
-                        scaledPointsX[p] = Math.round(sPointsX[p] * s);
-                        scaledPointsY[p] = Math.round(sPointsY[p] * s);
-                    }
-
-                    for (let cy = bestFineY - 2; cy <= bestFineY + 2; cy += 1) {
-                        if (cy + scaledH > MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL) continue;
-                        for (let cx = expScaledX - 3; cx <= expScaledX + 3; cx += 1) {
-                                let sum = 0, sumSq = 0, dotRaw = 0, sumTpl = 0, overlap = 0;
-                                for (let p = 0; p < sCount; p++) {
-                                    const px = cx + scaledPointsX[p];
-                                    const py = cy + scaledPointsY[p];
-                                    if (px >= 0 && px < cW && py >= 0 && py < cH) {
-                                        const val = cardGray[py * cW + px];
-                                        const tVal = sPointsVal[p];
-                                        sum += val;
-                                        sumSq += val * val;
-                                        dotRaw += tVal * val;
-                                        sumTpl += tVal;
-                                        overlap++;
-                                    }
-                                }
-
-                                if (overlap < minFineOverlap) continue;
-                                const dot = dotRaw - (sum / overlap) * sumTpl;
-                                if (dot <= 0) continue;
-
-                                const iStd = sumSq - (sum * sum) / overlap;
-                                if (iStd < 50) continue;
-
-                                const zncc = dot / (sStd * Math.sqrt(iStd));
-                                if (isFinite(zncc) && zncc > bestFineZNCC && (zncc - scale1ZNCC >= MARVEL_SNAP_LOGO_SPEC.WIDE_LOGO_SCALE_DELTA)) {
-                                    bestFineZNCC = zncc;
-                                    bestFineX = cx;
-                                    bestFineY = cy;
-                                    bestScale = s;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-
             // MAP Centering Prior: penalize horizontal drift from expected card center
-            // Accounts for physical slice jitter with a deadband
             const expBaseX = Math.round((cW - tpl.sw * bestScale) / 2);
             const dx = Math.abs(bestFineX - expBaseX);
             const excessDx = Math.max(0, dx - MARVEL_SNAP_LOGO_SPEC.CENTERING_DEADBAND_PX);
             const centerPenalty = excessDx > 0 ? excessDx * MARVEL_SNAP_LOGO_SPEC.CENTERING_PENALTY_RATE : 0;
 
-            // Height coverage penalty: If the card has a tall multi-line logo, short templates (< 50px) incur penalty
-            let heightPenalty = 0;
-            if (hasTallLogo && tpl.sh < 50) {
-                heightPenalty = 0.08;
-            }
-
-            // Unexplained Upper Text Penalty
-            // If candidate starts at bestFineY >= 215, check the band directly above the candidate
-            // in the horizontal range of the logo [50..190].
-            // If the card has strong horizontal text edges above the candidate, the candidate is an impostor
-            // matching only the bottom line of a multi-line/taller card title.
-            let unexplainedPenalty = 0;
-            if (bestFineY >= 215) {
-                const yStart = Math.max(180, bestFineY - 20);
-                const yEnd = Math.max(180, bestFineY - 2);
-                let edgeSum = 0, edgeCount = 0;
-                for (let y = yStart; y <= yEnd; y++) {
-                    for (let x = 50; x <= 190; x++) {
-                        edgeSum += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-                        edgeCount++;
-                    }
-                }
-                const avgEdgeAbove = edgeCount > 0 ? (edgeSum / edgeCount) : 0;
-                if (avgEdgeAbove > 14) {
-                    unexplainedPenalty = 0.10 * Math.min(1.0, (avgEdgeAbove - 14) / 6);
-                }
+            // MAP Physical Baseline Prior:
+            // Standard cards rest at baseline ~ 302..320 depending on logo height (sh).
+            const actualBaseline = bestFineY + Math.round(tpl.sh * bestScale);
+            const minAllowed = MARVEL_SNAP_LOGO_SPEC.BASELINE_MIN_PX;
+            const maxAllowed = MARVEL_SNAP_LOGO_SPEC.BASELINE_MAX_BASE_PX + Math.max(0, (tpl.sh - 60) * MARVEL_SNAP_LOGO_SPEC.BASELINE_HEIGHT_SLOPE);
+            let baselinePenalty = 0;
+            if (actualBaseline < minAllowed) {
+                baselinePenalty = (minAllowed - actualBaseline) * MARVEL_SNAP_LOGO_SPEC.BASELINE_PENALTY_RATE;
+            } else if (actualBaseline > maxAllowed) {
+                baselinePenalty = (actualBaseline - maxAllowed) * MARVEL_SNAP_LOGO_SPEC.BASELINE_PENALTY_RATE;
             }
 
             const validZNCC = isFinite(bestFineZNCC) && bestFineZNCC > 0 ? bestFineZNCC : 0;
-            const finalScore = Math.max(0, validZNCC - centerPenalty - heightPenalty - unexplainedPenalty);
+            const finalScore = Math.max(0, validZNCC - centerPenalty - baselinePenalty);
 
             fineResults.push({
                 card: {
@@ -898,17 +796,6 @@ class LogoMatcher {
             }
         }
 
-        let upperEdge = 0, lowerEdge = 0;
-        for (let y = 235; y <= 265; y++) {
-            for (let x = 40; x <= 200; x++) upperEdge += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-        }
-        for (let y = 275; y <= 305; y++) {
-            for (let x = 40; x <= 200; x++) lowerEdge += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-        }
-        upperEdge = upperEdge / (31 * 161);
-        lowerEdge = Math.max(1, lowerEdge / (31 * 161));
-        const hasTallLogo = (upperEdge >= 18 && (upperEdge / lowerEdge) >= 0.70);
-
         // Stage 1: Fast Coarse Screening in WASM across all templates
         const coarseScores = [];
         const wasm = this.wasm;
@@ -939,7 +826,7 @@ class LogoMatcher {
         }
 
         coarseScores.sort((a, b) => b.coarseZNCC - a.coarseZNCC);
-        const topCandidates = coarseScores.slice(0, 250);
+        const topCandidates = coarseScores.slice(0, 300);
 
         // Stage 2: Fine Refinement Scale 1.0 in WASM
         const intermediate = [];
@@ -948,17 +835,13 @@ class LogoMatcher {
         const scratchX = this.scratchX;
         const scratchY = this.scratchY;
         const scratchVal = this.scratchVal;
-        const scaledX = this.scaledX;
-        const scaledY = this.scaledY;
+        const maxBaselineY = MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y;
 
         for (let i = 0; i < topCandidates.length; i++) {
             const item = topCandidates[i];
             const tpl = item.tpl;
             const fineBaseX = item.bestCX * 2;
             const fineBaseY = item.bestCY * 2;
-            const maxBaselineY = (tpl.sh < MARVEL_SNAP_LOGO_SPEC.LOGO_STANDARD_HEIGHT_THRESHOLD)
-                ? MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_STANDARD
-                : MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL;
 
             scratchOff.set(tpl.sOffsets);
             scratchX.set(tpl.sPointsX);
@@ -990,16 +873,11 @@ class LogoMatcher {
             });
         }
 
-        // Stage 3: Multi-scale for candidates that can overtake leader
-        const minTriggerWide = Math.max(
+        // Stage 3: Universal multi-scale using WASM SIMD auto-scaling
+        const trigger = Math.max(
             MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_TRIGGER_ZNCC,
-            maxObservedScore - MARVEL_SNAP_LOGO_SPEC.MAX_SCALE_GAIN
+            maxObservedScore - MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_MAX_DELTA_FROM_LEADER
         );
-        const minTriggerStandard = Math.max(
-            MARVEL_SNAP_LOGO_SPEC.MULTI_SCALE_TRIGGER_ZNCC,
-            maxObservedScore - 0.08
-        );
-
         const fineResults = [];
         for (let i = 0; i < intermediate.length; i++) {
             const cand = intermediate[i];
@@ -1010,40 +888,31 @@ class LogoMatcher {
             let bestScale = cand.bestScale;
             const scale1ZNCC = cand.scale1ZNCC;
 
-            const isWide = tpl.sw >= MARVEL_SNAP_LOGO_SPEC.WIDE_LOGO_MIN_WIDTH;
-            const trigger = isWide ? minTriggerWide : minTriggerStandard;
-
             if (bestFineZNCC >= trigger) {
-                const maxBaselineY = (tpl.sh < MARVEL_SNAP_LOGO_SPEC.LOGO_STANDARD_HEIGHT_THRESHOLD)
-                    ? MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_STANDARD
-                    : MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL;
-                const scales = isWide ? [0.96, 0.98, 1.02, 1.04, 1.05] : [0.98, 1.02];
-
+                scratchOff.set(tpl.sOffsets);
+                scratchX.set(tpl.sPointsX);
+                scratchY.set(tpl.sPointsY);
                 scratchVal.set(tpl.sPointsVal);
 
-                for (const s of scales) {
-                    const scaledH = Math.round(tpl.sh * s);
+                for (const s of MARVEL_SNAP_LOGO_SPEC.SCALES) {
                     const scaledW = Math.round(tpl.sw * s);
-                    if (bestFineY - 2 + scaledH > maxBaselineY) continue;
+                    const fineBaseX = Math.round((cW - scaledW) / 2);
+                    const fineBaseY = (cand.bestFineY > 0) ? cand.bestFineY : (cand.item.bestCY * 2);
 
-                    for (let p = 0; p < tpl.sCount; p++) {
-                        scaledX[p] = Math.round(tpl.sPointsX[p] * s);
-                        scaledY[p] = Math.round(tpl.sPointsY[p] * s);
-                    }
-
-                    const score = wasm.searchFineScale(
-                        scaledW, scaledH,
-                        bestFineX, bestFineY,
+                    const score = wasm.searchFineScaleAuto(
+                        tpl.sw, tpl.sh,
+                        fineBaseX, fineBaseY,
                         maxBaselineY,
                         s,
                         tpl.sCount,
+                        this.FINE_X_PTR, this.FINE_Y_PTR,
                         this.SCALED_X_PTR, this.SCALED_Y_PTR,
                         this.FINE_VAL_PTR,
                         tpl.sStd
                     );
 
                     const isSignificant = (s <= (1.0 - MARVEL_SNAP_LOGO_SPEC.SCALE_DEVIATION_THRESHOLD) || s >= (1.0 + MARVEL_SNAP_LOGO_SPEC.SCALE_DEVIATION_THRESHOLD));
-                    const minDelta = isSignificant ? MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_DELTA : 0.0;
+                    const minDelta = isSignificant ? MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_DELTA : MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_MINOR;
                     if (score > bestFineZNCC && (score - scale1ZNCC >= minDelta)) {
                         bestFineZNCC = score;
                         bestFineX = wasm.getOutCX();
@@ -1051,69 +920,28 @@ class LogoMatcher {
                         bestScale = s;
                     }
                 }
-
-                // Wide logo downscale refinement [0.90, 0.94]
-                if (scale1ZNCC >= minTriggerWide && isWide) {
-                    const wideScales = (tpl.sh > 70) ? [0.90, 0.94] : [0.94];
-                    for (const s of wideScales) {
-                        const expScaledX = Math.round((cW - tpl.sw * s) / 2);
-                        const scaledH = Math.round(tpl.sh * s);
-                        const scaledW = Math.round(tpl.sw * s);
-
-                        for (let p = 0; p < tpl.sCount; p++) {
-                            scaledX[p] = Math.round(tpl.sPointsX[p] * s);
-                            scaledY[p] = Math.round(tpl.sPointsY[p] * s);
-                        }
-
-                        const score = wasm.searchFineScale(
-                            scaledW, scaledH,
-                            expScaledX, bestFineY,
-                            MARVEL_SNAP_LOGO_SPEC.LOGO_BASELINE_MAX_Y_TALL,
-                            s,
-                            tpl.sCount,
-                            this.SCALED_X_PTR, this.SCALED_Y_PTR,
-                            this.FINE_VAL_PTR,
-                            tpl.sStd
-                        );
-
-                        if (score > bestFineZNCC && (score - scale1ZNCC >= MARVEL_SNAP_LOGO_SPEC.MIN_SCALE_IMPROVEMENT_DELTA)) {
-                            bestFineZNCC = score;
-                            bestFineX = wasm.getOutCX();
-                            bestFineY = wasm.getOutCY();
-                            bestScale = s;
-                        }
-                    }
-                }
             }
 
-            // MAP Centering Prior
+            // MAP Centering Prior: penalize horizontal drift from expected card center
             const expBaseX = Math.round((cW - tpl.sw * bestScale) / 2);
             const dx = Math.abs(bestFineX - expBaseX);
             const excessDx = Math.max(0, dx - MARVEL_SNAP_LOGO_SPEC.CENTERING_DEADBAND_PX);
             const centerPenalty = excessDx > 0 ? excessDx * MARVEL_SNAP_LOGO_SPEC.CENTERING_PENALTY_RATE : 0;
 
-            let heightPenalty = 0;
-            if (hasTallLogo && tpl.sh < 50) heightPenalty = 0.08;
-
-            let unexplainedPenalty = 0;
-            if (bestFineY >= 215) {
-                const yStart = Math.max(180, bestFineY - 20);
-                const yEnd = Math.max(180, bestFineY - 2);
-                let edgeSum = 0, edgeCount = 0;
-                for (let y = yStart; y <= yEnd; y++) {
-                    for (let x = 50; x <= 190; x++) {
-                        edgeSum += Math.abs(cardGray[y * cW + x + 1] - cardGray[y * cW + x - 1]);
-                        edgeCount++;
-                    }
-                }
-                const avgEdgeAbove = edgeCount > 0 ? (edgeSum / edgeCount) : 0;
-                if (avgEdgeAbove > 14) {
-                    unexplainedPenalty = 0.10 * Math.min(1.0, (avgEdgeAbove - 14) / 6);
-                }
+            // MAP Physical Baseline Prior:
+            // Standard cards rest at baseline ~ 302..320 depending on logo height (sh).
+            const actualBaseline = bestFineY + Math.round(tpl.sh * bestScale);
+            const minAllowed = MARVEL_SNAP_LOGO_SPEC.BASELINE_MIN_PX;
+            const maxAllowed = MARVEL_SNAP_LOGO_SPEC.BASELINE_MAX_BASE_PX + Math.max(0, (tpl.sh - 60) * MARVEL_SNAP_LOGO_SPEC.BASELINE_HEIGHT_SLOPE);
+            let baselinePenalty = 0;
+            if (actualBaseline < minAllowed) {
+                baselinePenalty = (minAllowed - actualBaseline) * MARVEL_SNAP_LOGO_SPEC.BASELINE_PENALTY_RATE;
+            } else if (actualBaseline > maxAllowed) {
+                baselinePenalty = (actualBaseline - maxAllowed) * MARVEL_SNAP_LOGO_SPEC.BASELINE_PENALTY_RATE;
             }
 
             const validZNCC = isFinite(bestFineZNCC) && bestFineZNCC > 0 ? bestFineZNCC : 0;
-            const finalScore = Math.max(0, validZNCC - centerPenalty - heightPenalty - unexplainedPenalty);
+            const finalScore = Math.max(0, validZNCC - centerPenalty - baselinePenalty);
 
             fineResults.push({
                 card: {

@@ -12,11 +12,8 @@
 const MARVEL_SNAP_GEOMETRY = {
     // Physical aspect ratio of Marvel Snap cards (240x336 -> 1:1.40)
     CARD_ASPECT_RATIO: 1.40,
-    // Distance from the card top edge to the Cost badge centroid in 6x2 vs 4x3 layouts
-    // In 6x2 (landscape/PC/tablet), the badge sits high at 5.5% of card height
-    // In 4x3 (portrait/mobile), the mobile UI camera places the badge at 9.0% of card height
-    BADGE_TOP_OFFSET_6x2: 0.055,
-    BADGE_TOP_OFFSET_4x3: 0.090,
+    // Distance from card top edge to Cost/Power badge centroid (universal 8.0% of card height)
+    BADGE_TOP_OFFSET: 0.080,
     // Search window for badge centroid around the global lattice prediction:
     // Rx allows for horizontal spacing deviations, Ry tightly isolates badges from artwork
     BADGE_SEARCH_RX_FACTOR: 0.28,
@@ -97,7 +94,7 @@ class LayoutDetector {
 
         for (const layout of layouts) {
             const { cols, rows } = layout;
-            const minDX = Math.round(sW / (cols + 1.2));
+            const minDX = Math.round(sW / (cols + 3.5));
             const maxDX = Math.round(sW / (cols - 0.2));
 
             for (let dx = minDX; dx <= maxDX; dx += 2) {
@@ -258,21 +255,16 @@ class LayoutDetector {
         const pitchY = (rows > 1) ? (rowBadgeY[rows - 1] - rowBadgeY[0]) / (rows - 1) : dy;
 
         // Invariant card aspect ratio: AR = 1.40 (240x336)
-        // Physical grid non-overlap constraint:
-        // cardW cannot exceed pitchX, cardH cannot exceed pitchY
+        // Horizontal pitch defines card width (tiled with ~2% margin)
         const AR = MARVEL_SNAP_GEOMETRY.CARD_ASPECT_RATIO;
-        const maxW_byX = pitchX - 1;
-        const maxW_byY = (pitchY - 2) / AR;
-        const cardW = Math.round(Math.min(maxW_byX, maxW_byY));
+        const cardW = Math.round(pitchX * 0.98);
         const cardH = Math.round(cardW * AR);
 
         // Pass 3: Slice non-overlapping, centered card patches
         const cardPatches = [];
 
         for (let r = 0; r < rows; r++) {
-            const topOffsetRatio = (rows === 2)
-                ? MARVEL_SNAP_GEOMETRY.BADGE_TOP_OFFSET_6x2
-                : MARVEL_SNAP_GEOMETRY.BADGE_TOP_OFFSET_4x3;
+            const topOffsetRatio = MARVEL_SNAP_GEOMETRY.BADGE_TOP_OFFSET;
 
             for (let c = 0; c < cols; c++) {
                 const index = r * cols + c;

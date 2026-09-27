@@ -46,11 +46,11 @@ export function searchCoarse(
     let bestCX: i32 = baseX1;
     let bestCY: i32 = minCY;
 
-    // Stride-2 coarse grid search
-    for (let cy = minCY; cy <= maxCY; cy += 2) {
+    // Coarse grid search (1px resolution in half-scale downsampled space)
+    for (let cy = minCY; cy <= maxCY; cy++) {
         const cyInside = (cy >= 0 && cy + ch < dH);
         const rowOffset = cy * dW;
-        for (let cx = baseX1 - 8; cx <= baseX1 + 8; cx += 2) {
+        for (let cx = baseX1 - 8; cx <= baseX1 + 8; cx++) {
             const baseIdx = rowOffset + cx;
             let sum: f32 = 0;
             let sumSq: f32 = 0;
@@ -122,87 +122,69 @@ export function searchCoarse(
         }
     }
 
-    // Local 1px peak refinement
-    if (bestZNCC > 0.10) {
-        const anchorCX = bestCX;
-        const anchorCY = bestCY;
-        for (let dcy = -1; dcy <= 1; dcy++) {
-            const cy = anchorCY + dcy;
-            if (cy < minCY || cy > maxCY) continue;
-            const cyInside = (cy >= 0 && cy + ch < dH);
-            const rowOffset = cy * dW;
-            for (let dcx = -1; dcx <= 1; dcx++) {
-                if (dcx == 0 && dcy == 0) continue;
-                const cx = anchorCX + dcx;
-                if (cx < baseX1 - 8 || cx > baseX1 + 8) continue;
-                const baseIdx = rowOffset + cx;
-                let sum: f32 = 0;
-                let sumSq: f32 = 0;
-                let dotRaw: f32 = 0;
-                let sumTpl: f32 = 0;
-                let overlap: f32 = 0;
+    outZNCC = bestZNCC;
+    outCX = bestCX;
+    outCY = bestCY;
+    return bestZNCC;
+}
 
-                if (cyInside && cx >= 0 && cx + cw < dW) {
-                    for (let p = 0; p < cCount4; p += 4) {
-                        const off0 = load<i32>(cOffsetsPtr + (p << 2));
-                        const off1 = load<i32>(cOffsetsPtr + ((p + 1) << 2));
-                        const off2 = load<i32>(cOffsetsPtr + ((p + 2) << 2));
-                        const off3 = load<i32>(cOffsetsPtr + ((p + 3) << 2));
+export function searchCoarseScaled(
+    cw: i32,
+    ch: i32,
+    minCY: i32,
+    maxCY: i32,
+    scale: f32,
+    cCount: i32,
+    cPointsXPtr: usize,
+    cPointsYPtr: usize,
+    cPointsValPtr: usize,
+    cStd: f32
+): f32 {
+    const dW: i32 = 120;
+    const dH: i32 = 168;
+    const scaledW: i32 = <i32>Mathf.round(<f32>cw * scale);
+    const scaledH: i32 = <i32>Mathf.round(<f32>ch * scale);
+    const baseX1: i32 = (dW - scaledW) / 2;
+    const minOverlap: f32 = <f32>cCount * 0.60;
 
-                        const v0 = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off0) << 2));
-                        const v1 = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off1) << 2));
-                        const v2 = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off2) << 2));
-                        const v3 = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off3) << 2));
+    let bestZNCC: f32 = -1.0;
+    let bestCX: i32 = baseX1;
+    let bestCY: i32 = minCY;
 
-                        sum += v0 + v1 + v2 + v3;
-                        sumSq += v0 * v0 + v1 * v1 + v2 * v2 + v3 * v3;
+    for (let cy = minCY; cy <= maxCY; cy++) {
+        if (cy + scaledH >= dH) continue;
+        for (let cx = baseX1 - 8; cx <= baseX1 + 8; cx++) {
+            let sum: f32 = 0;
+            let sumSq: f32 = 0;
+            let dotRaw: f32 = 0;
+            let sumTpl: f32 = 0;
+            let overlap: f32 = 0;
 
-                        const t0 = load<f32>(cPointsValPtr + (p << 2));
-                        const t1 = load<f32>(cPointsValPtr + ((p + 1) << 2));
-                        const t2 = load<f32>(cPointsValPtr + ((p + 2) << 2));
-                        const t3 = load<f32>(cPointsValPtr + ((p + 3) << 2));
-
-                        dotRaw += t0 * v0 + t1 * v1 + t2 * v2 + t3 * v3;
-                    }
-                    for (let p = cCount4; p < cCount; p++) {
-                        const off = load<i32>(cOffsetsPtr + (p << 2));
-                        const v = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off) << 2));
-                        const t = load<f32>(cPointsValPtr + (p << 2));
-                        sum += v;
-                        sumSq += v * v;
-                        dotRaw += t * v;
-                    }
-                    overlap = <f32>cCount;
-                } else {
-                    for (let p = 0; p < cCount; p++) {
-                        const px = cx + <i32>load<i16>(cPointsXPtr + (p << 1));
-                        const py = cy + <i32>load<i16>(cPointsYPtr + (p << 1));
-                        if (px >= 0 && px < dW && py >= 0 && py < dH) {
-                            const off = load<i32>(cOffsetsPtr + (p << 2));
-                            const v = load<f32>(DOWN_GRAY_OFFSET + ((baseIdx + off) << 2));
-                            const t = load<f32>(cPointsValPtr + (p << 2));
-                            sum += v;
-                            sumSq += v * v;
-                            dotRaw += t * v;
-                            sumTpl += t;
-                            overlap += 1.0;
-                        }
-                    }
-                    if (overlap < minOverlap) continue;
+            for (let p = 0; p < cCount; p++) {
+                const px = cx + <i32>Mathf.round(<f32>load<i16>(cPointsXPtr + (p << 1)) * scale);
+                const py = cy + <i32>Mathf.round(<f32>load<i16>(cPointsYPtr + (p << 1)) * scale);
+                if (px >= 0 && px < dW && py >= 0 && py < dH) {
+                    const v = load<f32>(DOWN_GRAY_OFFSET + ((py * dW + px) << 2));
+                    const t = load<f32>(cPointsValPtr + (p << 2));
+                    sum += v;
+                    sumSq += v * v;
+                    dotRaw += t * v;
+                    sumTpl += t;
+                    overlap += 1.0;
                 }
+            }
 
-                const dot = dotRaw - (sum / overlap) * sumTpl;
-                if (dot <= 0) continue;
+            if (overlap < minOverlap) continue;
+            const dot = dotRaw - (sum / overlap) * sumTpl;
+            if (dot <= 0) continue;
+            const iStd = sumSq - (sum * sum) / overlap;
+            if (iStd < 50.0) continue;
 
-                const iStd = sumSq - (sum * sum) / overlap;
-                if (iStd < 25.0) continue;
-
-                const zncc = dot / (cStd * Mathf.sqrt(iStd));
-                if (zncc > bestZNCC) {
-                    bestZNCC = zncc;
-                    bestCX = cx;
-                    bestCY = cy;
-                }
+            const zncc = dot / (cStd * Mathf.sqrt(iStd));
+            if (zncc > bestZNCC) {
+                bestZNCC = zncc;
+                bestCX = cx;
+                bestCY = cy;
             }
         }
     }
@@ -210,8 +192,10 @@ export function searchCoarse(
     outZNCC = bestZNCC;
     outCX = bestCX;
     outCY = bestCY;
+    outScale = scale;
     return bestZNCC;
 }
+
 
 // 2. Stage 2: Fine Refinement at Scale 1.0
 export function searchFineScale1(
@@ -237,11 +221,11 @@ export function searchFineScale1(
     let bestFineX: i32 = fineBaseX;
     let bestFineY: i32 = fineBaseY;
 
-    for (let cy = fineBaseY - 2; cy <= fineBaseY + 2; cy++) {
+    for (let cy = fineBaseY - 3; cy <= fineBaseY + 3; cy++) {
         if (cy + sh > maxBaselineY) continue;
         const cyInside = (cy >= 0 && cy + sh < cH);
         const rowOffset = cy * cW;
-        for (let cx = fineBaseX - 2; cx <= fineBaseX + 2; cx++) {
+        for (let cx = fineBaseX - 3; cx <= fineBaseX + 3; cx++) {
             let sum: f32 = 0;
             let sumSq: f32 = 0;
             let dotRaw: f32 = 0;
@@ -344,7 +328,7 @@ export function searchFineScale(
 
     for (let cy = fineBaseY - 2; cy <= fineBaseY + 2; cy++) {
         if (cy + scaledH > maxBaselineY) continue;
-        for (let cx = fineBaseX - 4; cx <= fineBaseX + 4; cx++) {
+        for (let cx = fineBaseX - 6; cx <= fineBaseX + 6; cx++) {
             let sum: f32 = 0;
             let sumSq: f32 = 0;
             let dotRaw: f32 = 0;
@@ -388,3 +372,43 @@ export function searchFineScale(
     outScale = scale;
     return bestZNCC;
 }
+
+export function searchFineScaleAuto(
+    origW: i32,
+    origH: i32,
+    fineBaseX: i32,
+    fineBaseY: i32,
+    maxBaselineY: i32,
+    scale: f32,
+    sCount: i32,
+    origXPtr: usize,
+    origYPtr: usize,
+    scaledXPtr: usize,
+    scaledYPtr: usize,
+    sPointsValPtr: usize,
+    sStd: f32
+): f32 {
+    const scaledW: i32 = <i32>Mathf.round(<f32>origW * scale);
+    const scaledH: i32 = <i32>Mathf.round(<f32>origH * scale);
+    if (fineBaseY - 3 + scaledH > maxBaselineY) return -1.0;
+
+    for (let p = 0; p < sCount; p++) {
+        const ox = <f32>load<i16>(origXPtr + (p << 1));
+        const oy = <f32>load<i16>(origYPtr + (p << 1));
+        store<i16>(scaledXPtr + (p << 1), <i16>Mathf.round(ox * scale));
+        store<i16>(scaledYPtr + (p << 1), <i16>Mathf.round(oy * scale));
+    }
+
+    return searchFineScale(
+        scaledW, scaledH,
+        fineBaseX, fineBaseY,
+        maxBaselineY,
+        scale,
+        sCount,
+        scaledXPtr,
+        scaledYPtr,
+        sPointsValPtr,
+        sStd
+    );
+}
+
